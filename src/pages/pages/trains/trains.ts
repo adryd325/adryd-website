@@ -38,12 +38,6 @@ export default [
     image: bombardierTorontoTR,
   },
   {
-    location: "Toronto",
-    name: "Bombardier T1",
-    alt: "Bombardier T1",
-    image: bombardierTorontoT1,
-  },
-  {
     location: "Boston",
     name: "UTDC Series 2 (Red Line)",
     alt: "UTDC Series 2 (Red Line)",
