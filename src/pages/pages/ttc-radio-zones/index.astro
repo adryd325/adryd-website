@@ -1,0 +1,137 @@
+---
+import NavLayout from "../../../layouts/NavLayout.astro";
+import Banner from "./ttc-zone-map.svg.astro";
+---
+
+<style>
+  @keyframes bump {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(12deg);
+    }
+
+    60% {
+      transform: rotate(-15deg);
+    }
+
+    100% {
+      rotate: rotate(0deg);
+    }
+  }
+
+  :root {
+    --fancy-link-text-color: oklch(0.444 0.177 26.899);
+    --fancy-link-text-color-hover: oklch(0.505 0.213 27.518);
+    --fancy-link-background-color: oklch(0.637 0.237 25.331 / 0.2);
+    --fancy-link-background-color-hover: oklch(0.704 0.191 22.216 / 0.2);
+
+    --subtle-link-background-color: #bef26433;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fancy-link-text-color: oklch(0.637 0.237 25.331);
+      --fancy-link-text-color-hover: oklch(0.704 0.191 22.216);
+      --fancy-link-background-color: oklch(0.444 0.177 26.899 / 0.2);
+      --fancy-link-background-color-hover: oklch(0.577 0.245 27.325 / 0.2);
+
+      --subtle-link-background-color: #bef26433;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+</style>
+
+<NavLayout title="Underground Radio Zones">
+  <main>
+    <article class="page-view">
+      <Banner />
+      <h1>Underground Radio Zones</h1>
+      <hr />
+      <p>
+        Hi, I collected all this data myself by decoding neighbor cell
+        information and am in the process of visiting every station with an SDR
+        to find zone edges. I'd appreciate if you credit me (or hire me if you
+        work at the TTC) if you use this anywhere.
+      </p>
+      <p>
+        The frequencies that are listed are the control channel. The secondary
+        downlink is at +0.1 MHz for each site.
+      </p>
+      <div class="grid">
+        <div>
+          <div><b>Zone 1 Kipling</b></div>
+          <div>Kipling - Old Mill</div>
+          <div>422.3250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 2 Keele</b></div>
+          <div>Old Mill - Ossington</div>
+          <div>422.5250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 3 Bay</b></div>
+          <div>Ossington - ???</div>
+          <div>422.2625 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 4 Greenwood</b></div>
+          <div>??? - ???</div>
+          <div>422.4625 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 5 Kennedy</b></div>
+          <div>??? - ???</div>
+          <div>422.5250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 6 Downsview</b></div>
+          <div>??? - ???</div>
+          <div>422.5250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 7 St. Clair West</b></div>
+          <div>??? - ???</div>
+          <div>422.4625 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 8 Union</b></div>
+          <div>??? - Bloor-Yonge</div>
+          <div>422.3250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 9 Davisville</b></div>
+          <div>Bloor-Yonge - Lawrence</div>
+          <div>422.5250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 10 Finch</b></div>
+          <div>Lawrence - Finch</div>
+          <div>422.2625 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 11 Sheppard-Yonge</b></div>
+          <div>Sheppard-Yonge - ???</div>
+          <div>422.4625 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 12 Don Mills</b></div>
+          <div>??? - Don Mills</div>
+          <div>422.3250 MHz</div>
+        </div>
+        <div>
+          <div><b>Zone 13 VMC</b></div>
+          <div>Vaughan Metropolitan Centre - ???</div>
+          <div>422.2625 MHz</div>
+        </div>
+      </div>
+    </article>
+  </main>
+</NavLayout>

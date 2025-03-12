@@ -44,7 +44,19 @@ import Trains from "./trains";
   }
 
   img {
-    height: 100px;
+    height: 200px;
+  }
+
+  .grid {
+    margin-top: 3em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  h2 {
+    line-height: 1;
+    margin-bottom: 0;
   }
 </style>
 
@@ -64,7 +76,7 @@ import Trains from "./trains";
 
 <NavLayout title="trains!!!">
   <main>
-    <div class="page-view">
+    <article class="page-view">
       <h1>trains!!!</h1>
       <p>
         Original svgs can be downloaded from the
@@ -76,17 +88,19 @@ import Trains from "./trains";
         >. Remember to pet the trains!
       </p>
 
-      {
-        Trains.map((train) => (
-          <>
-            <img alt={train.alt} src={train.image.src} />
+      <div class="grid">
+        {
+          Trains.map((train) => (
             <div>
-              <h2>{train.location}</h2>
-              <p>{train.name}</p>
+              <img alt={train.alt} src={train.image.src} />
+              <div>
+                <h2>{train.location}</h2>
+                {train.name}
+              </div>
             </div>
-          </>
-        ))
-      }
-    </div>
+          ))
+        }
+      </div>
+    </article>
   </main>
 </NavLayout>

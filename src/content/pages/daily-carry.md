@@ -16,7 +16,6 @@ I can carry this standalone, but often put it in my backpack when going to class
 
 ### Main compartment
 
-- Papermate 1.0mm pen (something cheap enough that I wont care if it gets lost)
 - One of those screwdrivers you used to see at trade shows: Has phillips and flathead bits and works well enough as a pry tool
 - RovyVon Aurora A1 Flashlight
 - [Wallet](https://www.aliexpress.com/item/1005006213705570.html)
@@ -26,43 +25,41 @@ I can carry this standalone, but often put it in my backpack when going to class
   - Cash and change
   - Bandages
   - Radio license (How could I not ;P )
+  - Yubikey 5
+- Keys
 
 #### Left pouch
 
 - Anker PowerCore 10000 Power Bank
 - USB A Plug to C Recepticle (plugged into Power Bank)
 - Apple 1M USB C to C cable
-- Small keyring with
-  - Yubikey 5
-  - 128GB SanDisk flash drive: Has Ventoy and a whole bunch of distros
-  - Sim ejector
 
 #### Right pouch
 
 - Portable Tissues
 - Alcohol wipes
-- Nail file ##
+- Nail file
 - Nail clippers
 - Tweezers
 - Salt and pepper seasoning packets
 
 #### Large pouch
 
-- A small zip lock bag with
-  - USB C plug to A recepticle adapter
-  - USB C plug to Micro B recepticle adapter
-  - USB C plug to Mini B recepticle adapter
-  - USB C plug to Full-Size B recepticle adapter
-- Microfibre cloth
+- Fiskars folding scissors: Comes quite in handy and is TSA approved
+- Papermate 1.0mm pen (something cheap enough that I wont care if it gets lost)
 
 ### Back zipper pocket
 
 - Apple 1M USB C to Lightning cable
-- Small zip lock bag with change
-- Keys
-  - The normal stuff
-  - [Train Keys](https://adryd.com/updates/2024-11-25-train-key/)
-- Fiskars folding scissors: Comes quite in handy and
+- AirTag
+- Key Fobs
+- A small zip lock bag with
+  - 128GB SanDisk flash drive: Has Ventoy and a whole bunch of distros
+  - Sim ejector
+  - USB C plug to A recepticle adapter
+  - USB C plug to Micro B recepticle adapter
+  - USB C plug to Mini B recepticle adapter
+  - USB C plug to Full-Size B recepticle adapter
 
 ## Pencil Case
 
@@ -70,15 +67,14 @@ My pencil case came free with my backpack and I'm unsure what model it is, but i
 
 - Uni Kuru-Toga Roulette Mechanical Pencil
 - Pentel Dry Erase Marker
-- Expo Dry Erase Marker
 - 0.5mm Pentel Graphite Refills
-<!-->using color and colour in the same blog post just to piss people off :3<-->
 - [Lamy Safari Fountain Pen](https://www.lamy.com/en-us/p/lamy-safari-fountain-pen/50726724534606) in the "Mango" color currently filled with [Sailor Manyo Konagi](https://wonderpens.ca/products/center-sailor-manyo-fountain-pen-ink-50ml-konagi-center) ink
   - Spare black ink cartridge
 - [Drehgriffel Nr. 1](https://www.leuchtturm1917.us/drehgriffel-nr-1-lobster.html) in the "Lobster" colour using the included royal blue refill
 - Faber Castel Dust Free Eraser
 - Sharpie Fine Point Permanent Marker
 - [Brass Ruler](https://www.aliexpress.com/item/1005002954629789.html)
+- Train Keys
 
 ## Tech Pouch
 
@@ -92,7 +88,7 @@ This tech pouch has a similar story to my pencil case. It came free with my ~~xb
 - Small zip lock bag for
   - Micro SD to full size SD adapter
   - Comet CH-32 antenna
-  - BNC M to SMA-M adapter ##
+  - BNC M to SMA-M adapter
   - BNC-M to SMA-F adapter
   - SMA-M to SMA-M adapter
   - SMA-F to SMA-F adapter
@@ -115,6 +111,7 @@ Attached to my backpack strap is a carabiner a friend gave me which I often clip
 - Folding hair brush with mirror
 - Lip balm
 - Flipper Zero
+- Expo Dry Erase Marker
 - Small plastic case with medications
   - Ibuprofin
   - Acetaminophin
@@ -131,7 +128,7 @@ Attached to my backpack strap is a carabiner a friend gave me which I often clip
 #### Zipper pocket
 
 - Airspy R2
-- USB-A to Micro-B cable ##
+- USB-A to Micro-B cable
 - Anker 67W GaN wall charger
 
 #### Velcro pocket
@@ -144,11 +141,10 @@ Attached to my backpack strap is a carabiner a friend gave me which I often clip
 
 ## Floating
 
-This stuff doesn't have a dedicated place, but gets brought with me pretty much everywhere
+This stuff doesn't have a dedicated place, but gets brought with me often
 
 - Framework 13 AMD 7640U, 32GB RAM, 1TB SSD, 2.8k Display
 - iPhone 15
 - 3M N95 Mask
 - XG-100p P25 + Analogue radio
 - RT3S DMR + Analogue radio
-- MTH800 TETRA radio

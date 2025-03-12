@@ -3,33 +3,9 @@ import Construction from "../../components/Construction.astro";
 import NavLayout from "../../layouts/NavLayout.astro";
 
 import { getCollection } from "astro:content";
+import { extraPages } from "../../content/config.ts";
 import FormattedDate from "../../components/FormattedDate.astro";
 import RSSLink from "../../components/RSSLink.astro";
-
-const extraPages = [
-  {
-    slug: "cat-like-typing",
-    data: {
-      title: "Cat like typing detection",
-      date: new Date("2024-07-21"),
-      updatedDate: null,
-    },
-  },
-  {
-    slug: "twitter-embeds",
-    data: {
-      title: "Twitter Embeds Bot",
-      date: new Date("2023-07-02"),
-    },
-  },
-  {
-    slug: "trains",
-    data: {
-      title: "Trains",
-      date: new Date("2024-01-01"),
-    },
-  },
-];
 
 const posts = [
   ...(await getCollection("pages")).filter((a) => a.data.draft != true),
@@ -63,7 +39,7 @@ const posts = [
   <main>
     <div class="page-view">
       <h1>Pages</h1>
-      <p>reference and some projects</p>
+      <p>reference, projects, blogposts and all that jazz</p>
       <RSSLink href="/feed.xml"> RSS Feed + </RSSLink>
       <section>
         <ul>

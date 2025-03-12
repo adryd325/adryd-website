@@ -41,21 +41,19 @@ import Construction from "../components/Construction.astro";
       </p>
       <p style="font-weight: 500; font-size: 1.125rem;">
         i'm a software developer, server administrator, radio dork, designer
-        (sometimes), and overall technology obsessed witch from toronto (toronto
-        is an independent city state now).
+        (sometimes), and overall technology obsessed witch from toronto.
       </p>
-
       <section>
         <h2><a class="subtle-link" href="/pages">pages →</a></h2>
-        <p class="subtitle">reference and some projects</p>
+        <p class="subtitle">reference, projects, blogposts and all that jazz</p>
         <ul>
           <li>
-            <a class="fancy-link" href="/pages/trains">trains!!! →</a>
+            <a class="fancy-link" href="/pages/2024-11-25-train-key"
+              >Metal 3D Printing a Train key →</a
+            >
           </li>
           <li>
-            <a class="fancy-link" href="/pages/twitter-embeds"
-              >Twitter Embeds Bot →</a
-            >
+            <a class="fancy-link" href="/pages/trains">trains!!! →</a>
           </li>
           <li>
             <a class="fancy-link" href="/pages/bookmarks">Bookmarks →</a>
@@ -83,33 +81,25 @@ import Construction from "../components/Construction.astro";
         </ul>
       </section>
       <section>
-        <h2><a class="subtle-link" href="/updates">updates →</a></h2>
-        <p class="subtitle">blog posts and more projects</p>
+        <h2>contact me</h2>
+        <p class="subtitle">i'm shy, but if you must</p>
         <ul>
-          <li>
-            <a class="fancy-link" href="/updates/2024-11-25-train-key"
-              >Metal 3D Printing a Train key →</a
-            >
-          </li>
           <li>
             <a
               class="fancy-link"
-              href="/updates/2024-08-05-chat-lag-fix-analytics"
-              >Interesting analytics for my chat-lag-fix mod →</a
+              style="cursor: pointer"
+              href="mailto:"
+              onclick="this.href=`mailto:${('em').split('').reverse().join('')}\u0040${window.location.host}`"
+              >email →</a
             >
           </li>
-        </ul>
-      </section>
-      <section>
-        <h2>contact me</h2>
-        <ul>
-          <li>
+          <!-- <li>
             <a
               class="fancy-link"
               rel="me"
               href="https://tacobelllabs.net/@adryd">the fediverse →</a
             >
-          </li>
+          </li> -->
           <li>
             <a class="fancy-link" rel="me" href="https://github.com/adryd325"
               >github →</a
@@ -118,15 +108,6 @@ import Construction from "../components/Construction.astro";
           <li>
             <a class="fancy-link" rel="me" href="https://gitlab.com/adryd"
               >gitlab →</a
-            >
-          </li>
-          <li>
-            <a
-              class="fancy-link"
-              style="cursor: pointer"
-              href="mailto:"
-              onclick="this.href=`mailto:${('em').split('').reverse().join('')}\u0040${window.location.host}`"
-              >email →</a
             >
           </li>
         </ul>
