@@ -2,6 +2,7 @@
 title: "Interesting analytics for my chat-lag-fix mod"
 date: "2024-08-05"
 description: "I noticed something really interesting in my Modrinth analytics. One of my mods..."
+draft: true
 ---
 
 I noticed something really interesting in my Modrinth analytics. One of my mods (https://modrinth.com/mod/chat-lag-fix) is especially popular in China when compared to my other mods.
