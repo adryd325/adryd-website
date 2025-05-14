@@ -1,0 +1,74 @@
+---
+import Construction from "../../../components/Construction.astro";
+import NavLayout from "../../../layouts/NavLayout.astro";
+import Trains from "./trains";
+---
+
+<style>
+  :root {
+    --fancy-link-text-color: oklch(60.9% 0.126 221.723);
+    --fancy-link-text-color-hover: oklch(71.5% 0.143 215.221);
+    --fancy-link-background-color: oklch(86.5% 0.127 207.078 / 0.2);
+    --fancy-link-background-color-hover: oklch(91.7% 0.08 205.041 / 0.3);
+
+    --subtle-link-background-color: #bef26433;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fancy-link-text-color: #84cc16;
+      --fancy-link-text-color-hover: #a3e635;
+      --fancy-link-background-color: #65a30d33;
+      --fancy-link-background-color-hover: #84cc1633;
+
+      --subtle-link-background-color: #bef26433;
+    }
+  }
+
+  h2 {
+    margin: 1em 0 0.2em;
+  }
+</style>
+
+<NavLayout title="Design Portfolio">
+  <main>
+    <article class="page-view">
+      <h1>Design Portfolio</h1>
+      <p>
+        Interested in working with me? <a
+          class="fancy-link"
+          style="cursor: pointer"
+          href="mailto:"
+          onclick="this.href=`mailto:${('em').split('').reverse().join('')}\u0040${window.location.host}`"
+          >email me →</a>
+      </p>
+
+      <div>
+        <h2>Beep Boop Labs logo</h2>
+        <a href="" class="fancy-link">Discover Beep Boop Labs →</a>
+      </div>
+      <div>
+        <h2>kiwi<b>key</b> logo and manuals</h2>
+        For Beep Boop Labs<br />
+        <p>testtest</p>
+        <a href="" class="fancy-link">Discover kiwi<b>key</b> →</a>
+      </div>
+      <div>
+        <h2>Radio Club Anonymous challenge coin and patches</h2>
+        For Radio Club
+      </div>
+      <div>
+        <h2>I've Been FLASHED! pins</h2>
+        <p>For Ilya Smirnov</p>
+        <p>
+          Designed to mimic the I've Been FLASHED stickers used to indicate that
+          a Motorola radio has been upgraded in the field.
+        </p>
+      </div>
+      <div>
+        <h2>Trains!!!</h2>
+        <a class="fancy-link">See all →</a>
+      </div>
+    </article>
+  </main>
+</NavLayout>
