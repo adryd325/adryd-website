@@ -303,5 +303,11 @@
     "href": "//moon.light.pm",
     "alt": "Mod your Discord. Moonlight Now!",
     "order": 100
+  },
+  {
+    "88x31": "maya.png",
+    "alt": "maya's 88x31",
+    "href": "//atomicmaya.me",
+    "order": 50
   }
 ]
