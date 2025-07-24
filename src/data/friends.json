@@ -139,9 +139,9 @@
     "order": 50
   },
   {
-    "88x31": "enfys.gif",
-    "alt": "wavetable.cymru",
-    "href": "//wavetable.cymru",
+    "88x31": "enfys.png",
+    "alt": "enfys",
+    "href": "//enfys.wales/",
     "order": 50
   },
   {
@@ -294,20 +294,26 @@
   },
   {
     "88x31": "izzy.png",
-    "href": "//izzy.horse",
     "alt": "izzy.horse",
+    "href": "//izzy.horse",
     "order": 50
   },
   {
     "88x31": "moonlightnow.gif",
-    "href": "//moon.light.pm",
     "alt": "Mod your Discord. Moonlight Now!",
+    "href": "//moon.light.pm",
     "order": 100
   },
   {
     "88x31": "maya.png",
     "alt": "maya's 88x31",
-    "href": "//atomicmaya.me",
+    "href": "//index.551724.dev/",
+    "order": 50
+  },
+  {
+    "88x31": "lina.gif",
+    "alt": "lina :3",
+    "href": "//lina.sh",
     "order": 50
   }
 ]
