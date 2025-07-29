@@ -1,10 +1,10 @@
 ---
-// import Default from "../layouts/Default.astro";
-import Friends from "../components/Friends.astro";
 import Default from "../layouts/Default.astro";
 import Footer from "../components/Footer.astro";
-import NekoJS from "../components/NekoJS.astro";
-import Construction from "../components/Construction.astro";
+import Header from "../components/Header.astro";
+import ErrorPageGround from "../components/ErrorPageGround.astro";
+import ErrorPageSky from "../components/ErrorPageSky.astro";
+const isDev = import.meta.env.DEV;
 ---
 
 <Default title="home">
@@ -34,7 +34,19 @@ import Construction from "../components/Construction.astro";
     }
   </style>
   <main>
-   Error {"{{ err.status_code | rp.status_code }}"}
+    <div class="page-view">
+      <ErrorPageSky />
+      <center>
+        <h1 style="font-size: 10em; margin-bottom: 0em;">
+          {isDev ? "404" : '{{placeholder "http.vars.error"}}'}
+        </h1>
+        <h2 style="margin-top: 0; font-size: 3em">
+          {isDev ? "Not Found" : '{{placeholder "http.vars.error_message"}}'}
+        </h2>
+        <Header />
+      </center>
+      <ErrorPageGround />
+    </div>
   </main>
   <Footer />
 </Default>
