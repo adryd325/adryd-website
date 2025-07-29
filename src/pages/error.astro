@@ -9,14 +9,6 @@ const isDev = import.meta.env.DEV;
 
 <Default title="home">
   <style>
-    ul,
-    ol {
-      padding-left: 0;
-      list-style-type: none;
-    }
-    .inline-flex {
-      display: inline-flex;
-    }
     h1 {
       margin: 3rem 0 1rem;
       padding: 0;
@@ -28,21 +20,21 @@ const isDev = import.meta.env.DEV;
       font-size: 2.5rem;
       margin: 1.5rem 0 0;
     }
-    .subtitle {
-      font-weight: 500;
-      margin: 0;
+
+    #caddyError {
+      content: '{{placeholder "http.vars.error"}}';
+    }
+
+    #caddyErrorMessage {
+      content: '{{placeholder "http.vars.error_message"}}';
     }
   </style>
   <main>
     <div class="page-view">
       <ErrorPageSky />
       <center>
-        <h1 style="font-size: 10em; margin-bottom: 0em;">
-          {isDev ? "404" : '{{placeholder "http.vars.error"}}'}
-        </h1>
-        <h2 style="margin-top: 0; font-size: 3em">
-          {isDev ? "Not Found" : '{{placeholder "http.vars.error_message"}}'}
-        </h2>
+        <h1 id="caddyError" style="font-size: 10em; margin-bottom: 0em;"></h1>
+        <h2 id="caddyErrorMessage" style="margin-top: 0; font-size: 3em"></h2>
         <Header />
       </center>
       <ErrorPageGround />
