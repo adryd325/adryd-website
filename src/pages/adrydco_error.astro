@@ -1,0 +1,50 @@
+---
+import Default from "../layouts/Default.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import ErrorPageGround from "../components/ErrorPageGround.astro";
+import ErrorPageSky from "../components/ErrorPageSky.astro";
+const isDev = import.meta.env.DEV;
+---
+
+<Default title="home">
+  <style>
+    h1 {
+      margin: 3rem 0 1rem;
+      padding: 0;
+      font-weight: 900;
+      font-size: 5rem;
+    }
+    h2 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      margin: 1.5rem 0 0;
+    }
+  </style>
+  <main>
+    <div class="page-view">
+      <ErrorPageSky />
+      <center>
+        <h1
+          set:html={isDev ? "404" : '{{placeholder "http.vars.error"}}'}
+          id="caddyError"
+          style="font-size: 10em; margin-bottom: 0em;"
+        />
+        <h2
+          set:html={isDev
+            ? "Not Found"
+            : '{{placeholder "http.vars.error_message"}}'}
+          id="caddyErrorMessage"
+          style="margin-top: 0; font-size: 3em"
+        />
+        <nav style="margin: 1.5rem 0;">
+          <a class="fancy-link" href="//adryd.com">home →</a>
+          <a class="fancy-link" href="//adryd.com/pages/">pages →</a>
+          <a class="fancy-link" href="/public/">files →</a>
+        </nav>
+      </center>
+      <ErrorPageGround />
+    </div>
+  </main>
+  <Footer />
+</Default>

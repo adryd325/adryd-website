@@ -1,6 +1,6 @@
 ---
 import NavLayout from "../../../layouts/NavLayout.astro";
-import Banner from "./ttc-zone-map.svg.astro";
+import Banner from "./ttc-zone-map-flat.astro";
 ---
 
 <style>
@@ -56,10 +56,9 @@ import Banner from "./ttc-zone-map.svg.astro";
       <h1>Underground Radio Zones</h1>
       <hr />
       <p>
-        Hi, I collected all this data myself by decoding neighbor cell
-        information and am in the process of visiting every station with an SDR
-        to find zone edges. I'd appreciate if you credit me (or hire me if you
-        work at the TTC) if you use this anywhere.
+        Hi, I collected all this data myself by visiting all the TTC stations.
+        I'd appreciate if you credit me (or hire me if you work at the TTC) if
+        you use this anywhere.
       </p>
       <p>
         The frequencies that are listed are the control channel. The secondary
@@ -88,17 +87,17 @@ import Banner from "./ttc-zone-map.svg.astro";
         </div>
         <div>
           <div><b>Zone 5 Kennedy</b></div>
-          <div>Victoria Park - Kennedy*</div>
+          <div>Victoria Park - Kennedy<sup>1</sup></div>
           <div>422.5250 MHz</div>
         </div>
         <div>
           <div><b>Zone 6 Downsview</b></div>
-          <div>??? - ???</div>
+          <div>York University - Lawrence West</div>
           <div>422.5250 MHz</div>
         </div>
         <div>
           <div><b>Zone 7 St. Clair West</b></div>
-          <div>??? - St. George</div>
+          <div>Lawrence West - St. George</div>
           <div>422.4625 MHz</div>
         </div>
         <div>
@@ -118,20 +117,23 @@ import Banner from "./ttc-zone-map.svg.astro";
         </div>
         <div>
           <div><b>Zone 11 Sheppard-Yonge</b></div>
-          <div>Sheppard-Yonge - ???</div>
+          <div>Sheppard-Yonge - Bessarion</div>
           <div>422.4625 MHz</div>
         </div>
         <div>
           <div><b>Zone 12 Don Mills</b></div>
-          <div>??? - Don Mills</div>
+          <div>Bessarion - Don Mills</div>
           <div>422.3250 MHz</div>
         </div>
         <div>
           <div><b>Zone 13 VMC</b></div>
-          <div>Vaughan Metropolitan Centre - ???</div>
+          <div>Vaughan Metropolitan Centre - York University</div>
           <div>422.2625 MHz</div>
         </div>
       </div>
+        <p>
+          <sup>1</sup> : I was able to recieve this with a very weak signal as far as Coxwell
+        </p>
     </article>
   </main>
 </NavLayout>
