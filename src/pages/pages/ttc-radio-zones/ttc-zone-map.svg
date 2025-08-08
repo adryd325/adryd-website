@@ -3,11 +3,8 @@
    version="1.1"
    viewBox="0 0 600 300"
    id="svg237"
-   sodipodi:docname="ttc-zone-map-src.svg"
+   sodipodi:docname="ttc-zone-map.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   inkscape:export-filename="ttc-zone-map.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,15 +18,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.8597264"
-     inkscape:cx="312.09279"
-     inkscape:cy="129.383"
-     inkscape:window-width="1128"
-     inkscape:window-height="671"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g3"
+     inkscape:zoom="1.177415"
+     inkscape:cx="294.28876"
+     inkscape:cy="214.87751"
+     inkscape:window-width="1440"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g237"
      showguides="true" />
   <defs
      id="defs1" />
@@ -149,6 +146,11 @@
          inkscape:label="line-4-zone-11"
          sodipodi:nodetypes="cssscc"
          style="fill:#a21a68;fill-opacity:1" />
+      <path
+         style="fill:#000000;stroke:#00f2ff;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="M 199.56144,119.87 H 206.95"
+         id="path251"
+         sodipodi:nodetypes="cc" />
     </g>
     <path
        style="font-size:120.224px;font-family:Autoscape;-inkscape-font-specification:Autoscape;letter-spacing:6.76262px;display:none;fill:#9b9b9b;fill-opacity:0.5935;stroke-width:11.271;paint-order:stroke fill markers"
