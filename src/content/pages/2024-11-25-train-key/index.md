@@ -3,6 +3,7 @@ title: Metal 3D Printing a Train Key
 date: 2024-11-25
 updatedDate: 2025-04-01
 description: "I'm not entirely sure of my motivation behind this, but I decided I wanted one."
+draft: true
 ---
 
 _I'm not entirely sure of my motivation behind this, but I decided I wanted one._
