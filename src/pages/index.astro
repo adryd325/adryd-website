@@ -7,20 +7,21 @@ import { SITE_DESCRIPTION } from "@/consts";
 
 export const frontmatter = {
   title: "$hi, i'm ari!",
-  description: SITE_DESCRIPTION
-}
+  description: SITE_DESCRIPTION,
+};
 ---
 
 <style lang="scss">
-  @use "../mixin";
+  @use "@/mixin" as *;
 
   h1 {
     font-weight: 900;
+    font-size: $fallback-text-6xl;
     font-size: var(--text-6xl);
     line-height: var(--text-6xl--line-height);
     margin-bottom: 1rem;
 
-    @include mixin.large() {
+    @include large() {
       font-size: var(--text-8xl);
       line-height: var(--text-8xl--line-height);
       margin-bottom: 0.8rem;
@@ -41,11 +42,13 @@ export const frontmatter = {
   }
 
   ul {
-    list-style: none;
+    padding-left: 0;
     padding-inline-start: 0;
+    list-style: none;
   }
 
   ul > li {
+    padding-left: 0;
     padding-inline-start: 0;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
@@ -53,7 +56,7 @@ export const frontmatter = {
 </style>
 
 <Default frontmatter={frontmatter}>
-  <div class="container theme sa">
+  <div class="container theme ie-page-index">
     <h1 class="intro">
       <span id="header"
         >hi, i'm <span style="color: var(--color-seagull-400)">ari!</span></span
@@ -65,13 +68,15 @@ export const frontmatter = {
       computers, trains, radios, making bad designs and wearing a witch hat for
       fun.
     </p>
+    <!--[if IE]><p> my stylesheets probably won't work on such an old browser, but i've done my best to make sure every page is at least usable </p><![endif]-->
     <h2><a class="subtle-link" href="/pages/">pages →</a></h2>
     <p>reference, blog posts, and all that jazz</p>
     <ul class="fancy-link">
-      <li>
+      <!-- <li>
         <a href="/pages/3d-printing-medeco-m3-keys"
-          >3D printing medeco m3 keys →</a>
-      </li>
+          >3D printing medeco m3 keys →</a
+        >
+      </li> -->
       <li>
         <a href="/pages/ttc-radio-zones">ttc radio underground zones →</a>
       </li>

@@ -1,19 +1,21 @@
 @use "../node_modules/modern-normalize/modern-normalize.css";
-@use "styles/fonts.scss";
-@use "styles/utils.scss";
-@use "mixin";
+@use "styles/global-variables.scss";
+@use "@/mixin" as *;
 
 html {
   font-family: var(--font-sans);
 
+  font-size: $fallback-text-md;
   font-size: var(--text-md);
   line-height: var(--text-md--line-height);
 
+  background-color: $fallback-color-background;
+  color: $fallback-color-text;
   background-color: var(--color-background);
   color: var(--color-text);
 }
 
-@include mixin.dark() {
+@include dark() {
   .astro-code,
   .astro-code span {
     color: var(--shiki-dark) !important;
@@ -30,41 +32,47 @@ html {
   }
 }
 
-a {
-  color: inherit;
+@mixin fancy-link() {
+  background-color: $fallback-color-fancy-link-background;
+  background-color: var(--color-fancy-link-background);
+  color: $fallback-color-fancy-link-text;
+  color: var(--color-fancy-link-text);
+  transition: color 0.1s, background-color 0.1s;
+  text-decoration: none;
+  border-radius: 4px;
+  // originally  padding: 0.16em 0.3em;
+  padding: 0.08em 0.3em 0.16em;
+  margin: -0.2em 0;
+  cursor: pointer;
+
+  &:hover {
+    color: $fallback-color-fancy-link-text-hover;
+    color: var(--color-fancy-link-text-hover);
+    background-color: $fallback-color-fancy-link-background-hover;
+    background-color: var(--color-fancy-link-background-hover);
+  }
+}
+
+a.fancy-link {
+  @include fancy-link();
+}
+
+button.fancy-link {
+  @include fancy-link();
+  border: none;
+  font-weight: inherit;
+  display: inline;
 }
 
 .fancy-link {
-  button,
-  &:is(button) {
-    border: none;
-    font-weight: inherit;
-    display: inline;
-  }
-
   a,
-  button,
-  &:is(a),
-  &:is(button) {
-    color: var(--color-fancy-link-text);
-    background-color: var(--color-fancy-link-background);
-    transition: color 0.1s, background-color 0.1s;
-    text-decoration: none;
-    border-radius: 4px;
-    // originally  padding: 0.16em 0.3em;
-    padding: 0.08em 0.3em 0.16em;
-    margin: -0.2em 0;
-    cursor: pointer;
-
-    &:hover {
-      color: var(--color-fancy-link-text-hover);
-      background-color: var(--color-fancy-link-background-hover);
-    }
+  button {
+    @include fancy-link();
   }
 }
 
 .subtle-link {
-  color: currentColor;
+  color: inherit;
   transition: color 0.1s, background-color 0.1s;
   text-decoration: none;
   border-radius: 4px;
@@ -72,11 +80,12 @@ a {
   margin: -0.02em -0.2em -0.14em;
 
   &:hover {
-    color: currentColor;
+    color: inherit;
+    background-color: $fallback-color-subtle-link-background-hover;
     background-color: var(--color-seagull-100);
   }
 
-  @include mixin.dark() {
+  @include dark() {
     &:hover {
       background-color: var(--color-fancy-link-background-hover);
     }
@@ -96,6 +105,7 @@ a {
 }
 
 .theme {
+  font-size: $fallback-text-md;
   font-size: var(--text-md);
   line-height: 1.75;
   --font-size: var(--text-md);
@@ -121,6 +131,7 @@ a {
   }
 
   h1 {
+    font-size: $fallback-text-4xl;
     font-size: var(--text-4xl);
     line-height: var(--text-4xl--line-height);
     margin-top: 2rem;
@@ -129,6 +140,7 @@ a {
   }
 
   h2 {
+    font-size: $fallback-text-2xl;
     font-size: var(--text-2xl);
     line-height: var(--text-2xl--line-height);
     margin-top: 2.5rem;
@@ -137,6 +149,7 @@ a {
   }
 
   h3 {
+    font-size: $fallback-text-xl;
     font-size: var(--text-xl);
     line-height: var(--text-2xl--line-height);
     margin-top: 1.6rem;
@@ -145,6 +158,7 @@ a {
   }
 
   h4 {
+    font-size: $fallback-text-md;
     font-size: var(--text-md);
     line-height: var(--text-md--line-height);
     margin-top: 1.5rem;
@@ -181,13 +195,18 @@ a {
   }
 
   small {
+    font-size: $fallback-text-sm;
     font-size: var(--text-sm);
   }
 
   ul,
   ol {
+    padding: 0;
+    padding-left: 1.6em;
+    padding-inline: 0;
     padding-inline-start: 1.6em;
     & > li {
+      padding-left: 1.6em;
       padding-inline-start: 0.4em;
     }
   }
@@ -229,6 +248,7 @@ a {
     line-height: 1.45;
     code {
       font-weight: 400;
+      font-size: $fallback-text-sm;
       font-size: var(--text-sm);
 
       &:before,
@@ -240,6 +260,7 @@ a {
 
   figure {
     color: var(--color-blockquote);
+    font-size: $fallback-text-md;
     font-size: var(--text-md);
     margin: 0;
     margin-block-start: calc(0px - var(--font-size));
@@ -247,6 +268,7 @@ a {
   }
 
   table {
+    font-size: $fallback-text-sm;
     font-size: var(--text-sm);
     margin: 1.5rem 0;
     width: 100%;
@@ -285,7 +307,7 @@ a {
     }
   }
 
-  @include mixin.large() {
+  @include large() {
     --font-size: var(--text-xl);
     --table-padding: 0.8rem;
 

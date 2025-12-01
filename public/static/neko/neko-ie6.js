@@ -1,4 +1,6 @@
 function neko() {
+  document.execCommand("BackgroundImageCache", false, true);
+
   var nekoEl = document.createElement("div");
 
   var nekoPosX = 32;
@@ -76,7 +78,7 @@ function neko() {
     NW: [
       [-1, 0],
       [-1, -1],
-    ],
+    ]
   };
   function init() {
     nekoEl.id = "oneko";
@@ -100,6 +102,10 @@ function neko() {
       mousePosY = event.clientY - 16;
     }
     document.onmousemove = mousePos;
+    function scroll() {
+      nekoEl.style.top = document.body.parentElement.scrollTop + nekoPosY - 16 + "px";
+    }
+    document.onscroll = onscroll;
     window.onekoInterval = setInterval(frame, 100);
   }
 
@@ -150,7 +156,7 @@ function neko() {
       }
       idleAnimation =
         avalibleIdleAnimations[
-          Math.floor(Math.random() * avalibleIdleAnimations.length)
+        Math.floor(Math.random() * avalibleIdleAnimations.length)
         ];
     }
 
@@ -189,9 +195,9 @@ function neko() {
     var distance = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
 
     if (distance < nekoSpeed || distance < 48) {
-		idle();
-		return;
-	}
+      idle();
+      return;
+    }
 
     idleAnimation = null;
     idleAnimationFrame = 0;
@@ -235,7 +241,8 @@ function neko() {
     );
 
     nekoEl.style.left = nekoPosX - 16 + "px";
-    nekoEl.style.top = nekoPosY - 16 + "px";
+    nekoEl.style.top = document.body.parentElement.scrollTop + nekoPosY - 16 + "px";
+    // window.nekoPosY = nekoPosY;
   }
   init();
 }

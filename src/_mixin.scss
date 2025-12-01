@@ -1,69 +1,49 @@
 $screen-lg: 960px;
 
+$fallback-color-background: #fff;
+$fallback-color-text: #292524;
+$fallback-color-header: #1c1917;
+$fallback-color-blockquote: #44403c;
+$fallback-color-blockquote-before: #d6d3d1;
+$fallback-color-ol-marker: #57534e;
+$fallback-color-ul-marker: #a8a29e;
+$fallback-color-hr: #e7e5e4;
+$fallback-color-fancy-link-background: #c3e4f3;
+$fallback-color-fancy-link-text: #0d6685;
+$fallback-color-fancy-link-background-hover: #dbeff8;
+$fallback-color-fancy-link-text-hover: #0079a3;
+$fallback-color-subtle-link-background-hover: #e3f2fb;
+$fallback-color-footer: #f5f5f4;
+
+$fallback-text-xs: 12px;
+$fallback-text-sm: 14px;
+$fallback-text-md: 16px;
+$fallback-text-lg: 18px;
+$fallback-text-xl: 20px;
+$fallback-text-2xl: 24px;
+$fallback-text-3xl: 30px;
+$fallback-text-4xl: 36px;
+$fallback-text-5xl: 48px;
+$fallback-text-6xl: 60px;
+$fallback-text-7xl: 72px;
+$fallback-text-8xl: 96px;
+$fallback-text-9xl: 128px;
+
 @mixin large() {
-    @media only screen and (min-width: $screen-lg) {
-        @content;
-    }
+  @media only screen and (min-width: $screen-lg) {
+    @content;
+  }
 }
 
 @mixin dark() {
-    @media screen and (prefers-color-scheme: dark) {
-        @content;
-    }
+  @media screen and (prefers-color-scheme: dark) {
+    @content;
+  }
 }
 
 @mixin contrast() {
-    @media screen and (prefers-contrast: more) {
-        @content;
-    }
-}
-
-:root {
-  --font-sans: "Pretendard", apple-system, system-ui, "Helvetica", "Arial",
-    sans-serif;
-  --font-serif: "Source Serif 4", serif;
-  --font-mono: "IBM Plex Mono", monospace;
-
-  --color-background: var(--color-white);
-  --color-text: var(--color-stone-800);
-  --color-header: var(--color-stone-900);
-  --color-blockquote: var(--color-stone-700);
-  --color-blockquote-before: var(--color-stone-300);
-  --color-ol-marker: var(--color-stone-600);
-  --color-ul-marker: var(--color-stone-400);
-  --color-hr: var(--color-stone-200);
-
-  --color-fancy-link-background: var(--color-seagull-200);
-  --color-fancy-link-text: var(--color-picton-blue-800);
-  --color-fancy-link-background-hover: color-mix(
-    in oklab,
-    var(--color-seagull-200) 60%,
-    var(--color-background) 40%
-  );
-  --color-fancy-link-text-hover: var(--color-picton-blue-700);
-
-  @include dark() {
-    --color-background: var(--color-gray-900);
-    --color-text: var(--color-gray-200);
-    --color-header: var(--color-gray-100);
-
-    --color-blockquote: var(--color-gray-300);
-    --color-blockquote-before: var(--color-gray-500);
-    --color-ol-marker: var(--color-gray-400);
-    --color-ul-marker: var(--color-gray-500);
-    --color-hr: var(--color-gray-700);
-
-    --color-fancy-link-background: color-mix(
-      in oklab,
-      var(--color-seagull-700),
-      var(--color-gray-800) 65%
-    );
-    --color-fancy-link-text: var(--color-seagull-400);
-    --color-fancy-link-background-hover: color-mix(
-      in oklab,
-      var(--color-seagull-900),
-      var(--color-gray-800) 65%
-    );
-    --color-fancy-link-text-hover: var(--color-seagull-300);
+  @media screen and (prefers-contrast: more) {
+    @content;
   }
 }
+

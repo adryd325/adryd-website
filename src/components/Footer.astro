@@ -14,20 +14,24 @@ for (let i = 0; i < 4; i++) {
 ---
 
 <style lang="scss">
-  @use "@/mixin";
+  @use "@/mixin" as *;
 
-  footer {
-    padding: 1.5em 0.5em;
+  .footer {
+    padding: 24px 0 8px;
+    padding: 1.5rem 0.5rem;
+    background-color: $fallback-color-footer;
     background-color: var(--color-stone-100);
     color: var(--color-stone-700);
+    margin-top: 48px;
     margin-top: 3rem;
+    font-size: $fallback-text-xs;
     font-size: var(--text-xs);
     line-height: 1.5;
-    @include mixin.large() {
+    @include large() {
       font-size: var(--text-sm);
       line-height: 1.5;
     }
-    @include mixin.dark() {
+    @include dark() {
       background-color: var(--color-gray-800);
       color: var(--color-gray-200);
     }
@@ -41,22 +45,30 @@ for (let i = 0; i < 4; i++) {
     display: block;
     color: var(--color-stone-800);
     text-decoration: none;
-    @include mixin.dark() {
+    @include dark() {
       color: var(--color-gray-300);
     }
     svg {
       height: 68px;
-      @include mixin.large() {
+      // specify width for old browsers
+      width: 61.52px;
+      @include large() {
+        width: 66.94px;
         height: 74px;
       }
     }
   }
 </style>
 
-<footer>
+<div class="footer" role="contentinfo">
   <div class="container">
     <div>
-      <a class="logo" href="/"><Logo /></a>
+      <a class="logo" href="/">
+        <!--[if IE]> <img src="/static/compat/Logo.png" height="68px" width="62px"> <![endif]-->
+        <!-- [if !IE]><! -->
+        <Logo />
+        <!-- <![endif] --></a
+      >
     </div>
     <span
       >copyright &copy; {today.getFullYear()} Ariana "adryd" redacted. this website
@@ -74,4 +86,4 @@ for (let i = 0; i < 4; i++) {
       <span>{ornaments.join(" ")}</span>
     </span>
   </div>
-</footer>
+</div>

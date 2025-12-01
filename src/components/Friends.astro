@@ -32,7 +32,7 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
 ---
 
 <style lang="scss">
-  @use "../mixin";
+  @use "@/mixin" as *;
 
   .buttons {
     display: flex;
@@ -48,30 +48,31 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
 
   .buttons a {
     display: inline-flex;
+    text-decoration: none;
   }
   .links {
     margin: 1rem 0;
   }
   .links span {
     display: inline-block;
-    @include mixin.large() {
+    @include large() {
       font-size: var(--text-lg);
     }
   }
 </style>
 
 <div class="buttons">
-  <Image src="/static/buttons/adryd.png" alt="adryd" width={88} height={31} />
+  <img src="/static/buttons/adryd.png" alt="adryd" width="88px" height="31px" />
   {
     imgFriends.map((friend: FriendImg) => (
       <>
         <a href={friend.href} data-neko={friend.neko && "true"}>
-          <Image
+          <img
             src={"/static/buttons/" + friend["88x31"]}
             alt={friend.alt}
             onload={friend.magic}
-            width={88}
-            height={31}
+            width="88px"
+            height="31px"
           />
         </a>
       </>

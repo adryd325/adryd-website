@@ -23,16 +23,22 @@ for (let i of cleanData) {
 ---
 
 <style lang="scss">
-  @use "../../../mixin";
+  @use "@/mixin" as *;
+
   .grid {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 
   .card {
+    margin-bottom: 16px;
+    @supports (gap: 1rem) {
+      margin-bottom: 0;
+    }
+    font-size: $fallback-text-md;
     font-size: var(--text-md);
-    @include mixin.large() {
+    @include large() {
       font-size: var(--text-lg);
     }
     line-height: 1.6;
@@ -40,8 +46,9 @@ for (let i of cleanData) {
 
   .card-title {
     font-weight: 500;
+    font-size: $fallback-text-xl;
     font-size: var(--text-xl);
-    @include mixin.large() {
+    @include large() {
       font-size: var(--text-2xl);
     }
   }
@@ -54,9 +61,9 @@ for (let i of cleanData) {
     <PageDate date={frontmatter.date} updatedDate={frontmatter.updatedDate} />
     <p>
       The TTC's radio system is transmitted underground through a series of
-      radiating cables. I mapped this out myself by visiting most of the
-      TTC subway stations, decoding TETRA neighbor cell discovery data, and
-      combing through Canada's <a
+      radiating cables. I mapped this out myself by visiting most of the TTC
+      subway stations, decoding TETRA neighbor cell discovery data, and combing
+      through Canada's <a
         href="https://ised-isde.canada.ca/site/spectrum-management-system/en/download-sms-data"
         >Spectrum&nbsp;Mangement&nbsp;System</a
       > data.

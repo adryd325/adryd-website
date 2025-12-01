@@ -5,6 +5,8 @@ import DefaultNav from "../../../layouts/Default.astro";
 import imageDark from "./_header-dark.png";
 import Footer from "../../../components/Footer.astro";
 import PageDate from "@/components/pages/PageDate.astro";
+import { Picture } from "astro:assets";
+import Nav from "@/components/Nav.astro";
 
 export const frontmatter = {
   title: "Twitter Embeds",
@@ -34,6 +36,7 @@ export const frontmatter = {
   /* Twitter Embeds Special*/
   .page {
     border-radius: 24px 0 0 0;
+    background-color: #fff;
     background-color: var(--color-background);
     color: var(--text-color);
     height: auto;
@@ -71,10 +74,7 @@ export const frontmatter = {
       <div class="container theme fancy-link">
         <!-- Hack cause of page element margin -->
         <div style="display: flex; margin-bottom: -1.5em">
-          <nav style="margin: 1.5rem 0;">
-            <a class="fancy-link" href="/">home →</a>{" "}
-            <a class="fancy-link" href="/pages/">pages →</a>
-          </nav>
+          <Nav />
         </div>
         <h1>Twitter Embeds</h1>
         <PageDate date={frontmatter.date} />
@@ -93,17 +93,17 @@ export const frontmatter = {
             >https://github.com/stealthgyro/tilted-embeds</a
           >. If you're reading this, thanks for continuing the project. &lt;3
         </p>
-          <Image
+          <Picture
             src={imageDark}
             width="697.5"
             alt="Usage of twitter embed bot. Ari pastes a twitter link and the twitter embeds bot returns an embed with a video of a cat and details about the post"
           />
-        <h2>Usage</h2>
+        <!-- <h2>Usage</h2>
         You can use the bot by
         <a href="https://adryd.co/twitter-embeds"
           >adding it to your Discord server</a
         >, or sending it a direct message. It has 3 different embed modes to
-        best fit with your server.
+        best fit with your server.-->
         <h2>Additional Features</h2>
         <ul>
           <li>

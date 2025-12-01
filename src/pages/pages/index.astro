@@ -15,14 +15,15 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
 ---
 
 <style lang="scss">
-  @use "@/mixin";
+  @use "@/mixin" as *;
   .entry a {
     display: block;
     color: inherit;
-    text-decoration: inherit;
+    text-decoration: none;
   }
 
   .entry h2 {
+    font-size: $fallback-text-2xl;
     font-size: var(--text-2xl);
     margin: 1.5rem 0 0.5rem;
   }
@@ -36,9 +37,10 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
   }
   .rss-link:hover {
     color: #ea580c;
+    background-color: #fdba74;
     background-color: #fdba7444;
 
-    @include mixin.dark() {
+    @include dark() {
       color: #fb923c;
       background-color: #fdba7433;
     }
@@ -46,10 +48,12 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
 </style>
 
 <DefaultNav frontmatter={frontmatter}>
-  <div class="theme theme-serif">
+  <div class="theme theme-serif ie-page-pages">
     <h1>pages</h1>
     <p>reference, blog posts, and all that jazz</p>
-    <a class="fancy-link rss-link sans-serif" href="/feed.xml">RSS feed&nbsp;+</a>
+    <a class="fancy-link rss-link sans-serif" href="/feed.xml"
+      >RSS feed&nbsp;+</a
+    >
     {
       posts.map((a) => {
         return (
@@ -58,12 +62,14 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
               <h2 class="sans-serif">
                 <span class="subtle-link">{a.frontmatter.title}&nbsp;→</span>
               </h2>
-              <p><small class="date">
-                <PageDate
-                  date={a.frontmatter.date}
-                  updatedDate={a.frontmatter.updatedDate}
-                />
-              </small></p>
+              <p>
+                <small class="date">
+                  <PageDate
+                    date={a.frontmatter.date}
+                    updatedDate={a.frontmatter.updatedDate}
+                  />
+                </small>
+              </p>
               {a.frontmatter.description}
             </a>
           </div>

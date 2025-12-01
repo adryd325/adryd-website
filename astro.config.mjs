@@ -12,7 +12,10 @@ export default defineConfig({
   vite: {
     ssr: {
       noExternal: ['modern-normalize'],
-    }
+    },
+    css: {
+      transformer: "lightningcss",
+    },
   },
 
   image: {

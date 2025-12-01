@@ -99,7 +99,6 @@
   }
   window.addEventListener("resize", onResize);
   header.addEventListener("resize", onResize);
-  setTimeout(onResize,100)
 
   let frameCount = 0;
   let idleTime = 0;
