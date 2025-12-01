@@ -181,7 +181,6 @@
     nekoEl.style.zIndex = Number.MAX_VALUE;
     if (sleeping) {
       nekoEl.style.cursor = "pointer";
-      nekoEl.style.position = "absolute";
     } else {
       nekoEl.style.pointerEvents = "none";
     }

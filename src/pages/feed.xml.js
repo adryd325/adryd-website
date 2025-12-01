@@ -13,9 +13,7 @@ export async function GET(context) {
       pubDate: post.frontmatter.date,
       link: `/pages/${post.slug}/`,
     }))
-
-  console.log(items)
-
+    
   return rss({
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
