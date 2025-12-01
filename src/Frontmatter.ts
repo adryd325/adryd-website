@@ -64,7 +64,6 @@ export function getPages() {
 
     const slug = slugFromPath(path);
     if (!slug) {
-      console.log(path);
       continue;
     }
     if (slugs.includes(slug)) {
