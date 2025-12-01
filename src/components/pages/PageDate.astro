@@ -1,0 +1,25 @@
+---
+import type { Frontmatter } from '@/Frontmatter';
+
+type Props = {date: Date, updatedDate?: Date};
+
+const { date, updatedDate } = Astro.props;
+
+function toLocaleString(date: Date) {
+  return date.toLocaleDateString("en-us", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+const niceDate = toLocaleString(date);
+const niceUpdatedDate = updatedDate && toLocaleString(updatedDate);
+---
+
+<i
+  >Published {niceDate}. {
+    updatedDate && "Updated " + niceUpdatedDate + "."
+  }</i
+>

@@ -1,0 +1,67 @@
+---
+import Default from "../layouts/Default.astro";
+import Footer from "../components/Footer.astro";
+import ErrorPageGround from "../components/ErrorPageGround.svg";
+import ErrorPageSky from "../components/ErrorPageSky.svg";
+import type { Frontmatter } from "@/Frontmatter";
+const isDev = import.meta.env.DEV;
+
+const frontmatter: Frontmatter = {
+  title: "error",
+  description: "an error occured fetching this page"
+}
+---
+
+<style lang="scss">
+  @use "@/mixin";
+  h1 {
+    margin: 3rem 0 1rem;
+    padding: 0;
+    font-weight: 900;
+    font-size: 8rem;
+    line-height: 1;
+    
+  }
+  h2 {
+    font-weight: 600;
+    line-height: 1;
+    margin: 1rem 0 3rem;
+    font-size: 2rem;
+  }
+  nav {
+    margin-bottom: 2rem;
+  }
+  svg {
+    max-width: 600px;
+  }
+  .right {
+    text-align: right;
+  }
+</style>
+
+<Default frontmatter={frontmatter}>
+  <div class="container theme">
+    <div class="right">
+      <ErrorPageSky />
+    </div>
+    <center>
+      <h1
+        set:html={isDev ? "404" : '{{placeholder "http.vars.error"}}'}
+        id="caddyError"
+      />
+      <h2
+        set:html={isDev
+          ? "Not Found"
+          : '{{placeholder "http.vars.error_message"}}'}
+        id="caddyErrorMessage"
+      />
+      <nav>
+        <a class="fancy-link" href="/">home →</a>{" "}
+        <a class="fancy-link" href="/pages/">pages →</a>{" "}
+        <a class="fancy-link" href="//adryd.co/public/">files →</a>
+      </nav>
+    </center>
+    <ErrorPageGround />
+  </div>
+  <Footer />
+</Default>

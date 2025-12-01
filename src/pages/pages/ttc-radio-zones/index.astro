@@ -1,139 +1,119 @@
 ---
-import NavLayout from "../../../layouts/NavLayout.astro";
+import DefaultNav from "@/layouts/DefaultNav.astro";
 import Banner from "./ttc-zone-map-flat.astro";
+import data from "./_data.json";
+import PageDate from "@/components/pages/PageDate.astro";
+
+export const frontmatter = {
+  title: "the TTC's underground radio zones",
+  description: "a list of the TTC underground radio zones and frequencies",
+  date: new Date("2025-03-11"),
+  updatedDate: new Date("2025-11-30"),
+};
+
+const cleanData: ((typeof data)[0] & { footnoteIdx: number })[] =
+  Object.assign(data);
+let footnoteIdx = 0;
+
+for (let i of cleanData) {
+  if (i.footnote) {
+    i.footnoteIdx = ++footnoteIdx;
+  }
+}
 ---
 
-<style>
-  @keyframes bump {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    25% {
-      transform: rotate(12deg);
-    }
-
-    60% {
-      transform: rotate(-15deg);
-    }
-
-    100% {
-      rotate: rotate(0deg);
-    }
-  }
-
-  :root {
-    --fancy-link-text-color: oklch(0.444 0.177 26.899);
-    --fancy-link-text-color-hover: oklch(0.505 0.213 27.518);
-    --fancy-link-background-color: oklch(0.637 0.237 25.331 / 0.2);
-    --fancy-link-background-color-hover: oklch(0.704 0.191 22.216 / 0.2);
-
-    --subtle-link-background-color: #bef26433;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --fancy-link-text-color: oklch(0.637 0.237 25.331);
-      --fancy-link-text-color-hover: oklch(0.704 0.191 22.216);
-      --fancy-link-background-color: oklch(0.444 0.177 26.899 / 0.2);
-      --fancy-link-background-color-hover: oklch(0.577 0.245 27.325 / 0.2);
-
-      --subtle-link-background-color: #bef26433;
-    }
-  }
-
+<style lang="scss">
+  @use "../../../mixin";
   .grid {
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .card {
+    font-size: var(--text-md);
+    @include mixin.large() {
+      font-size: var(--text-lg);
+    }
+    line-height: 1.6;
+  }
+
+  .card-title {
+    font-weight: 500;
+    font-size: var(--text-xl);
+    @include mixin.large() {
+      font-size: var(--text-2xl);
+    }
   }
 </style>
 
-<NavLayout title="Underground Radio Zones">
-  <main>
-    <article class="page-view">
-      <Banner />
-      <h1>Underground Radio Zones</h1>
-      <hr />
-      <p>
-        Hi, I collected all this data myself by visiting all the TTC stations.
-        I'd appreciate if you credit me (or hire me if you work at the TTC) if
-        you use this anywhere.
-      </p>
-      <p>
-        The frequencies that are listed are the control channel. The secondary
-        downlink is at +0.1 MHz for each site.
-      </p>
-      <div class="grid">
-        <div>
-          <div><b>Zone 1 Kipling</b></div>
-          <div>Kipling - Old Mill</div>
-          <div>422.3250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 2 Keele</b></div>
-          <div>Old Mill - Ossington</div>
-          <div>422.5250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 3 Bay</b></div>
-          <div>Ossington - Chester</div>
-          <div>422.2625 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 4 Greenwood</b></div>
-          <div>Chester - Victoria Park</div>
-          <div>422.4625 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 5 Kennedy</b></div>
-          <div>Victoria Park - Kennedy<sup>1</sup></div>
-          <div>422.5250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 6 Downsview</b></div>
-          <div>York University - Lawrence West</div>
-          <div>422.5250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 7 St. Clair West</b></div>
-          <div>Lawrence West - St. George</div>
-          <div>422.4625 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 8 Union</b></div>
-          <div>St. George - Bloor-Yonge</div>
-          <div>422.3250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 9 Davisville</b></div>
-          <div>Bloor-Yonge - Lawrence</div>
-          <div>422.5250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 10 Finch</b></div>
-          <div>Lawrence - Finch</div>
-          <div>422.2625 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 11 Sheppard-Yonge</b></div>
-          <div>Sheppard-Yonge - Bessarion</div>
-          <div>422.4625 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 12 Don Mills</b></div>
-          <div>Bessarion - Don Mills</div>
-          <div>422.3250 MHz</div>
-        </div>
-        <div>
-          <div><b>Zone 13 VMC</b></div>
-          <div>Vaughan Metropolitan Centre - York University</div>
-          <div>422.2625 MHz</div>
-        </div>
-      </div>
-        <p>
-          <sup>1</sup> : I was able to recieve this with a very weak signal as far as Coxwell
-        </p>
-    </article>
-  </main>
-</NavLayout>
+<DefaultNav frontmatter={frontmatter}>
+  <div class="theme-serif fancy-link">
+    <Banner />
+    <h1>{frontmatter.title}</h1>
+    <PageDate date={frontmatter.date} updatedDate={frontmatter.updatedDate} />
+    <p>
+      The TTC's radio system is transmitted underground through a series of
+      radiating cables. I mapped this out myself by visiting most of the
+      TTC subway stations, decoding TETRA neighbor cell discovery data, and
+      combing through Canada's <a
+        href="https://ised-isde.canada.ca/site/spectrum-management-system/en/download-sms-data"
+        >Spectrum&nbsp;Mangement&nbsp;System</a
+      > data.
+    </p>
+    <h2>Zones</h2>
+    <p>
+      The frequencies listed are the control channel. The secondary downlink for
+      each site is +0.1&nbsp;MHz from the control channel.
+    </p>
+    <div class="grid sans-serif">
+      {
+        cleanData.map((a) => (
+          <div class="card">
+            <>
+              <div class="card-title">
+                {a.name}
+                {a.footnoteIdx && <sup>{a.footnoteIdx}</sup>}
+              </div>
+              <div>
+                from{" "}
+                <>
+                  <b>{a.start}</b>
+                  <br />
+                </>
+                to <b>{a.end}</b>
+              </div>
+              <div>
+                <b>{`${a.freq} MHz`}</b>
+              </div>
+            </>
+          </div>
+        ))
+      }
+    </div>
+    {
+      cleanData.map(
+        (a) =>
+          a.footnoteIdx && (
+            <p>
+              <sup>{a.footnoteIdx}</sup>
+              {" : " + a.footnote}
+            </p>
+          )
+      )
+    }
+    <h2>Line 5</h2>
+    <p>
+      I haven't been able to find much information about Line 5's transmitter
+      site, but I suspect it's LA&nbsp;40 with a control channel of
+      422.3250&nbsp;MHz. I last saw it at Eglinton West (Cedarvale) station on
+      August 7th 2025 and I think I remember seeing it at Eglinton station
+      before.
+    </p>
+    <hr />
+    <p>
+      If you chose to use this data for anything, I'd appreciate if you
+      attribute this page.
+    </p>
+  </div>
+</DefaultNav>

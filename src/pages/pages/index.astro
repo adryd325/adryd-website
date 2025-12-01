@@ -1,72 +1,74 @@
 ---
-import Construction from "../../components/Construction.astro";
-import NavLayout from "../../layouts/NavLayout.astro";
+import DefaultNav from "../../layouts/DefaultNav.astro";
+import "../../global.scss";
+import { getPages, type Frontmatter } from "../../Frontmatter.ts";
+import PageDate from "@/components/pages/PageDate.astro";
 
-import { getCollection } from "astro:content";
-import { extraPages } from "../../content/config.ts";
-import FormattedDate from "../../components/FormattedDate.astro";
-import RSSLink from "../../components/RSSLink.astro";
+export const frontmatter: Frontmatter = {
+  title: "pages",
+  description: "reference, blog posts, and all that jazz",
+};
 
-const posts = [
-  ...(await getCollection("pages")).filter((a) => a.data.draft != true),
-  ...extraPages,
-].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const posts2 = getPages();
+
+const posts = posts2.filter((a) => !a.frontmatter.unlisted);
 ---
 
-<style>
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+<style lang="scss">
+  @use "@/mixin";
+  .entry a {
+    display: block;
+    color: inherit;
+    text-decoration: inherit;
   }
-  ul li {
-    /* width: calc(50% - 1rem); */
+
+  .entry h2 {
+    font-size: var(--text-2xl);
+    margin: 1.5rem 0 0.5rem;
   }
-  ul li img {
-    margin-bottom: 0.5rem;
-    border-radius: 12px;
+
+  .entry .date {
+    color: var(--color-blockquote);
   }
-  .title {
-    margin-bottom: 0;
+
+  .entry p {
+    margin: 0.5rem 0;
   }
-  .date {
-    margin: 0;
-    color: var(--text-color-1);
+  .rss-link:hover {
+    color: #ea580c;
+    background-color: #fdba7444;
+
+    @include mixin.dark() {
+      color: #fb923c;
+      background-color: #fdba7433;
+    }
   }
 </style>
 
-<NavLayout title="pages">
-  <main>
-    <div class="page-view">
-      <h1>Pages</h1>
-      <p>reference, projects, blogposts and all that jazz</p>
-      <RSSLink href="/feed.xml"> RSS Feed + </RSSLink>
-      <section>
-        <ul>
-          {
-            posts.map((post) => (
-              <li>
-                <h2 class="title">
-                  <a class="subtle-link" href={`/pages/${post.slug}/`}>
-                    {post.data.title} →
-                  </a>
-                </h2>
-                {
-                  <p class="date">
-                    <FormattedDate date={post.data.date} />
-                    {post.data.updatedDate && (
-                      <span style={{ fontStyle: "italic" }}>
-                        Last updated on{" "}
-                        <FormattedDate date={post.data.updatedDate} />
-                      </span>
-                    )}
-                  </p>
-                }
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-    </div>
-  </main>
-</NavLayout>
+<DefaultNav frontmatter={frontmatter}>
+  <div class="theme theme-serif">
+    <h1>pages</h1>
+    <p>reference, blog posts, and all that jazz</p>
+    <a class="fancy-link rss-link sans-serif" href="/feed.xml">RSS feed&nbsp;+</a>
+    {
+      posts.map((a) => {
+        return (
+          <div class="entry">
+            <a href={a.url}>
+              <h2 class="sans-serif">
+                <span class="subtle-link">{a.frontmatter.title}&nbsp;→</span>
+              </h2>
+              <p><small class="date">
+                <PageDate
+                  date={a.frontmatter.date}
+                  updatedDate={a.frontmatter.updatedDate}
+                />
+              </small></p>
+              {a.frontmatter.description}
+            </a>
+          </div>
+        );
+      })
+    }
+  </div>
+</DefaultNav>

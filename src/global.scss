@@ -1,0 +1,339 @@
+@use "../node_modules/modern-normalize/modern-normalize.css";
+@use "styles/fonts.scss";
+@use "styles/utils.scss";
+@use "mixin";
+
+html {
+  font-family: var(--font-sans);
+
+  font-size: var(--text-md);
+  line-height: var(--text-md--line-height);
+
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+@include mixin.dark() {
+  .astro-code,
+  .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 916px) {
+    margin: 0 16px;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.fancy-link {
+  button,
+  &:is(button) {
+    border: none;
+    font-weight: inherit;
+    display: inline;
+  }
+
+  a,
+  button,
+  &:is(a),
+  &:is(button) {
+    color: var(--color-fancy-link-text);
+    background-color: var(--color-fancy-link-background);
+    transition: color 0.1s, background-color 0.1s;
+    text-decoration: none;
+    border-radius: 4px;
+    // originally  padding: 0.16em 0.3em;
+    padding: 0.08em 0.3em 0.16em;
+    margin: -0.2em 0;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-fancy-link-text-hover);
+      background-color: var(--color-fancy-link-background-hover);
+    }
+  }
+}
+
+.subtle-link {
+  color: currentColor;
+  transition: color 0.1s, background-color 0.1s;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 0.02em 0.2em 0.14em;
+  margin: -0.02em -0.2em -0.14em;
+
+  &:hover {
+    color: currentColor;
+    background-color: var(--color-seagull-100);
+  }
+
+  @include mixin.dark() {
+    &:hover {
+      background-color: var(--color-fancy-link-background-hover);
+    }
+  }
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.sans-serif {
+  font-family: var(--font-sans);
+}
+
+.monospace {
+  font-family: var(--font-sans);
+}
+
+.theme {
+  font-size: var(--text-md);
+  line-height: 1.75;
+  --font-size: var(--text-md);
+
+  --table-padding: 0.5rem;
+
+  &.theme-serif,
+  .theme-serif {
+    font-family: var(--font-serif);
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: var(--font-sans);
+      color: var(--color-header);
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    line-height: var(--text-2xl--line-height);
+    margin-top: 1.6rem;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: var(--text-md);
+    line-height: var(--text-md--line-height);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  blockquote {
+    margin: 0;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--color-blockquote);
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 0.35rem;
+
+      border-radius: 0.35rem;
+      height: 100%;
+      background-color: var(--color-blockquote-before);
+    }
+
+    & > * {
+      margin-inline-start: 1.6rem;
+    }
+  }
+
+  p {
+    margin-block-start: var(--font-size);
+    margin-block-end: var(--font-size);
+    hyphens: auto;
+  }
+
+  small {
+    font-size: var(--text-sm);
+  }
+
+  ul,
+  ol {
+    padding-inline-start: 1.6em;
+    & > li {
+      padding-inline-start: 0.4em;
+    }
+  }
+
+  ul > li::marker {
+    color: var(--color-ul-marker);
+  }
+
+  ol > li::marker {
+    color: var(--color-ol-marker);
+  }
+
+  li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  hr {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border: none;
+    border-top: 1px solid var(--color-hr);
+  }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.93em;
+
+    &:before,
+    &:after {
+      content: "`";
+      font-weight: 400;
+    }
+  }
+
+  pre {
+    padding: 12px;
+    border-radius: 8px;
+    line-height: 1.45;
+    code {
+      font-weight: 400;
+      font-size: var(--text-sm);
+
+      &:before,
+      &:after {
+        content: none;
+      }
+    }
+  }
+
+  figure {
+    color: var(--color-blockquote);
+    font-size: var(--text-md);
+    margin: 0;
+    margin-block-start: calc(0px - var(--font-size));
+    margin-block-end: var(--font-size);
+  }
+
+  table {
+    font-size: var(--text-sm);
+    margin: 1.5rem 0;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    border-bottom: 1px solid var(--color-blockquote-before);
+  }
+
+  tr {
+    border-bottom: 1px solid var(--color-hr);
+  }
+
+  th {
+    color: var(--color-header);
+    font-weight: 600;
+    text-align: start;
+    padding: var(--table-padding);
+    &:first-of-type {
+      padding-inline-start: 0;
+    }
+    &:last-of-type {
+      padding-inline-end: 0;
+    }
+  }
+
+  td {
+    color: var(--color-blockquote);
+    padding: var(--table-padding);
+    &:first-of-type {
+      padding-inline-start: 0;
+    }
+    &:last-of-type {
+      padding-inline-end: 0;
+    }
+  }
+
+  @include mixin.large() {
+    --font-size: var(--text-xl);
+    --table-padding: 0.8rem;
+
+    font-size: var(--text-xl);
+    line-height: 1.75;
+
+    h1 {
+      font-size: var(--text-6xl);
+      line-height: var(--text-6xl--line-height);
+      margin-top: 3rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: var(--text-4xl);
+      margin-top: 3rem;
+      margin-bottom: 1.75rem;
+    }
+
+    h3 {
+      font-size: var(--text-2xl);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      font-size: var(--text-xl);
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    pre {
+      line-height: 1.25;
+      code {
+        font-size: var(--text-md);
+      }
+    }
+
+    small {
+      font-size: var(--text-lg);
+    }
+
+    figure {
+      font-size: var(--text-lg);
+    }
+
+    table {
+      font-size: var(--text-lg);
+    }
+  }
+}

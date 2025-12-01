@@ -1,29 +1,25 @@
 import rss from "@astrojs/rss";
-import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import { extraPages } from "../content/config";
+import { getPages } from "../Frontmatter";
 
 export async function GET(context) {
-  const pages = await getCollection("pages").then((posts) =>
-    posts
-      .filter((a) => a.data.draft != true)
-      .map((post) => ({
-        ...post.data,
-        pubDate: post.data.date,
-        link: `/pages/${post.slug}/`,
-      }))
-  );
-  const processedExtraPages = extraPages.filter((a) => a.data.draft != true).filter((a) => a.data.noRss != true)
+  const pages = getPages()
+  const items = pages
+    .filter((a) => a.frontmatter.unlisted != true)
+    .filter((a) => a.frontmatter.unlistedRss != true)
     .map((post) => ({
-      ...post.data,
-      pubDate: post.data.date,
+      title: post.frontmatter.title,
+      description: post.frontmatter.description,
+      pubDate: post.frontmatter.date,
       link: `/pages/${post.slug}/`,
     }))
+
+  console.log(items)
 
   return rss({
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: context.site,
-    items: [...pages, ...processedExtraPages],
+    items,
   });
 }

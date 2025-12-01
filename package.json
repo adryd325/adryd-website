@@ -1,21 +1,27 @@
 {
-  "name": "website2",
+  "name": "website4",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "pubdev": "astro dev --host 0.0.0.0",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "pubdev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview --host",
+    "astro": "astro",
+    "prepare": "husky"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/mdx": "^3.1.9",
-    "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.4.2",
-    "astro": "^4.16.18",
-    "typescript": "^5.8.3"
+    "@astrojs/mdx": "^4.3.12",
+    "@astrojs/rss": "^4.0.14",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.16.2",
+    "modern-normalize": "^3.0.1",
+    "scss": "^0.2.4",
+    "sharp": "^0.34.5",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "sass-embedded": "^1.93.3"
   }
 }

@@ -2,17 +2,25 @@
 
 (function oneko() {
   const nekoEl = document.createElement("div");
+  let header = document.getElementById("header")
 
-  let nekoPosX = 32;
-  let nekoPosY = 32;
+  let scroll = window.scrollY;
+  let headerPos = header.getBoundingClientRect()
+  let nekoPosX = headerPos.right + 18;
+  let nekoPosY = headerPos.bottom - 28 + scroll;
 
   let mousePosX = 0;
   let mousePosY = 0;
 
+  let sleeping = true;
+  let idleAnimation = "sleeping";
+  let idleAnimationFrame = 0;
+  let justAwake = false;
+
   const isReducedMotion =
     window.matchMedia(`(prefers-reduced-motion: reduce)`) === true ||
     window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
-  
+
   if (isReducedMotion) {
     return;
   }
@@ -21,7 +29,7 @@
   const nekoSites = [
     "localhost",
   ];
-  
+
   try {
     const searchParams = location.search
       .replace("?", "")
@@ -36,6 +44,7 @@
     if (tmp && tmp[1]) mousePosX = parseInt(tmp[1]);
     tmp = searchParams.find((a) => a[0] == "catdy");
     if (tmp && tmp[1]) mousePosY = parseInt(tmp[1]);
+    if (tmp && tmp[1]) sleeping = false;
   } catch (e) {
     console.error("oneko.js: failed to parse query params.");
     console.error(e);
@@ -74,10 +83,26 @@
   }
   document.addEventListener("click", onClick);
 
+  function onScroll(event) {
+    scroll = window.scrollY;
+  }
+  document.addEventListener("scroll", onScroll);
+
+  function onResize() {
+    if (sleeping) {
+      headerPos = header.getBoundingClientRect()
+      nekoPosX = headerPos.right + 18;
+      nekoPosY = headerPos.bottom - 28;
+      nekoEl.style.left = `${nekoPosX - 16}px`;
+      nekoEl.style.top = `${nekoPosY - 16}px`;
+    }
+  }
+  window.addEventListener("resize", onResize);
+  header.addEventListener("resize", onResize);
+  setTimeout(onResize,100)
+
   let frameCount = 0;
   let idleTime = 0;
-  let idleAnimation = null;
-  let idleAnimationFrame = 0;
 
   const nekoSpeed = 10;
   const spriteSets = {
@@ -149,13 +174,29 @@
     nekoEl.style.width = "32px";
     nekoEl.style.height = "32px";
     nekoEl.style.position = "fixed";
-    nekoEl.style.pointerEvents = "none";
     nekoEl.style.backgroundImage = "url('/static/neko/neko.gif')";
     nekoEl.style.imageRendering = "pixelated";
     nekoEl.style.left = `${nekoPosX - 16}px`;
     nekoEl.style.top = `${nekoPosY - 16}px`;
     nekoEl.style.zIndex = Number.MAX_VALUE;
-
+    if (sleeping) {
+      nekoEl.style.cursor = "pointer";
+      nekoEl.style.position = "absolute";
+    } else {
+      nekoEl.style.pointerEvents = "none";
+    }
+    nekoEl.onclick = () => {
+      sleeping = false;
+      justAwake = true;
+      idleAnimation = null;
+      idleTime = 999;
+      nekoPosY -= scroll
+      nekoEl.style.left = `${nekoPosX - 16}px`;
+      nekoEl.style.top = `${nekoPosY - 16}px`;
+      nekoEl.style.pointerEvents = "none";
+      nekoEl.style.cursor = "pointer";
+      nekoEl.style.position = "fixed";
+    }
     document.body.appendChild(nekoEl);
 
     document.addEventListener("mousemove", function (event) {
@@ -177,6 +218,8 @@
       frame();
     }
 
+    onResize();
+
     window.requestAnimationFrame(onAnimatonFrame);
   }
 
@@ -188,6 +231,7 @@
   function resetIdleAnimation() {
     idleAnimation = null;
     idleAnimationFrame = 0;
+
   }
 
   function idle() {
@@ -214,18 +258,18 @@
       }
       idleAnimation =
         avalibleIdleAnimations[
-          Math.floor(Math.random() * avalibleIdleAnimations.length)
+        Math.floor(Math.random() * avalibleIdleAnimations.length)
         ];
     }
 
     switch (idleAnimation) {
       case "sleeping":
-        if (idleAnimationFrame < 8) {
+        if (idleAnimationFrame < 8 && !sleeping) {
           setSprite("tired", 0);
           break;
         }
         setSprite("sleeping", Math.floor(idleAnimationFrame / 4));
-        if (idleAnimationFrame > 192) {
+        if (idleAnimationFrame > 192 && !sleeping) {
           resetIdleAnimation();
         }
         break;
@@ -252,10 +296,12 @@
     const diffY = nekoPosY - mousePosY;
     const distance = Math.sqrt(diffX ** 2 + diffY ** 2);
 
-    if (distance < nekoSpeed || distance < 48) {
+    if (!justAwake && (distance < nekoSpeed || distance < 48 || sleeping)) {
       idle();
       return;
     }
+
+
 
     idleAnimation = null;
     idleAnimationFrame = 0;
@@ -267,6 +313,8 @@
       idleTime -= 1;
       return;
     }
+
+    justAwake = false;
 
     let direction;
     direction = diffY / distance > 0.5 ? "N" : "";

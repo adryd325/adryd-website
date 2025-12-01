@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Zone 1 Kipling",
+    "start": "Kipling",
+    "end": "Old Mill",
+    "freq": 422.325
+  },
+  {
+    "name": "Zone 2 Keele",
+    "start": "Old Mill",
+    "end": "Ossington",
+    "freq": 422.525
+  },
+  {
+    "name": "Zone 3 Bay",
+    "start": "Ossington",
+    "end": "Chester",
+    "freq": 422.2625
+  },
+  {
+    "name": "Zone 4 Greenwood",
+    "start": "Chester",
+    "end": "Victoria Park",
+    "freq": 422.4625
+  },
+  {
+    "name": "Zone 5 Kennedy",
+    "start": "Victoria Park",
+    "end": "Kennedy",
+    "freq": 422.525,
+    "footnote": "I was able to recieve this with a very weak signal as far as Coxwell."
+  },
+  {
+    "name": "Zone 6 Downsview",
+    "start": "York University",
+    "end": "Lawrence West",
+    "freq": 422.525
+  },
+  {
+    "name": "Zone 7 St. Clair West",
+    "start": "Lawrence West",
+    "end": "St. George",
+    "freq": 422.4625
+  },
+  {
+    "name": "Zone 8 Union",
+    "start": "St. George",
+    "end": "Bloor-Yonge",
+    "freq": 422.325
+  },
+  {
+    "name": "Zone 9 Davisville",
+    "start": "Bloor-Yonge",
+    "end": "Lawrence",
+    "freq": 422.525
+  },
+  {
+    "name": "Zone 10 Finch",
+    "start": "Lawrence",
+    "end": "Finch",
+    "freq": 422.2625
+  },
+  {
+    "name": "Zone 11 Sheppard-Yonge",
+    "start": "Sheppard-Yonge",
+    "end": "Bessarion",
+    "freq": 422.4625
+  },
+  {
+    "name": "Zone 12 Don Mills",
+    "start": "Bessarion",
+    "end": "Don Mills",
+    "freq": 422.325
+  },
+  {
+    "name": "Zone 13 VMC",
+    "start": "Vaughan Metropolitan Centre",
+    "end": "York University",
+    "freq": 422.2625
+  }
+]

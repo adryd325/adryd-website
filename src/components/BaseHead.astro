@@ -1,35 +1,42 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import "../styles/global.css";
+import "@/global.scss";
 
 interface Props {
-  title?: string;
-  description?: string;
-  image?: string;
+  frontmatter: Frontmatter;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-const { title, description = "", image } = Astro.props;
+import type { Frontmatter } from "@/Frontmatter";
+const { frontmatter } = Astro.props;
 
-const formattedTitle = title ? title + " - " + SITE_TITLE : SITE_TITLE;
+const formattedTitle = frontmatter.title.startsWith("$")
+  ? frontmatter.title.replace("$", "")
+  : frontmatter.title + " | adryd.com";
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
 <link
   rel="preload"
-  href="/static/fonts/PretendardStdVariable.woff2"
+  href="/static/fonts/pretendard-variable.woff2"
   as="font"
   type="font/woff"
-  crossorigin
 />
+<link
+  rel="preload"
+  href="/static/fonts/source-serif-4-variable.woff2"
+  as="font"
+  type="font/woff"
+/>
+
+<!-- Global Metadata -->
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -37,17 +44,20 @@ const formattedTitle = title ? title + " - " + SITE_TITLE : SITE_TITLE;
 <!-- Primary Meta Tags -->
 <title>{formattedTitle}</title>
 <meta name="title" content={formattedTitle} />
-<meta name="description" content={description} />
+<meta name="description" content={frontmatter.description} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={formattedTitle} />
-<meta property="og:description" content={description} />
-{image && <meta property="og:image" content={new URL(image, Astro.url)} />}
+<meta property="og:description" content={frontmatter.description} />
+<!-- {image && <meta property="og:image" content={new URL(image, Astro.url)} />} -->
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
+
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={formattedTitle} />
-<meta property="twitter:description" content={description} />
-{image && <meta property="twitter:image" content={new URL(image, Astro.url)} />}
+<meta property="twitter:description" content={frontmatter.description} />
+<!-- {image && (
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:image" content={new URL(image, Astro.url)} />
+)} -->

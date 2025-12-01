@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import json from "../data/friends.json";
+import json from "./friends.json";
 
 type FriendBase = {
   neko?: boolean;
@@ -31,21 +31,36 @@ const aFriends = sortedFriends.filter((f): f is FriendA => "name" in f);
 const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
 ---
 
-<style>
+<style lang="scss">
+  @use "../mixin";
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1rem 0;
+  }
+
   .buttons img {
+    border-radius: 0;
     image-rendering: pixelated;
   }
 
   .buttons a {
     display: inline-flex;
   }
-
+  .links {
+    margin: 1rem 0;
+  }
   .links span {
     display: inline-block;
+    @include mixin.large() {
+      font-size: var(--text-lg);
+    }
   }
 </style>
 
-<span class="buttons">
+<div class="buttons">
   <Image src="/static/buttons/adryd.png" alt="adryd" width={88} height={31} />
   {
     imgFriends.map((friend: FriendImg) => (
@@ -62,9 +77,8 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
       </>
     ))
   }
-</span>
-<br />
-<span class="links">
+</div>
+<div class="links">
   {
     // I really dont know what to do to get whitespace to work here.
     // Just wrapping everything in a span seems to work, but I hate it
@@ -78,4 +92,4 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
       </>
     ))
   }
-</span>
+</div>

@@ -1,0 +1,36 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+
+type Props = MarkdownLayoutProps<{}>;
+
+import PageDate from "@/components/pages/PageDate.astro";
+import Default from "@/layouts/Default.astro";
+import "../global.scss";
+import { ZodPagesFrontmatter } from "@/Frontmatter";
+import Footer from "@/components/Footer.astro";
+
+const { frontmatter } = Astro.props;
+
+const frontmatterParsed = ZodPagesFrontmatter.parse(frontmatter);
+---
+
+<Default frontmatter={frontmatterParsed}>
+  <div class="container theme">
+    <nav style="margin: 1.5rem 0;">
+      <a class="fancy-link" href="/">home →</a>{" "}
+      <a class="fancy-link" href="/pages/">pages →</a>
+    </nav>
+    <article
+      class={`${frontmatter?.theme?.links !== "normal" ? "fancy-link" : ""}` +
+        ` ${frontmatter?.theme?.font !== "sans-serif" ? "theme-serif" : ""}`}
+    >
+      <h1>{frontmatterParsed.title}</h1>
+      <PageDate
+        date={frontmatterParsed.date}
+        updatedDate={frontmatterParsed.updatedDate}
+      />
+      <slot />
+    </article>
+  </div>
+  <Footer />
+</Default>

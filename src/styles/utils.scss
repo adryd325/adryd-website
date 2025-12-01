@@ -1,0 +1,85 @@
+:root {
+  /* https://uicolors.app/generate */
+
+  // #70bcda
+  --color-seagull-50: oklch(97.65% 0.01 241.66);
+  --color-seagull-100: oklch(95.19% 0.02 235.38);
+  --color-seagull-200: oklch(89.9% 0.04 228.45);
+  --color-seagull-300: oklch(81.74% 0.07 225.97);
+  --color-seagull-400: oklch(75.7% 0.09 225.44);
+  --color-seagull-500: oklch(64.31% 0.11 229.03);
+  --color-seagull-600: oklch(55.14% 0.1 233.57);
+  --color-seagull-700: oklch(47.36% 0.08 234.29);
+  --color-seagull-800: oklch(42.25% 0.07 232.95);
+  --color-seagull-900: oklch(37.85% 0.06 233.54);
+  --color-seagull-950: oklch(28.8% 0.04 236.09);
+
+  // #70bcda but drag the saturation slider all the way up
+  --color-picton-blue-50: oklch(97.91% 0.01 228.92);
+  --color-picton-blue-100: oklch(95.74% 0.03 225.31);
+  --color-picton-blue-200: oklch(91.6% 0.06 218.97);
+  --color-picton-blue-300: oklch(85.63% 0.1 218.88);
+  --color-picton-blue-400: oklch(79.76% 0.13 220.75);
+  --color-picton-blue-500: oklch(75.98% 0.14 223.78);
+  --color-picton-blue-600: oklch(63.38% 0.13 230.35);
+  --color-picton-blue-700: oklch(54.04% 0.11 231.02);
+  --color-picton-blue-800: oklch(47.75% 0.09 228.89);
+  --color-picton-blue-900: oklch(41.79% 0.08 228.88);
+  --color-picton-blue-950: oklch(31.05% 0.06 233);
+
+  // https://github.com/tailwindlabs/tailwindcss/blob/764275143eaac5f6ef7abb6dd22e51a6cd2f9dd1/packages/tailwindcss/theme.css
+  --color-gray-50: oklch(98.5% 0 0);
+  --color-gray-100: oklch(97% 0 0);
+  --color-gray-200: oklch(92.2% 0 0);
+  --color-gray-300: oklch(87% 0 0);
+  --color-gray-400: oklch(70.8% 0 0);
+  --color-gray-500: oklch(55.6% 0 0);
+  --color-gray-600: oklch(43.9% 0 0);
+  --color-gray-700: oklch(37.1% 0 0);
+  --color-gray-800: oklch(26.9% 0 0);
+  --color-gray-900: oklch(20.5% 0 0);
+  --color-gray-950: oklch(14.5% 0 0);
+
+  --color-stone-50: oklch(98.5% 0.001 106.423);
+  --color-stone-100: oklch(97% 0.001 106.424);
+  --color-stone-200: oklch(92.3% 0.003 48.717);
+  --color-stone-300: oklch(86.9% 0.005 56.366);
+  --color-stone-400: oklch(70.9% 0.01 56.259);
+  --color-stone-500: oklch(55.3% 0.013 58.071);
+  --color-stone-600: oklch(44.4% 0.011 73.639);
+  --color-stone-700: oklch(37.4% 0.01 67.558);
+  --color-stone-800: oklch(26.8% 0.007 34.298);
+  --color-stone-900: oklch(21.6% 0.006 56.043);
+  --color-stone-950: oklch(14.7% 0.004 49.25);
+
+  --color-black: #000;
+  --color-white: #fff;
+
+  // Also yoinked from tailwind
+  --text-xs: 0.75rem;
+  --text-xs--line-height: calc(1 / 0.75);
+  --text-sm: 0.875rem;
+  --text-sm--line-height: calc(1.25 / 0.875);
+  --text-md: 1rem;
+  --text-md--line-height: calc(1.5 / 1);
+  --text-lg: 1.125rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+}

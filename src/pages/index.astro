@@ -1,123 +1,94 @@
 ---
-// import Default from "../layouts/Default.astro";
-import Friends from "../components/Friends.astro";
 import Default from "../layouts/Default.astro";
-import Footer from "../components/Footer.astro";
-import NekoJS from "../components/NekoJS.astro";
-import Construction from "../components/Construction.astro";
+import Friends from "../components/Friends.astro";
+import Footer from "@/components/Footer.astro";
+import NekoJS from "@/components/NekoJS.astro";
+import { SITE_DESCRIPTION } from "@/consts";
+
+export const frontmatter = {
+  title: "$hi, i'm ari!",
+  description: SITE_DESCRIPTION
+}
 ---
 
-<Default title="home">
-  <style>
-    ul,
-    ol {
-      padding-left: 0;
-      list-style-type: none;
+<style lang="scss">
+  @use "../mixin";
+
+  h1 {
+    font-weight: 900;
+    font-size: var(--text-6xl);
+    line-height: var(--text-6xl--line-height);
+    margin-bottom: 1rem;
+
+    @include mixin.large() {
+      font-size: var(--text-8xl);
+      line-height: var(--text-8xl--line-height);
+      margin-bottom: 0.8rem;
     }
-    .inline-flex {
-      display: inline-flex;
-    }
-    h1 {
-      margin: 3rem 0 1rem;
-      padding: 0;
-      font-weight: 900;
-      font-size: 5rem;
-    }
-    h2 {
-      font-weight: 900;
-      font-size: 2.5rem;
-      margin: 1.5rem 0 0;
-    }
-    .subtitle {
-      font-weight: 500;
-      margin: 0;
-    }
-  </style>
-  <main>
-    <div class="page-view">
-      <h1>hi, i'm ari!</h1>
-      <p style="font-weight: 700; font-size: 1.25rem; line-height: 1">
-        (a.k.a adryd, Ariana)
-      </p>
-      <p style="font-weight: 500; font-size: 1.125rem;">
-        this is my website where i post the silly things i'm working on. i like
-        computers, trains, radios, making bad designs and wearing a witch hat
-        for fun.
-      </p>
-      <section>
-        <h2><a class="subtle-link" href="/pages">pages →</a></h2>
-        <p class="subtitle">reference, projects, blogposts and all that jazz</p>
-        <ul>
-          <li>
-            <a class="fancy-link" href="/pages/ttc-radio-zones/"
-              >TTC Radio Underground Zones →</a
-            >
-          </li>
-          <li>
-            <a class="fancy-link" href="/pages/trains">trains!!! →</a>
-          </li>
-          <li>
-            <a class="fancy-link" href="/pages/bookmarks">Bookmarks →</a>
-          </li>
-          <li>
-            <a class="fancy-link" href="/pages/daily-carry">Daily Carry →</a>
-          </li>
-          <li>
-            <a class="fancy-link" href="/pages/travel-bandplan"
-              >Travel Bandplan →</a
-            >
-          </li>
-          <li>
-            <a
-              class="fancy-link"
-              href="https://github.com/moonlight-mod/webpackTools"
-              >Webpack Patching Framework →</a
-            >
-          </li>
-          <li>
-            <a class="fancy-link" href="https://github.com/adryd325/oneko.js"
-              >My cat →</a
-            >
-          </li>
-        </ul>
-      </section>
-      <!-- <section>
-        <h2>contact me</h2>
-        <p class="subtitle">i'm shy, but if you must</p>
-        <ul>
-          <li>
-            <a
-              class="fancy-link"
-              style="cursor: pointer"
-              href="mailto:"
-              onclick="this.href=`mailto:${('em').split('').reverse().join('')}\u0040${window.location.host}`"
-              >email →</a
-            >
-          </li>
-          <li>
-            <a
-              class="fancy-link"
-              rel="me"
-              href="https://tacobelllabs.net/@adryd">the fediverse →</a
-            >
-          </li> 
+  }
+
+  .aka {
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0.7rem 0;
+  }
+
+  h2 {
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  ul > li {
+    padding-inline-start: 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+</style>
+
+<Default frontmatter={frontmatter}>
+  <div class="container theme sa">
+    <h1 class="intro">
+      <span id="header"
+        >hi, i'm <span style="color: var(--color-seagull-400)">ari!</span></span
+      >
+    </h1>
+    <p class="aka">(a.k.a adryd, Ariana)</p>
+    <p>
+      this is my website where i post the silly things i'm working on. i like
+      computers, trains, radios, making bad designs and wearing a witch hat for
+      fun.
+    </p>
+    <h2><a class="subtle-link" href="/pages/">pages →</a></h2>
+    <p>reference, blog posts, and all that jazz</p>
+    <ul class="fancy-link">
       <li>
-        <a class="fancy-link" rel="me" href="https://github.com/adryd325"
-          >github →</a
-        >
+        <a href="/pages/3d-printing-medeco-m3-keys"
+          >3D printing medeco m3 keys →</a>
       </li>
       <li>
-        <a class="fancy-link" rel="me" href="https://gitlab.com/adryd"
-          >gitlab →</a
+        <a href="/pages/ttc-radio-zones">ttc radio underground zones →</a>
+      </li>
+      <li><a href="/pages/trains">trains!!! →</a></li>
+      <li><a href="/pages/bookmarks">bookmarks →</a></li>
+      <li><a href="/pages/daily-carry">daily carry →</a></li>
+      <li><a href="https://github.com/adryd325/oneko.js">my cat →</a></li>
+      <li>
+        <a href="https://github.com/moonlignt-mod/webpackTools"
+          >webpack patching thing →</a
         >
       </li>
-    </div> -->
-      <section>
-        <h2>my friends</h2>
-        <Friends />
-      </section>
-    </div>
-  </main>
+    </ul>
+    <h2>my friends</h2>
+    <p>i love you all so much :)</p>
+    <Friends />
+  </div>
   <Footer />
   <NekoJS />
 </Default>

@@ -1,7 +1,15 @@
 ---
-import Construction from "../../../components/Construction.astro";
-import NavLayout from "../../../layouts/NavLayout.astro";
-import Trains from "./trains";
+// import Construction from "../../../components/Construction.astro";
+import DefaultNav from "@/layouts/DefaultNav.astro";
+import Trains from "./_trains";
+import PageDate from "@/components/pages/PageDate.astro";
+
+export const frontmatter = {
+  title: "trains!!!",
+  description: "A bunch of train graphics for trains I like",
+  date: new Date("2024-01-01"),
+  updatedDate: undefined,
+};
 ---
 
 <style>
@@ -23,25 +31,25 @@ import Trains from "./trains";
     }
   }
 
-  :root {
-    --fancy-link-text-color: #3f6212;
-    --fancy-link-text-color-hover: #4d7c0f;
-    --fancy-link-background-color: #a3e63533;
-    --fancy-link-background-color-hover: #bef26433;
+  /* :root {
+    --color-fancy-link-text: #3f6212;
+    --color-fancy-link-text-hover: #4d7c0f;
+    --color-fancy-link-background: #a3e63533;
+    --color-fancy-link-background-hover: #bef26433;
 
     --subtle-link-background-color: #bef26433;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --fancy-link-text-color: #84cc16;
-      --fancy-link-text-color-hover: #a3e635;
-      --fancy-link-background-color: #65a30d33;
-      --fancy-link-background-color-hover: #84cc1633;
+      --color-fancy-link-text: #84cc16;
+      --color-fancy-link-text-hover: #a3e635;
+      --color-fancy-link-background: #65a30d33;
+      --color-fancy-link-background-hover: #84cc1633;
 
       --subtle-link-background-color: #bef26433;
     }
-  }
+  } */
 
   img {
     height: 200px;
@@ -54,6 +62,15 @@ import Trains from "./trains";
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
+  .grid > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .grid > div > img {
+    justify-self: center;
+  }
   h2 {
     line-height: 1;
     margin-bottom: 0;
@@ -74,10 +91,11 @@ import Trains from "./trains";
   });
 </script>
 
-<NavLayout title="trains!!!">
+<DefaultNav frontmatter={frontmatter}>
   <main>
     <article class="page-view">
       <h1>trains!!!</h1>
+      <PageDate date={frontmatter.date} updatedDate={frontmatter.updatedDate} />
       <p>
         Original svgs can be downloaded from the
         <a class="fancy-link" href="https://github.com/adryd325/train-graphics"
@@ -103,4 +121,4 @@ import Trains from "./trains";
       </div>
     </article>
   </main>
-</NavLayout>
+</DefaultNav>

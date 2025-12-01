@@ -1,5 +1,5 @@
 ---
-import Logo from "./Logo.astro";
+import Logo from "./Logo.svg";
 
 const today = new Date();
 
@@ -13,12 +13,52 @@ for (let i = 0; i < 4; i++) {
 }
 ---
 
+<style lang="scss">
+  @use "@/mixin";
+
+  footer {
+    padding: 1.5em 0.5em;
+    background-color: var(--color-stone-100);
+    color: var(--color-stone-700);
+    margin-top: 3rem;
+    font-size: var(--text-xs);
+    line-height: 1.5;
+    @include mixin.large() {
+      font-size: var(--text-sm);
+      line-height: 1.5;
+    }
+    @include mixin.dark() {
+      background-color: var(--color-gray-800);
+      color: var(--color-gray-200);
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .logo {
+    display: block;
+    color: var(--color-stone-800);
+    text-decoration: none;
+    @include mixin.dark() {
+      color: var(--color-gray-300);
+    }
+    svg {
+      height: 68px;
+      @include mixin.large() {
+        height: 74px;
+      }
+    }
+  }
+</style>
+
 <footer>
-  <div class="page-view">
-    <div class="logo">
-      <a href="/"><Logo /></a>
+  <div class="container">
+    <div>
+      <a class="logo" href="/"><Logo /></a>
     </div>
-    <small
+    <span
       >copyright &copy; {today.getFullYear()} Ariana "adryd" redacted. this website
       is dual licensed under the MIT license and <a
         href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a
@@ -32,23 +72,6 @@ for (let i = 0; i < 4; i++) {
       >
       <br />
       <span>{ornaments.join(" ")}</span>
-    </small>
+    </span>
   </div>
 </footer>
-
-<style>
-  footer {
-    padding: 1.5em;
-    background-color: var(--background-color-1);
-    margin-top: auto;
-    line-height: 1rem;
-  }
-
-  small {
-    font-size: 0.75rem;
-  }
-
-  svg {
-    line-height: 0rem;
-  }
-</style>

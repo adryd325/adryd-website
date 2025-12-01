@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+echo "Scanning and removing exif..."
+# Needs to be posix compliant cause windows...
+FILETYPES="jpg
+jpeg
+jxl
+png
+gif
+webp
+avif
+mp4
+mov
+"
+printf '%s' "$FILETYPES" |
+  while IFS='' read -r EXTENSION
+  do
+    find . \( -path ./node_modules -o -path ./.git \) -prune -o -iname "*.${EXTENSION}" -print0 | xargs -0 exiftool -overwrite_original -m -gps:all= || true 
+  done

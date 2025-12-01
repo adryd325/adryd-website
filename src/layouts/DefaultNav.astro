@@ -1,0 +1,22 @@
+---
+import Footer from "@/components/Footer.astro";
+import Default from "./Default.astro";
+import type { Frontmatter } from "@/Frontmatter";
+
+type Props = { frontmatter: Frontmatter };
+
+const { frontmatter } = Astro.props;
+---
+
+<Default frontmatter={frontmatter}>
+  <div class="container theme">
+    <nav style="margin: 1.5rem 0;">
+      <a class="fancy-link" href="/">home →</a>{" "}
+      <a class="fancy-link" href="/pages/">pages →</a>
+    </nav>
+    <article>
+      <slot />
+    </article>
+  </div>
+  <Footer />
+</Default>

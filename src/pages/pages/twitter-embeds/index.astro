@@ -1,29 +1,30 @@
 ---
 import { Image } from "astro:assets";
-import Header from "../../../components/Header.astro";
-import Default from "../../../layouts/Default.astro";
+import DefaultNav from "../../../layouts/Default.astro";
 
-import imageDark from "./header-dark.png";
+import imageDark from "./_header-dark.png";
 import Footer from "../../../components/Footer.astro";
+import PageDate from "@/components/pages/PageDate.astro";
+
+export const frontmatter = {
+  title: "Twitter Embeds",
+  description:
+    "a Discord bot that used to fix embeds from Twitter, TikTok and Reddit",
+  date: new Date("2023-01-01"),
+  updatedDate: new Date("2025-11-30"),
+};
 ---
 
-<!--
-  <style>
-    ul,
-    ol {
-      padding-left: 0;
-      list-style-type: none;
-    }
-  </style>
--->
 <style>
-  :root {
+  .wrapper {
     background-color: #eb459e;
 
-    --fancy-link-text-color: #a32b6b;
-    --fancy-link-text-color-hover: #c15a91;
-    --fancy-link-background-color: #eb459e33;
-    --fancy-link-background-color-hover: #e77cb533;
+    --color-fancy-link-text: #a32b6b;
+    --color-fancy-link-text-hover: #c15a91;
+    --color-fancy-link-background: #eb459e33;
+    --color-fancy-link-background-hover: #e77cb533;
+
+    padding: 24px 0 0 24px;
   }
 
   main {
@@ -32,13 +33,12 @@ import Footer from "../../../components/Footer.astro";
 
   /* Twitter Embeds Special*/
   .page {
-    margin: 24px 0 0 24px;
     border-radius: 24px 0 0 0;
-    background-color: var(--background-color);
+    background-color: var(--color-background);
     color: var(--text-color);
     height: auto;
-    padding: 0 1.5rem 1.5rem 0;
     min-height: calc(100vh - 222px);
+    padding-bottom: 3rem;
   }
 
   .no-overflow,
@@ -49,39 +49,42 @@ import Footer from "../../../components/Footer.astro";
   }
 
   @media only screen and (max-width: 1080px) {
-    .page {
-      margin: 24px 0 0 0;
-      padding: 0 1.5rem 1.5rem 1.5rem;
+    .wrapper {
+      padding: 24px 0 0 0;
     }
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
+    .wrapper {
       background-color: #6a2349;
 
-      --fancy-link-text-color: #eb459e;
-      --fancy-link-text-color-hover: #ef7eba;
-      --fancy-link-background-color: #eb459e33;
-      --fancy-link-background-color-hover: #e77cb533;
+      --color-fancy-link-text: #eb459e;
+      --color-fancy-link-text-hover: #ef7eba;
+      --color-fancy-link-background: #eb459e33;
+      --color-fancy-link-background-hover: #e77cb533;
     }
   }
 </style>
-<Default>
-  <div class="page">
-    <div class="page-view">
-      <!-- Hack cause of page element margin -->
-      <div style="display: flex; margin-bottom: -1.5em">
-        <Header />
-      </div>
-      <h1>Twitter Embeds</h1>
-      <p class="subtitle">
-        Twitter Embeds was a discord bot that fixed embeds from Twitter, TikTok
-        and Reddit on Discord with a goal of convinience, seamlessness, and
-        feature-completeness. It parsed and obeys Discord's own markdown rules,
-        and allowed users to delete their own messages via reactions.
-      </p>
-      <p class="subtitle">
-        <b>
+<DefaultNav frontmatter={frontmatter}>
+  <div class="wrapper">
+    <div class="page">
+      <div class="container theme fancy-link">
+        <!-- Hack cause of page element margin -->
+        <div style="display: flex; margin-bottom: -1.5em">
+          <nav style="margin: 1.5rem 0;">
+            <a class="fancy-link" href="/">home →</a>{" "}
+            <a class="fancy-link" href="/pages/">pages →</a>
+          </nav>
+        </div>
+        <h1>Twitter Embeds</h1>
+        <PageDate date={frontmatter.date} />
+        <p>
+          Twitter Embeds was a discord bot that fixed embeds from Twitter,
+          TikTok and Reddit on Discord with a goal of convinience, seamlessness,
+          and feature-completeness. It parsed and obeys Discord's own markdown
+          rules, and allowed users to delete their own messages via reactions.
+        </p>
+        <p>
           Due to my own lack of motivation, the moderation issues with Twitter,
           API changes with Reddit and TikTok embeds being inconsistent, I've
           decided to stop operating the bot. stealthgyro seems to be maintaining
@@ -89,76 +92,66 @@ import Footer from "../../../components/Footer.astro";
             href="https://github.com/stealthgyro/tilted-embeds"
             >https://github.com/stealthgyro/tilted-embeds</a
           >. If you're reading this, thanks for continuing the project. &lt;3
-        </b>
-      </p>
-      <!-- <h3>
-        <a class="fancy-link" href="https://adryd.co/twitter-embeds"
-          >add the bot →</a
-        >
-      </h3>
-      <a
-        class="fancy-link"
-        href="https://github.com/adryd325/discord-twitter-video-embeds"
-        >host your own instance →</a
-      > -->
-      <div class="no-overflow">
-        <Image
-          src={imageDark}
-          width="697.5"
-          alt="Usage of twitter embed bot. Ari pastes a twitter link and the twitter embeds bot returns an embed with a video of a cat and details about the post"
-        />
+        </p>
+          <Image
+            src={imageDark}
+            width="697.5"
+            alt="Usage of twitter embed bot. Ari pastes a twitter link and the twitter embeds bot returns an embed with a video of a cat and details about the post"
+          />
+        <h2>Usage</h2>
+        You can use the bot by
+        <a href="https://adryd.co/twitter-embeds"
+          >adding it to your Discord server</a
+        >, or sending it a direct message. It has 3 different embed modes to
+        best fit with your server.
+        <h2>Additional Features</h2>
+        <ul>
+          <li>
+            The bot obeys spoilers, and all of Discord's markdown rules that may
+            prevent a link from embeding (Including quirks)
+          </li>
+          <li>
+            Users can delete their own re-composed messages or bot replies to
+            their messages bt reacting with an "X" emoji.
+          </li>
+          <li>
+            The bot integrates with
+            <a
+              href="https://discordapp.com/oauth2/authorize?client_id=173441062243663872&scope=bot"
+              >HiddenPhox</a
+            >
+            and replies to HiddenPhox's quote-retweet unrolling
+          </li>
+        </ul>
+        <h2>Special Thanks</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Brecert">Brecert</a>: Twitter Guest
+            Client Implementation.
+          </li>
+          <li>
+            <a href="https://github.com/ytdl-org/youtube-dl">Youtube DL</a>:
+            Reference for Instagram, Reddit, Tiktok and Twitter Clients.
+          </li>
+          <li>
+            <a href="https://generalprogramming.org/">general-programming</a>:
+            Allowing me to use proxy.knotty.dev as a fallback for oversized
+            reddit videos.
+          </li>
+          <li>
+            <a href="https://c7.pm/">Cynthia</a>: Implementing seperate upload
+            limits for boosted servers. Various other small
+            features/improvements.
+          </li>
+        </ul>
+        <br>
+        And since everyone always asks:
+        <h3 class="margin-even">What's the icon supposed to be?</h3>
+        The icon is meant to a simplification of Discord's UI of a message reply.
       </div>
-      <h2>Usage</h2>
-      You can use the bot by
-      <a href="https://adryd.co/twitter-embeds"
-        >adding it to your Discord server</a
-      >, or sending it a direct message. It has 3 different embed modes to best
-      fit with your server.
-      <h2>Additional Features</h2>
-      <ul>
-        <li>
-          The bot obeys spoilers, and all of Discord's markdown rules that may
-          prevent a link from embeding (Including quirks)
-        </li>
-        <li>
-          Users can delete their own re-composed messages or bot replies to
-          their messages bt reacting with an "X" emoji.
-        </li>
-        <li>
-          The bot integrates with
-          <a
-            href="https://discordapp.com/oauth2/authorize?client_id=173441062243663872&scope=bot"
-            >HiddenPhox</a
-          >
-          and replies to HiddenPhox's quote-retweet unrolling
-        </li>
-      </ul>
-      <h2>Special Thanks</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/Brecert">Brecert</a>: Twitter Guest Client
-          Implementation.
-        </li>
-        <li>
-          <a href="https://github.com/ytdl-org/youtube-dl">Youtube DL</a>:
-          Reference for Instagram, Reddit, Tiktok and Twitter Clients.
-        </li>
-        <li>
-          <a href="https://generalprogramming.org/">general-programming</a>:
-          Allowing me to use proxy.knotty.dev as a fallback for oversized reddit
-          videos.
-        </li>
-        <li>
-          <a href="https://c7.pm/">Cynthia</a>: Implementing seperate upload
-          limits for boosted servers. Various other small features/improvements.
-        </li>
-      </ul>
-      <br />
-      <br />
-      And since everyone always asks:
-      <h3 class="margin-even">What's the icon supposed to be?</h3>
-      The icon is meant to a simplification of Discord's UI of a message reply.
     </div>
   </div>
-  <Footer />
-</Default>
+  <div style="margin-top: -3rem;">
+    <Footer />
+  </div>
+</DefaultNav>
