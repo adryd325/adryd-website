@@ -29,7 +29,7 @@ export const ZodPagesFrontmatter = z.object({
   coverImageAlt: z.string().optional(),
 });
 
-export type PagesFrontMatter = {
+export type PagesFrontmatter = {
   title: string,
   description: string,
   date: Date,
