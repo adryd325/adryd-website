@@ -27,6 +27,10 @@ export const ZodPagesFrontmatter = z.object({
   unlistedRss: z.boolean().default(false).optional(),
   coverImage: z.string().optional(),
   coverImageAlt: z.string().optional(),
+  theme: z.object({
+    font: z.string(),
+    links: z.string()
+  }).optional()
 });
 
 export type PagesFrontmatter = {
@@ -38,6 +42,10 @@ export type PagesFrontmatter = {
   unlistedRss?: boolean,
   coverImage?: ImageMetadata | string,
   coverImageAlt?: string,
+  theme?: {
+    font?: "serif" | "sans-serif",
+    links?: "fancy" | "normal"
+  }
 }
 
 const slugRegexp = /^\.\/pages\/pages\/(.+)\/_?index\.(astro|md|mdx|json)$/;

@@ -1,14 +1,15 @@
 ---
 import type { MarkdownLayoutProps } from "astro";
 
-type Props = MarkdownLayoutProps<{}>;
+type Props = MarkdownLayoutProps<PagesFrontmatter>;
 
 import PageDate from "@/components/pages/PageDate.astro";
 import Default from "@/layouts/Default.astro";
 import "../global.scss";
-import { ZodPagesFrontmatter } from "@/Frontmatter";
+import { ZodPagesFrontmatter, type Frontmatter } from "@/Frontmatter";
 import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
+import type { PagesFrontmatter } from "@/Frontmatter";
 
 const { frontmatter } = Astro.props;
 
