@@ -45,7 +45,7 @@ a.fancy-link:hover {
 
 .container {
   width: expression(
-    document.documentElement.clientWidth > 960 ? "960px": "auto"
+    document.documentElement.clientWidth > 960 ? "960px" : "auto"
   );
 }
 
@@ -120,6 +120,10 @@ h4 {
   font-weight: 700;
 }
 
+figure {
+  display: block;
+}
+
 .nav {
   margin: 24px 0;
 }
@@ -154,6 +158,10 @@ h4 {
   text-decoration: none;
 }
 
+.ie-page-index .ari {
+  color: #6dbcdc;
+}
+
 .ie-page-index .aka {
   font-weight: 500;
 }
@@ -161,3 +169,4 @@ h4 {
 .ie-page-pages .entry a {
   text-decoration: none;
 }
+

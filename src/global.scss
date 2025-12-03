@@ -262,9 +262,7 @@ button.fancy-link {
     color: var(--color-blockquote);
     font-size: $fallback-text-md;
     font-size: var(--text-md);
-    margin: 0;
-    margin-block-start: calc(0px - var(--font-size));
-    margin-block-end: var(--font-size);
+    margin: 0.75rem 0 2rem;
   }
 
   table {
