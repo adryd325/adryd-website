@@ -14,26 +14,21 @@ for (let i = 0; i < 4; i++) {
 ---
 
 <style lang="scss">
-  @use "@/mixin" as *;
+  @use "@/lib" as *;
 
   .footer {
-    padding: 24px 0 8px;
-    padding: 1.5rem 0.5rem;
-    background-color: $fallback-color-footer;
-    background-color: var(--color-stone-100);
-    color: var(--color-stone-700);
-    margin-top: 48px;
-    margin-top: 3rem;
-    font-size: $fallback-text-xs;
-    font-size: var(--text-xs);
+    padding: rem(1.5) rem(0.5);
+    background-color: $color-stone-100;
+    color: $color-stone-700;
+    margin-top: rem(3);
+    font-size: $text-xs;
     line-height: 1.5;
     @include large() {
-      font-size: var(--text-sm);
-      line-height: 1.5;
+      font-size: $text-sm;
     }
     @include dark() {
-      background-color: var(--color-gray-800);
-      color: var(--color-gray-200);
+      background-color: $color-gray-800;
+      color: $color-gray-200;
     }
   }
 
@@ -43,10 +38,10 @@ for (let i = 0; i < 4; i++) {
 
   .logo {
     display: block;
-    color: var(--color-stone-800);
+    color: $color-stone-800;
     text-decoration: none;
     @include dark() {
-      color: var(--color-gray-300);
+      color: $color-gray-300;
     }
     svg {
       height: 68px;

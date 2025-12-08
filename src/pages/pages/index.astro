@@ -15,7 +15,7 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
 ---
 
 <style lang="scss">
-  @use "@/mixin" as *;
+  @use "@/lib" as *;
   .entry a {
     display: block;
     color: inherit;
@@ -23,17 +23,17 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
   }
 
   .entry h2 {
-    font-size: $fallback-text-2xl;
-    font-size: var(--text-2xl);
-    margin: 1.5rem 0 0.5rem;
+    font-size: $text-2xl;
+    line-height: $text-2xl--line-height;
+    margin: rem(1.5) 0 rem(0.5);
   }
 
   .entry .date {
-    color: var(--color-blockquote);
+    @include theme-color("blockquote");
   }
 
   .entry p {
-    margin: 0.5rem 0;
+    margin: rem(0.5) 0;
   }
   .rss-link:hover {
     color: #ea580c;

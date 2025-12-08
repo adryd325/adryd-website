@@ -32,13 +32,13 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
 ---
 
 <style lang="scss">
-  @use "@/mixin" as *;
+  @use "@/lib" as *;
 
   .buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 1rem 0;
+    margin: rem(1) 0;
   }
 
   .buttons img {
@@ -51,12 +51,13 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
     text-decoration: none;
   }
   .links {
-    margin: 1rem 0;
+    margin: rem(1) 0;
   }
   .links span {
     display: inline-block;
     @include large() {
-      font-size: var(--text-lg);
+      font-size: $text-lg;
+      line-height: $text-lg--line-height;
     }
   }
 </style>

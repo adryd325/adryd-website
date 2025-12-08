@@ -1,0 +1,46 @@
+@use "@/lib" as *;
+
+%fancy-link {
+  @include theme-background-color("fancy-link-background");
+  @include theme-color("fancy-link-text");
+  transition: color 0.1s, background-color 0.1s;
+  text-decoration: none;
+  border-radius: 4px;
+  // Pretendard padding: 0.16em 0.3em;
+  // Source Serif padding: 0.08em 0.3em 0.16em;
+  padding: 0.08em 0.3em 0.16em;
+  margin: -0.2em 0;
+  cursor: pointer;
+
+  &:hover {
+    @include theme-background-color("fancy-link-background-hover");
+    @include theme-color("fancy-link-text-hover");
+  }
+}
+
+a.fancy-link,
+.fancy-link a,
+.fancy-link button {
+  @extend %fancy-link;
+}
+
+button.fancy-link {
+  @extend %fancy-link;
+  border: none;
+  font-weight: inherit;
+  display: inline;
+}
+
+.subtle-link {
+  color: inherit;
+  transition: color 0.1s, background-color 0.1s;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 0.02em 0.2em 0.14em;
+  margin: -0.02em -0.2em -0.14em;
+
+  &:hover {
+    color: inherit;
+    @include theme-background-color("subtle-link-background-hover");
+  }
+}

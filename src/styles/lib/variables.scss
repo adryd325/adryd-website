@@ -1,0 +1,178 @@
+@use "sass:map";
+@use "sass:list";
+@use "./mixin.scss" as *;
+
+/* Fonts */
+
+$font-sans: "Pretendard Std Variable", "Pretendard Std", apple-system, system-ui,
+  "Helvetica", "Arial", sans-serif;
+$font-serif: "Source Serif 4", serif;
+$font-mono: "IBM Plex Mono", monospace;
+
+/* Sizes */
+
+$text-xs: rem(0.75);
+$text-xs--line-height: 1.75;
+$text-sm: rem(0.875);
+$text-sm--line-height: 1.75;
+$text-md: rem(1);
+$text-md--line-height: 1.751;
+$text-lg: rem(1.125);
+$text-lg--line-height: 1.75;
+$text-xl: rem(1.25);
+$text-xl--line-height: 1.75;
+$text-2xl: rem(1.5);
+$text-2xl--line-height: 1.75;
+$text-3xl: rem(1.875);
+$text-3xl--line-height: 1.5;
+$text-4xl: rem(2.25);
+$text-4xl--line-height: 1.25;
+$text-5xl: rem(3);
+$text-5xl--line-height: 1;
+$text-6xl: rem(3.75);
+$text-6xl--line-height: 1;
+$text-7xl: rem(4.5);
+$text-7xl--line-height: 1;
+$text-8xl: rem(6);
+$text-8xl--line-height: 1;
+$text-9xl: rem(8);
+$text-9xl--line-height: 1;
+
+/* Colors */
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-seagull-50: #f1fbfe;
+$color-seagull-100: #e4f6fb;
+$color-seagull-200: #c2e6f2;
+$color-seagull-300: #93d0e6;
+$color-seagull-400: #70bcda;
+$color-seagull-500: #3299c2;
+$color-seagull-600: #267aa1;
+$color-seagull-700: #246082;
+$color-seagull-800: #1f516f;
+$color-seagull-900: #1c445e;
+$color-seagull-950: #102e43;
+
+$color-picton-blue-50: #f1fbfe;
+$color-picton-blue-100: #e4f6fb;
+$color-picton-blue-200: #b7eeff;
+$color-picton-blue-300: #7ee0fc;
+$color-picton-blue-400: #40d0f7;
+$color-picton-blue-500: #14c3f2;
+$color-picton-blue-600: #0098c7;
+$color-picton-blue-700: #0079a2;
+$color-picton-blue-800: #0d6287;
+$color-picton-blue-900: #064d70;
+$color-picton-blue-950: #102e43;
+
+$color-gray-50: #fafafa;
+$color-gray-100: #f5f5f5;
+$color-gray-200: #e5e5e5;
+$color-gray-300: #d4d4d4;
+$color-gray-400: #a1a1a1;
+$color-gray-500: #737373;
+$color-gray-600: #525252;
+$color-gray-700: #404040;
+$color-gray-800: #262626;
+$color-gray-900: #171717;
+$color-gray-950: #0a0a0a;
+
+$color-stone-50: #fafafa;
+$color-stone-100: #f5f5f5;
+$color-stone-200: #e7e5e4;
+$color-stone-300: #d6d3d1;
+$color-stone-400: #a6a09b;
+$color-stone-500: #79716b;
+$color-stone-600: #56524d;
+$color-stone-700: #44403b;
+$color-stone-800: #292524;
+$color-stone-900: #1c1917;
+$color-stone-950: #0a0a0a;
+
+$color-green-300: #8cf086;
+$color-green-500: #1dcc5d;
+$color-green-700: #148051;
+
+$color-yellow-300: #fcd847;
+$color-yellow-500: #ebad02;
+$color-yellow-700: #b8650d;
+
+$color-red-300: #f77254;
+$color-red-500: #dc2626;
+$color-red-700: #981b29;
+
+$theme: (
+  "background": (
+    $color-white,
+    $color-gray-900,
+  ),
+  "text": (
+    $color-stone-800,
+    $color-gray-200,
+  ),
+  "header": (
+    $color-stone-900,
+    $color-gray-100,
+  ),
+  "blockquote": (
+    $color-stone-700,
+    $color-gray-300,
+  ),
+  "blockquote-before": (
+    $color-stone-300,
+    $color-gray-500,
+  ),
+  "ol-marker": (
+    $color-stone-600,
+    $color-gray-400,
+  ),
+  "ul-marker": (
+    $color-stone-400,
+    $color-gray-500,
+  ),
+  "hr": (
+    $color-stone-200,
+    $color-gray-700,
+  ),
+  "fancy-link-text": (
+    $color-picton-blue-800,
+    $color-seagull-400,
+  ),
+  "fancy-link-background": (
+    $color-seagull-200,
+    // color-mix(in oklab, $color-seagull-700 , $color-gray-800 65%)
+    #2a3b45,
+  ),
+  "fancy-link-text-hover": (
+    $color-picton-blue-700,
+    $color-seagull-300,
+  ),
+  "fancy-link-background-hover": (
+    // color-mix(in oklab, $color-seagull-200, $theme-light-background 40%)
+    #dbeff8,
+    // color-mix(in oklab, $color-seagull-900, $color-gray-800 65%)
+    #253239,
+  ),
+  "subtle-link-background-hover": (
+    $color-seagull-100,
+    // dark: color-mix(in oklab, $color-seagull-900, $color-gray-800 65%)
+    #253239,
+  ),
+);
+
+@mixin theme-any($field, $name) {
+  #{$field}: list.nth(map.get($theme, $name), 1);
+  @include dark() {
+    #{$field}: list.nth(map.get($theme, $name), 2);
+  }
+}
+
+@mixin theme-color($name) {
+  @include theme-any("color", $name);
+}
+
+@mixin theme-background-color($name) {
+  @include theme-any("background-color", $name);
+}

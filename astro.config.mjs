@@ -8,7 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: "https://adryd.com",
-
+  // scopedStyleStrategy: "class",
   vite: {
     ssr: {
       noExternal: ['modern-normalize'],

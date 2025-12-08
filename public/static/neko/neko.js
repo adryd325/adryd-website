@@ -1,48 +1,41 @@
 // oneko.js: https://github.com/adryd325/oneko.js (webring variant)
 
-(function oneko() {
-  const nekoEl = document.createElement("div");
-  let header = document.getElementById("header")
+var nekoEl = document.createElement("div");
 
-  let scroll = window.scrollY;
-  let headerPos = header.getBoundingClientRect()
-  let nekoPosX = headerPos.right + 18;
-  let nekoPosY = headerPos.bottom - 28 + scroll;
+function neko() {
+  var header = document.getElementById("header")
 
-  let mousePosX = 0;
-  let mousePosY = 0;
+  var scroll = window.scrollY;
+  var headerPos = header.getBoundingClientRect()
+  var nekoPosX = headerPos.right + 18;
+  var nekoPosY = headerPos.bottom - 28 + scroll;
 
-  let sleeping = true;
-  let idleAnimation = "sleeping";
-  let idleAnimationFrame = 0;
-  let justAwake = false;
+  var mousePosX = 0;
+  var mousePosY = 0;
 
-  const isReducedMotion =
-    window.matchMedia(`(prefers-reduced-motion: reduce)`) === true ||
-    window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
-
-  if (isReducedMotion) {
-    return;
-  }
+  var sleeping = true;
+  var idleAnimation = "sleeping";
+  var idleAnimationFrame = 0;
+  var justAwake = false;
 
   // please use data-neko="true" on your A elements that link to another site with oneko-webring.js instead of this
-  const nekoSites = [
+  var nekoSites = [
     "localhost",
   ];
 
   try {
-    const searchParams = location.search
+    var searchParams = location.search
       .replace("?", "")
       .split("&")
-      .map((keyvaluepair) => keyvaluepair.split("="));
+      .map(function (keyvaluepair) { return keyvaluepair.split("=") });
     // This is so much repeated code, I don't like it
-    tmp = searchParams.find((a) => a[0] == "catx");
+    tmp = searchParams.find(function (a) { return a[0] == "catx" });
     if (tmp && tmp[1]) nekoPosX = parseInt(tmp[1]);
-    tmp = searchParams.find((a) => a[0] == "caty");
+    tmp = searchParams.find(function (a) { return a[0] == "caty" });
     if (tmp && tmp[1]) nekoPosY = parseInt(tmp[1]);
-    tmp = searchParams.find((a) => a[0] == "catdx");
+    tmp = searchParams.find(function (a) { return a[0] == "catdx" });
     if (tmp && tmp[1]) mousePosX = parseInt(tmp[1]);
-    tmp = searchParams.find((a) => a[0] == "catdy");
+    tmp = searchParams.find(function (a) { return a[0] == "catdy" });
     if (tmp && tmp[1]) mousePosY = parseInt(tmp[1]);
     if (tmp && tmp[1]) sleeping = false;
   } catch (e) {
@@ -51,7 +44,7 @@
   }
 
   function onClick(event) {
-    let target;
+    var target;
     if (event.target.tagName === "A" && event.target.getAttribute("href")) {
       target = event.target;
     } else if (
@@ -63,7 +56,7 @@
     } else {
       return;
     }
-    let newLocation;
+    var newLocation;
     try {
       newLocation = new URL(target.href);
     } catch (e) {
@@ -92,19 +85,18 @@
     if (sleeping) {
       headerPos = header.getBoundingClientRect()
       nekoPosX = headerPos.right + 18;
-      nekoPosY = headerPos.bottom - 28;
-      nekoEl.style.left = `${nekoPosX - 16}px`;
-      nekoEl.style.top = `${nekoPosY - 16}px`;
+      nekoPosY = headerPos.bottom - 28 + scroll;
+      nekoEl.style.left = nekoPosX - 16 + "px";
+      nekoEl.style.top = nekoPosY - 16 + "px";
     }
   }
   window.addEventListener("resize", onResize);
-  header.addEventListener("resize", onResize);
 
-  let frameCount = 0;
-  let idleTime = 0;
+  var frameCount = 0;
+  var idvarime = 0;
 
-  const nekoSpeed = 10;
-  const spriteSets = {
+  var nekoSpeed = 10;
+  var spriteSets = {
     idle: [[-3, -3]],
     alert: [[-7, -3]],
     scratchSelf: [
@@ -164,33 +156,33 @@
     NW: [
       [-1, 0],
       [-1, -1],
-    ],
-  };
+    ]
+  }
 
   function init() {
     nekoEl.id = "oneko";
     nekoEl.ariaHidden = true;
     nekoEl.style.width = "32px";
     nekoEl.style.height = "32px";
-    nekoEl.style.position = "fixed";
+    nekoEl.style.position = "absolute";
     nekoEl.style.backgroundImage = "url('/static/neko/neko.gif')";
     nekoEl.style.imageRendering = "pixelated";
-    nekoEl.style.left = `${nekoPosX - 16}px`;
-    nekoEl.style.top = `${nekoPosY - 16}px`;
+    nekoEl.style.left = nekoPosX - 16 + "px";
+    nekoEl.style.top = nekoPosY - 16 + "px";
     nekoEl.style.zIndex = Number.MAX_VALUE;
     if (sleeping) {
       nekoEl.style.cursor = "pointer";
     } else {
       nekoEl.style.pointerEvents = "none";
     }
-    nekoEl.onclick = () => {
+    nekoEl.onclick = function () {
       sleeping = false;
       justAwake = true;
       idleAnimation = null;
-      idleTime = 999;
+      idvarime = 999;
       nekoPosY -= scroll
-      nekoEl.style.left = `${nekoPosX - 16}px`;
-      nekoEl.style.top = `${nekoPosY - 16}px`;
+      nekoEl.style.left = nekoPosX - 16 + "px";
+      nekoEl.style.top = nekoPosY - 16 + "px";
       nekoEl.style.pointerEvents = "none";
       nekoEl.style.cursor = "pointer";
       nekoEl.style.position = "fixed";
@@ -205,7 +197,7 @@
     window.requestAnimationFrame(onAnimatonFrame);
   }
 
-  let lastFrameTimestamp;
+  var lastFrameTimestamp;
 
   function onAnimatonFrame(timestamp) {
     if (!lastFrameTimestamp) {
@@ -216,14 +208,12 @@
       frame();
     }
 
-    onResize();
-
     window.requestAnimationFrame(onAnimatonFrame);
   }
 
   function setSprite(name, frame) {
-    const sprite = spriteSets[name][frame % spriteSets[name].length];
-    nekoEl.style.backgroundPosition = `${sprite[0] * 32}px ${sprite[1] * 32}px`;
+    var sprite = spriteSets[name][frame % spriteSets[name].length];
+    nekoEl.style.backgroundPosition = (sprite[0] * 32 + "px ") + (sprite[1] * 32) + "px";
   }
 
   function resetIdleAnimation() {
@@ -233,15 +223,15 @@
   }
 
   function idle() {
-    idleTime += 1;
+    idvarime += 1;
 
     // every ~ 20 seconds
     if (
-      idleTime > 10 &&
+      idvarime > 10 &&
       Math.floor(Math.random() * 200) == 0 &&
       idleAnimation == null
     ) {
-      let avalibleIdleAnimations = ["sleeping", "scratchSelf"];
+      var avalibleIdleAnimations = ["sleeping", "scratchSelf"];
       if (nekoPosX < 32) {
         avalibleIdleAnimations.push("scratchWallW");
       }
@@ -290,31 +280,29 @@
 
   function frame() {
     frameCount += 1;
-    const diffX = nekoPosX - mousePosX;
-    const diffY = nekoPosY - mousePosY;
-    const distance = Math.sqrt(diffX ** 2 + diffY ** 2);
+    var diffX = nekoPosX - mousePosX;
+    var diffY = nekoPosY - mousePosY;
+    var distance = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
 
     if (!justAwake && (distance < nekoSpeed || distance < 48 || sleeping)) {
       idle();
       return;
     }
 
-
-
     idleAnimation = null;
     idleAnimationFrame = 0;
 
-    if (idleTime > 1) {
+    if (idvarime > 1) {
       setSprite("alert", 0);
       // count down after being alerted before moving
-      idleTime = Math.min(idleTime, 7);
-      idleTime -= 1;
+      idvarime = Math.min(idvarime, 7);
+      idvarime -= 1;
       return;
     }
 
     justAwake = false;
 
-    let direction;
+    var direction;
     direction = diffY / distance > 0.5 ? "N" : "";
     direction += diffY / distance < -0.5 ? "S" : "";
     direction += diffX / distance > 0.5 ? "W" : "";
@@ -327,9 +315,22 @@
     nekoPosX = Math.min(Math.max(16, nekoPosX), window.innerWidth - 16);
     nekoPosY = Math.min(Math.max(16, nekoPosY), window.innerHeight - 16);
 
-    nekoEl.style.left = `${nekoPosX - 16}px`;
-    nekoEl.style.top = `${nekoPosY - 16}px`;
+    nekoEl.style.left = nekoPosX - 16 + "px";
+    nekoEl.style.top = nekoPosY - 16 + "px";
   }
 
   init();
-})();
+};
+
+try {
+  neko()
+} catch (e) {
+  try {
+    document.body.removeChild(nekoEl);
+  } catch (e) {
+
+  }
+  var script = document.createElement("script");
+  script.src = "/static/neko/neko-compat.js";
+  document.body.appendChild(script)
+}

@@ -1,5 +1,5 @@
 function neko() {
-  document.execCommand("BackgroundImageCache", false, true);
+  try { document.execCommand("BackgroundImageCache", false, true); } catch (e) { }
 
   var nekoEl = document.createElement("div");
 
@@ -194,6 +194,13 @@ function neko() {
     var diffY = nekoPosY - mousePosY;
     var distance = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
 
+    nekoEl.style.left = nekoPosX - 16 + "px";
+    if (window.scrollY) {
+      nekoEl.style.top = window.scrollY + nekoPosY - 16 + "px";
+    } else {
+      nekoEl.style.top = document.body.parentElement.scrollTop + nekoPosY - 16 + "px";
+    }
+
     if (distance < nekoSpeed || distance < 48) {
       idle();
       return;
@@ -241,8 +248,11 @@ function neko() {
     );
 
     nekoEl.style.left = nekoPosX - 16 + "px";
-    nekoEl.style.top = document.body.parentElement.scrollTop + nekoPosY - 16 + "px";
-    // window.nekoPosY = nekoPosY;
+    if (window.scrollY) {
+      nekoEl.style.top = window.scrollY + nekoPosY - 16 + "px";
+    } else {
+      nekoEl.style.top = document.body.parentElement.scrollTop + nekoPosY - 16 + "px";
+    }
   }
   init();
 }

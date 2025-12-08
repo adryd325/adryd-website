@@ -23,7 +23,7 @@ for (let i of cleanData) {
 ---
 
 <style lang="scss">
-  @use "@/mixin" as *;
+  @use "@/lib" as *;
 
   .grid {
     display: grid;
@@ -36,20 +36,22 @@ for (let i of cleanData) {
     @supports (gap: 1rem) {
       margin-bottom: 0;
     }
-    font-size: $fallback-text-md;
-    font-size: var(--text-md);
+    font-size: $text-md;
+    line-height: $text-md--line-height;
     @include large() {
-      font-size: var(--text-lg);
+      font-size: $text-lg;
+      line-height: $text-lg--line-height;
     }
     line-height: 1.6;
   }
 
   .card-title {
     font-weight: 500;
-    font-size: $fallback-text-xl;
-    font-size: var(--text-xl);
+    font-size: $text-xl;
+    line-height: $text-xl--line-height;
     @include large() {
-      font-size: var(--text-2xl);
+      font-size: $text-2xl;
+      line-height: $text-2xl--line-height;
     }
   }
 </style>

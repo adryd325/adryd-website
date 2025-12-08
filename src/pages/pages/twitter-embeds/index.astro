@@ -17,7 +17,8 @@ export const frontmatter = {
 };
 ---
 
-<style>
+<style lang="scss">
+  @use "@/lib" as *;
   .wrapper {
     background-color: #eb459e;
 
@@ -36,12 +37,15 @@ export const frontmatter = {
   /* Twitter Embeds Special*/
   .page {
     border-radius: 24px 0 0 0;
-    background-color: #fff;
-    background-color: var(--color-background);
-    color: var(--text-color);
+    @include theme-background-color("background");
+    @include theme-color("text");
     height: auto;
     min-height: calc(100vh - 222px);
-    padding-bottom: 3rem;
+    padding-bottom: rem(3);
+  }
+
+  .footer {
+    margin-top: rem(-3);
   }
 
   .no-overflow,
@@ -151,7 +155,7 @@ export const frontmatter = {
       </div>
     </div>
   </div>
-  <div style="margin-top: -3rem;">
+  <div class="footer">
     <Footer />
   </div>
 </DefaultNav>

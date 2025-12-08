@@ -12,19 +12,18 @@ export const frontmatter = {
 ---
 
 <style lang="scss">
-  @use "@/mixin" as *;
+  @use "@/lib" as *;
 
   h1 {
     font-weight: 900;
-    font-size: $fallback-text-6xl;
-    font-size: var(--text-6xl);
-    line-height: var(--text-6xl--line-height);
-    margin-bottom: 1rem;
+    font-size: $text-6xl;
+    line-height: $text-6xl--line-height;
+    margin-bottom: rem(1);
 
     @include large() {
-      font-size: var(--text-8xl);
-      line-height: var(--text-8xl--line-height);
-      margin-bottom: 0.8rem;
+      font-size: $text-8xl;
+      line-height: $text-8xl--line-height;
+      margin-bottom: rem(0.8);
     }
   }
 
@@ -33,12 +32,12 @@ export const frontmatter = {
   }
 
   p {
-    margin: 0.7rem 0;
+    margin: rem(0.7) 0;
   }
 
   h2 {
-    margin-top: 1.8rem;
-    margin-bottom: 1rem;
+    margin-top: rem(1.8);
+    margin-bottom: rem(1);
   }
 
   ul {
@@ -53,14 +52,16 @@ export const frontmatter = {
     margin-top: 0.2em;
     margin-bottom: 0.2em;
   }
+
+  .ari {
+    color: $color-seagull-400;
+  }
 </style>
 
 <Default frontmatter={frontmatter}>
   <div class="container theme ie-page-index">
     <h1 class="intro">
-      <span id="header"
-        >hi, i'm <span class="ari">ari!</span></span
-      >
+      <span id="header">hi, i'm <span class="ari">ari!</span></span>
     </h1>
     <p class="aka">(a.k.a adryd, Ariana)</p>
     <p>
@@ -68,7 +69,6 @@ export const frontmatter = {
       computers, trains, radios, making bad designs and wearing a witch hat for
       fun.
     </p>
-    <!--[if IE]><p> my stylesheets probably won't work on such an old browser, but i've done my best to make sure every page is at least usable </p><![endif]-->
     <h2><a class="subtle-link" href="/pages/">pages →</a></h2>
     <p>reference, blog posts, and all that jazz</p>
     <ul class="fancy-link">

@@ -1,0 +1,7 @@
+a {
+  color: inherit;
+  & img {
+    // Slight normalize for IE
+    border: 0;
+  }
+}
