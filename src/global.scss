@@ -3,6 +3,7 @@
 @use "@/styles/global/normalize";
 @use "@/styles/global/fancy-link";
 @use "@/lib" as *;
+@use 'sass:color';
 
 html {
   font-family: $font-sans;
@@ -12,6 +13,17 @@ html {
 
   @include theme-background-color("background");
   @include theme-color("text");
+}
+
+* {
+    overscroll-behavior-x: none;
+}
+
+::selection {
+  background: color.adjust($color-seagull-200, $alpha: -0.5);
+  @include dark() {
+    background: color.adjust($color-seagull-700, $alpha: -0.5);
+  }
 }
 
 @include dark() {
@@ -90,6 +102,13 @@ h4 {
   font-weight: 700;
 }
 
+.lead {
+  font-size: $text-lg;
+  line-height: $text-lg--line-height;
+  margin-top: rem(1.5);
+  margin-bottom: rem(0.5);
+}
+
 blockquote {
   margin: 0;
   margin-top: rem(1.6);
@@ -110,7 +129,7 @@ blockquote {
   }
 
   & > * {
-    margin-inline-start: rem(1.6);
+    padding-left: rem(1.6);
   }
 }
 
@@ -129,7 +148,7 @@ ol {
   padding: 0;
   padding-left: 1.6em;
   & > li {
-    padding-left: 1.6em;
+    padding-left: 0.4em;
   }
 }
 
@@ -260,6 +279,13 @@ td {
   h4 {
     font-size: $text-xl;
     line-height: $text-xl--line-height;
+    margin-top: rem(1.5);
+    margin-bottom: rem(0.5);
+  }
+
+  .lead {
+    font-size: $text-2xl;
+    line-height: $text-2xl--line-height;
     margin-top: rem(1.5);
     margin-bottom: rem(0.5);
   }

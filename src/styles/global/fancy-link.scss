@@ -3,7 +3,9 @@
 %fancy-link {
   @include theme-background-color("fancy-link-background");
   @include theme-color("fancy-link-text");
-  transition: color 0.1s, background-color 0.1s;
+  transition:
+    color 0.1s,
+    background-color 0.1s;
   text-decoration: none;
   border-radius: 4px;
   // Pretendard padding: 0.16em 0.3em;
@@ -18,11 +20,42 @@
   }
 }
 
+%revert-fancy-link {
+  background-color: revert;
+  color: inherit;
+  @include dark() {
+    background-color: revert;
+    color: inherit;
+  }
+  transition: revert;
+  text-decoration: revert;
+  border-radius: 0;
+  padding: revert;
+  margin: revert;
+  cursor: revert;
+
+  &:hover {
+    background-color: revert;
+    color: inherit;
+    @include dark() {
+      background-color: revert;
+      color: inherit;
+    }
+  }
+}
+
 a.fancy-link,
 .fancy-link a,
 .fancy-link button {
   @extend %fancy-link;
 }
+
+a.revert-fancy-link,
+.revert-fancy-link a,
+.revert-fancy-link button {
+  @extend %revert-fancy-link;
+}
+
 
 button.fancy-link {
   @extend %fancy-link;
@@ -33,7 +66,9 @@ button.fancy-link {
 
 .subtle-link {
   color: inherit;
-  transition: color 0.1s, background-color 0.1s;
+  transition:
+    color 0.1s,
+    background-color 0.1s;
   text-decoration: none;
   border-radius: 4px;
   padding: 0.02em 0.2em 0.14em;

@@ -91,6 +91,13 @@ function neko() {
     }
   }
   window.addEventListener("resize", onResize);
+  setTimeout(function () { onResize() }, 500)
+
+  const resizeObserver = new ResizeObserver(function (entries) {
+    onResize()
+  });
+
+  resizeObserver.observe(header);
 
   var frameCount = 0;
   var idvarime = 0;
@@ -174,6 +181,7 @@ function neko() {
       nekoEl.style.cursor = "pointer";
     } else {
       nekoEl.style.pointerEvents = "none";
+      nekoEl.style.position = "fixed";
     }
     nekoEl.onclick = function () {
       sleeping = false;
@@ -186,6 +194,7 @@ function neko() {
       nekoEl.style.pointerEvents = "none";
       nekoEl.style.cursor = "pointer";
       nekoEl.style.position = "fixed";
+      resizeObserver.disconnect();
     }
     document.body.appendChild(nekoEl);
 
