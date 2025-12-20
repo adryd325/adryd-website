@@ -67,7 +67,7 @@ function neko() {
       target.dataset.neko
     ) {
       newLocation.searchParams.append("catx", Math.floor(nekoPosX));
-      newLocation.searchParams.append("caty", Math.floor(nekoPosY));
+      newLocation.searchParams.append("caty", Math.floor(nekoPosY - scroll));
       newLocation.searchParams.append("catdx", Math.floor(mousePosX));
       newLocation.searchParams.append("catdy", Math.floor(mousePosY));
       event.preventDefault();
@@ -93,7 +93,7 @@ function neko() {
   window.addEventListener("resize", onResize);
   setTimeout(function () { onResize() }, 500)
 
-  const resizeObserver = new ResizeObserver(function (entries) {
+  var resizeObserver = new ResizeObserver(function (entries) {
     onResize()
   });
 

@@ -5,7 +5,7 @@ const today = new Date();
 
 let ornamentsEmoji = "💫 ⭐ 🌟 ✨ 🌙 🐈‍⬛".split(" ");
 if (process.env.NODE_ENV === "development") {
-  ornamentsEmoji = "🚧 🏗️ 🔨 🧰 ⚠️ 🦺 🏭 🚛 📏".split(" ")
+  ornamentsEmoji = "🚧 🏗️ 🔨 🧰 ⚠️ 🦺 🏭 🚛 📏".split(" ");
 }
 const ornaments = [];
 let index;
@@ -62,10 +62,10 @@ for (let i = 0; i < 4; i++) {
   <div class="container">
     <div>
       <a class="logo" href="/">
-        <!--[if IE]> <img src="/static/compat/Logo.png" height="68px" width="62px"> <![endif]-->
-        <!-- [if !IE]><! -->
+        <!--[if lt IE 9]> <img src="/static/compat/Logo.png" height="68px" width="62px"> <![endif]-->
+        <!--[if gt IE 8]><!-->
         <Logo />
-        <!-- <![endif] --></a
+        <!--<![endif]--></a
       >
     </div>
     <span

@@ -87,9 +87,9 @@ const imgFriends = sortedFriends.filter((f): f is FriendImg => "88x31" in f);
     aFriends.map((friend: FriendA) => (
       <>
         <span>
-          <a class="fancy-link" href={friend.href} data-neko={friend.neko}>
-            {friend.name}
-          </a>
+          <a class="fancy-link" href={friend.href} data-neko={friend.neko}><!-- 
+            -->{friend.name}<!-- I hate
+         HTML whitespace --></a> 
         </span>
       </>
     ))

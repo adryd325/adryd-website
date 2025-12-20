@@ -22,18 +22,21 @@ function fixImageSize(imgElement) {
   if (imgElement.complete) {
     applyImgSize(imgElement)
   } else {
-    // If not loaded, attach the function to the onload event
     imgElement.onload = function () {
       applyImgSize(imgElement)
     };
   }
 }
 
-// To apply this to all images, you could iterate through them:
 window.onload = function () {
   var images = document.getElementsByTagName("img");
   for (var i = 0; i < images.length; i++) {
     fixImageSize(images[i]);
+  }
+
+  var svgs = document.getElementsByTagName("svg");
+  for (var i = 0; i < svgs.length; i++) {
+    svgs[i].outerHTML='<div style="color: red;">There is an SVG image here but your browser can\'t display it.</div>';
   }
 };
 

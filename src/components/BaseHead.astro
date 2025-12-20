@@ -67,7 +67,9 @@ const formattedTitle = frontmatter.title.startsWith("$")
 <!-- Seriously Apple??? -->
 <meta name="format-detection" content="telephone=no">
 
-<!--[if lt IE 6]>
+<!--[if lt IE 7]>
 <link rel="stylesheet" href="/static/compat/ie.css" />
-<script is:inline src="/static/compat/ie6.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script is:inline src="/static/compat/ie.js"></script>
 <![endif]-->
