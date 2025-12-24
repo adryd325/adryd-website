@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 echo "Scanning and removing exif..."
 # Needs to be posix compliant cause windows...
+# TODO: git diff --name-only --cached; panic if theres unstaged changes on a file, then apply exif removal and re-"git add"
 FILETYPES="jpg
 jpeg
 jxl

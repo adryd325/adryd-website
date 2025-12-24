@@ -11,7 +11,7 @@ export const frontmatter: Frontmatter = {
 
 const posts2 = getPages();
 
-const posts = posts2.filter((a) => !a.frontmatter.unlisted);
+const posts = posts2.filter((a) => process.env.NODE_ENV == "development" || !a.frontmatter.unlisted);
 ---
 
 <style lang="scss">
@@ -60,7 +60,7 @@ const posts = posts2.filter((a) => !a.frontmatter.unlisted);
           <div class="entry">
             <a href={a.url}>
               <h2 class="sans-serif">
-                <span class="subtle-link">{a.frontmatter.title}&nbsp;→</span>
+                <span class="subtle-link">{a.frontmatter.unlisted ? "✏️" : ""}{a.frontmatter.title}&nbsp;→</span>
               </h2>
               <p>
                 <small class="date">
