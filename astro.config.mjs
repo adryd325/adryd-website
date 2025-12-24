@@ -19,7 +19,8 @@ export default defineConfig({
   },
 
   image: {
-    layout: 'constrained'
+    layout: 'constrained',
+    breakpoints: [300, 500, 640, 750, 828, 1080, 1280, 1668, 2048, 2560] 
   },
 
   server: {
