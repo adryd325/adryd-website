@@ -4,6 +4,7 @@ import Friends from "../components/Friends.astro";
 import Footer from "@/components/Footer.astro";
 import NekoJS from "@/components/NekoJS.astro";
 import { SITE_DESCRIPTION } from "@/consts";
+import EmailLink from "@/components/EmailLink.astro";
 
 export const frontmatter = {
   title: "$hi, i'm ari!",
@@ -93,6 +94,11 @@ export const frontmatter = {
     <h2>my friends</h2>
     <p>some really cool people</p>
     <Friends />
+    <h2>contact me</h2>
+    <p>ask me a question, or show me something cool you've made!</p>
+    <p class="fancy-link">
+      <EmailLink>email →</EmailLink>
+    </p>
   </div>
   <Footer />
   <NekoJS />
