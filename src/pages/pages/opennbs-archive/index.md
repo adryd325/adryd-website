@@ -33,7 +33,7 @@ db.collectionGroup("songs").where("status", "==", 1).get().then(function (queryS
 });
 ```
 
-The firebase database was still up at the time, so I got all the songs from the database and downloaded all the .nbs files
+The firebase database was still up at the time, so I got all the songs from the database and downloaded all the .nbs files.
 
 Anyway [here's the archive](/pages/opennbs-archive/opennbs.zip) from November 19th, 2022.
 
