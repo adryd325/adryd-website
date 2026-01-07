@@ -1,0 +1,138 @@
+---
+import Default from "@/layouts/Default.astro";
+import Nav from "@/components/Nav.astro";
+import Footer from "@/components/Footer.astro";
+
+export const frontmatter = {
+  title: "Draft: TTC Data",
+  description:
+    "collecting a ton of information about the TTC's TETRA radio system",
+  date: new Date("2025-12-18"),
+  unlisted: true,
+};
+---
+
+<style lang="scss">
+  @use "@/lib" as *;
+
+  .text-sm {
+    font-size: $text-sm;
+    line-height: $text-sm--line-height;
+  }
+  .text-md {
+    font-size: $text-md;
+    line-height: $text-md--line-height;
+  }
+  .text-lg {
+    font-size: $text-lg;
+    line-height: $text-lg--line-height;
+  }
+  .text-xl {
+    font-size: $text-xl;
+    line-height: $text-xl--line-height;
+  }
+  .text-2xl {
+    font-size: $text-2xl;
+    line-height: $text-2xl--line-height;
+  }
+  .text-3xl {
+    font-size: $text-3xl;
+    line-height: $text-3xl--line-height;
+  }
+  .text-4xl {
+    font-size: $text-4xl;
+    line-height: $text-4xl--line-height;
+  }
+  .text-5xl {
+    font-size: $text-5xl;
+    line-height: $text-5xl--line-height;
+  }
+  .text-6xl {
+    font-size: $text-6xl;
+    line-height: $text-6xl--line-height;
+  }
+  .text-7xl {
+    font-size: $text-7xl;
+    line-height: $text-7xl--line-height;
+  }
+  .text-8xl {
+    font-size: $text-8xl;
+    line-height: $text-8xl--line-height;
+  }
+
+  .wave {
+    animation: 6s infinite wave;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    will-change: font-weight;
+  }
+  @keyframes wave {
+    0% {
+      font-variation-settings: "wght" 400;
+    }
+    50% {
+      font-variation-settings: "wght" 400;
+    }
+    66% {
+      font-variation-settings: "wght" 900;
+    }
+    82% {
+      font-variation-settings: "wght" 100;
+    }
+    100% {
+      font-variation-settings: "wght" 400;
+    }
+  }
+</style>
+
+<Default frontmatter={frontmatter}>
+  <div class="container">
+    <Nav />
+  </div>
+  <article class="theme-serif fancy-link">
+    <div class="container">
+      <h1>H1</h1>
+      <h2>H2</h2>
+      <h3>H3</h3>
+      <h4>H4</h4>
+      <p>body</p>
+      <p><small>small</small></p>
+      <p><code>code</code></p>
+      <div class="sans-serif wave text-8xl">text-8xl</div>
+      <div class="sans-serif wave text-7xl">text-7xl</div>
+      <div class="sans-serif wave text-6xl">text-6xl</div>
+      <div class="sans-serif wave text-5xl">text-5xl</div>
+      <div class="sans-serif wave text-4xl">text-4xl</div>
+      <div class="sans-serif wave text-3xl">text-3xl</div>
+      <div class="sans-serif wave text-2xl">text-2xl</div>
+      <div class="sans-serif wave text-xl">text-xl</div>
+      <div class="sans-serif wave text-lg">text-lg</div>
+      <div class="sans-serif wave text-md">text-md</div>
+      <div class="sans-serif wave text-sm">text-sm</div>
+      <div class="serif wave text-8xl">text-8xl</div>
+      <div class="serif wave text-7xl">text-7xl</div>
+      <div class="serif wave text-6xl">text-6xl</div>
+      <div class="serif wave text-5xl">text-5xl</div>
+      <div class="serif wave text-4xl">text-4xl</div>
+      <div class="serif wave text-3xl">text-3xl</div>
+      <div class="serif wave text-2xl">text-2xl</div>
+      <div class="serif wave text-xl">text-xl</div>
+      <div class="serif wave text-lg">text-lg</div>
+      <div class="serif wave text-md">text-md</div>
+      <div class="serif wave text-sm">text-sm</div>
+      <div class="monospace text-8xl">text-8xl</div>
+      <div class="monospace text-7xl">text-7xl</div>
+      <div class="monospace text-6xl">text-6xl</div>
+      <div class="monospace text-5xl">text-5xl</div>
+      <div class="monospace text-4xl">text-4xl</div>
+      <div class="monospace text-3xl">text-3xl</div>
+      <div class="monospace text-2xl">text-2xl</div>
+      <div class="monospace text-xl">text-xl</div>
+      <div class="monospace text-lg">text-lg</div>
+      <div class="monospace text-md">text-md</div>
+      <div class="monospace text-sm">text-sm</div>
+    </div>
+  </article>
+</Default>
+<Footer />

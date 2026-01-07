@@ -22,17 +22,17 @@ const posts = posts2.filter((a) => process.env.NODE_ENV == "development" || !a.f
     text-decoration: none;
   }
 
-  .entry h2 {
-    font-size: $text-2xl;
-    line-height: $text-2xl--line-height;
-    margin: rem(1.5) 0 rem(0.5);
+  .entry .entry-title {
+    max-width: max-content;
+    margin-top: rem(1.5);
+    margin-bottom: rem(0.5);
   }
 
-  .entry .date {
+  .entry .entry-date {
     @include theme-color("blockquote");
   }
 
-  .entry p {
+  .entry .entry-summary {
     margin: rem(0.5) 0;
   }
   .rss-link:hover {
@@ -59,9 +59,7 @@ const posts = posts2.filter((a) => process.env.NODE_ENV == "development" || !a.f
         return (
           <div class="entry">
             <a href={a.url}>
-              <h2 class="sans-serif">
-                <span class="subtle-link">{a.frontmatter.unlisted ? "✏️" : ""}{a.frontmatter.title}&nbsp;→</span>
-              </h2>
+              <div class="entry-title sans-serif subtle-link h2">{a.frontmatter.unlisted ? "✏️" : ""}{a.frontmatter.title}&nbsp;→</div>
               <p>
                 <small class="date">
                   <PageDate

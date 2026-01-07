@@ -1,6 +1,6 @@
 ---
 layout: "@/layouts/PagesMarkdown.astro"
-title: "Archiving Minecraft note block songs (opennbs.org)"
+title: "Archiving Minecraft note block songs from opennbs.org"
 description: "How I downloaded all of the songs from opennbs.org's deleted song browser."
 date: 2025-12-29
 ---

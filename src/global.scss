@@ -70,7 +70,7 @@ img {
   border-radius: 8px;
 }
 
-h1 {
+h1, .h1 {
   font-size: $text-4xl;
   line-height: $text-4xl--line-height;
   margin-top: rem(2);
@@ -78,7 +78,7 @@ h1 {
   font-weight: 800;
 }
 
-h2 {
+h2, .h2 {
   font-size: $text-2xl;
   line-height: $text-2xl--line-height;
   margin-top: rem(2.5);
@@ -86,7 +86,7 @@ h2 {
   font-weight: 700;
 }
 
-h3 {
+h3, .h3 {
   font-size: $text-xl;
   line-height: $text-xl--line-height;
   margin-top: rem(1.6);
@@ -94,7 +94,7 @@ h3 {
   font-weight: 700;
 }
 
-h4 {
+h4, .h4 {
   font-size: $text-md;
   line-height: $text-md--line-height;
   margin-top: rem(1.5);
@@ -262,28 +262,28 @@ td {
     line-height: $text-xl--line-height;
   }
 
-  h1 {
+  h1, .h1 {
     font-size: $text-6xl;
     line-height: $text-6xl--line-height;
     margin-top: rem(3);
     margin-bottom: rem(2.5);
   }
 
-  h2 {
+  h2, .h2 {
     font-size: $text-4xl;
     line-height: $text-4xl--line-height;
     margin-top: rem(3);
     margin-bottom: rem(1.75);
   }
 
-  h3 {
+  h3, .h3 {
     font-size: $text-2xl;
     line-height: $text-2xl--line-height;
     margin-top: rem(2);
     margin-bottom: rem(1);
   }
 
-  h4 {
+  h4, .h4 {
     font-size: $text-xl;
     line-height: $text-xl--line-height;
     margin-top: rem(1.5);
@@ -304,17 +304,7 @@ td {
     }
   }
 
-  small {
-    font-size: $text-lg;
-    line-height: $text-lg--line-height;
-  }
-
-  figure {
-    font-size: $text-lg;
-    line-height: $text-lg--line-height;
-  }
-
-  table {
+  small, figure, table {
     font-size: $text-lg;
     line-height: $text-lg--line-height;
   }

@@ -1,2 +1,2 @@
 export const SITE_TITLE = "hi, i'm ari"
-export const SITE_DESCRIPTION = "this is my website where i post the silly things i'm working on. i like computers, trains, radios, making bad designs and wearing a witch hat for fun."
+export const SITE_DESCRIPTION = "this is my website where i write about the silly things i'm working on. i like computers, trains, radios, making bad designs and wearing a witch hat for fun."
