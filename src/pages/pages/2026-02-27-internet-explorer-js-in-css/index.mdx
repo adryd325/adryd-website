@@ -1,0 +1,168 @@
+---
+layout: "@/layouts/PagesMarkdown.astro"
+title: This website works in Internet Explorer 6
+date: 2026-02-28
+description: "in which I make a custom font and discover it has JavaScript in CSS"
+draft: true
+---
+import { Picture } from 'astro:assets';
+
+For some godforsaken reason I decided I wanted my website to work on Internet 
+Explorer 6. The things that motivate me never really seem to make sense.
+
+I had already done a bit of work to get my website working fine on old browsers[^1], 
+mainly by only enforcing HTTPS redirects on modern User-Agents with 
+[a Caddy snippet I wrote](//adryd.co/public/smartssl-caddy.txt).
+
+[^1]: This was primarily so that I could transfer files easily to my Windows XP 
+VMs by hosting them on [adryd.co/public](//adryd.co/public). The reason I keep the HTTPS 
+redirect was because at the time I cared about arbitrary SEO scoring or
+something. The kind of scoring that [Lighthouse](//en.wikipedia.org/wiki/Lighthouse_%28software%29) 
+does.
+
+Plain HTML does a good job of conveying structure. I've been using HTML 
+rather semantically, so the page is recognizable but its lacking nearly all the 
+CSS work I've put in to make my site pretty on modern browsers
+<Picture 
+  src={import("./_ie6_before.png")} 
+  alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes."}
+/>
+
+The first big thing was both CSS variables and REM units not being supported in 
+Internet Explorer. I solved this problem by rewriting my site to use [scss 
+variables](//github.com/adryd325/adryd-website/blob/main/src/styles/lib/variables.scss).
+
+The developer experience of this sucks compared to modern CSS variables, but it 
+gets the job done
+
+```scss
+@use "@/lib" as *;
+.footer {
+  padding: rem(1.5) rem(0.5);
+  background-color: $color-stone-100;
+  // ...
+  @include large() {
+    font-size: $text-sm;
+  }
+  @include dark() {
+    background-color: $color-gray-800;
+  }
+}
+```
+
+<Picture 
+  src={import("./_ie6_fixed_variables.png")} 
+  alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes."}
+/>
+
+Next I wanted to clean up some of Internet Explorer's default styles and fix the
+max-width layout.
+
+Internet Explorer has this nice, but proprietary feature that lets you have HTML
+be parsed only on certain versions of it
+```html
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/static/compat/ie.css" />
+<![endif]-->
+```
+
+In trying to find a solution for css `max-width`, I stumbled across [this solution](//stackoverflow.com/questions/1733904/about-max-width-in-ie6) 
+on StackOverflow.
+
+```css
+.container {
+  width: expression(document.documentElement.clientWidth > 960 ? "960px": "auto");
+}
+```
+
+*I'm sorry What??* That's so incredibly cursed, and so incredibly cool.
+
+In when porting [oneko.js](//github.com/adryd325/oneko.js) to IE6 I also discovered this polyfill for `position: fixed;`
+```css
+.fixed {
+  position: absolute;
+  bottom: expression(document.body.scrollTop);
+}
+```
+
+Apparently the performance on this was terrible and support for CSS expressions
+were dropped in Internet Explorer 8. There were [more ways of using JS in CSS](https://stackoverflow.com/questions/476276/using-javascript-in-css/482088#482088) 
+but I dont think any were as widely used.
+
+**Anyway**, with the max-width polyfill aside, I now had something recognizable
+
+<Picture 
+  src={import("./_ie6_custom_css.png")} 
+  alt={""}
+/>
+
+## Custom Font
+
+The last thing I want to fix is the awful arrows 
+
+<Picture 
+  src={import("./_bad_arrow.png")} 
+  alt={""}
+/>
+
+I don't want to just make IE load an entire modern font. Window's XP's font 
+rendering really struggles without [Hinting](https://en.wikipedia.org/wiki/Font_hinting)
+or bitmap variants.
+
+<Picture 
+  src={import("./_mypal_rendering.png")} 
+  alt={""}
+/>
+
+[Pretendard](//cactus.tistory.com/306), the font I use on this website, doesn't 
+have hinting or pre-rendered bitmap fonts for Windows. 
+
+I imported Pretendard into [FontForge](//fontforge.org/) and removed all the 
+characters I don't plan on using.
+
+<Picture 
+  src={import("./_ff_arrows.png")} 
+  alt={""}
+/>
+
+I then added very basic hinting, and hand-made a set of bitmaps for 16px fonts.
+
+<Picture 
+  src={import("./_hinting.png")} 
+  alt={""}
+  style="width:450px;"
+/>
+<Picture 
+  src={import("./_bitmap.png")} 
+  alt={""}
+  style="width:450px;"
+/>
+
+I then exported and converted the font to eot and added it to my main style sheet.
+
+<Picture 
+  src={import("./_ie6_no_fallback.png")} 
+  alt={""}
+/>
+
+Oh. That's not what thats supposed to look like.
+
+It turns out Internet Explorer 6 doesn't like to fallback to alternate fonts.
+To solve that I made a common component `<ArrowRight/>` that applies the custom
+font and replaced all instances of using that arrow. 
+
+<Picture 
+  src={import("./_ie6_pretendard_arrows.png")} 
+  alt={""}
+/>
+
+Now it looks how I want it to.
+
+# Some other cool things I found along the way
+
+- IETester: https://www.my-debugbar.com/wiki/IETester/HomePage
+- DebugBar: https://www.debugbar.com/download.php
+- IECollection: https://utilu.com/IECollection/
+- LegacyUpdate: https://legacyupdate.net/
+- ttf to eot: https://www.kirsle.net/wizards/ttf2eot.cgi
+- Cool blog post about IE behaviors: https://muffinman.io/blog/ie6-hacks-ten-years-after/
