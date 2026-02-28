@@ -53,6 +53,11 @@ html {
   font-family: $font-mono;
 }
 
+.arrow,
+.data-footnote-backref {
+  font-family: $font-arrow;
+}
+
 .theme-serif {
   font-family: $font-serif;
   h1,
@@ -67,7 +72,6 @@ html {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 
 h1, .h1 {
@@ -328,4 +332,8 @@ td {
       padding-right: 0;
     }
   }
+}
+
+.pixelated {
+  image-rendering: pixelated;
 }

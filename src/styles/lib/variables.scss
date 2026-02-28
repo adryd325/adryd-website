@@ -3,8 +3,9 @@
 @use "./mixin.scss" as *;
 
 /* Fonts */
-
-$font-sans: "Pretendard Std Variable", "Pretendard Std", apple-system, system-ui,
+$font-arrow:  "Pretendard Std", "Pretendard Arrows", apple-system, system-ui,
+  "Helvetica", "Arial", sans-serif;
+$font-sans:  "Pretendard Std", apple-system, system-ui,
   "Helvetica", "Arial", sans-serif;
 $font-serif: "Source Serif 4", serif;
 $font-mono: "IBM Plex Mono", monospace;

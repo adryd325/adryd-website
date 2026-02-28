@@ -3,6 +3,8 @@ import DefaultNav from "../../layouts/DefaultNav.astro";
 import "../../global.scss";
 import { getPages, type Frontmatter } from "../../Frontmatter.ts";
 import PageDate from "@/components/pages/PageDate.astro";
+import ResponsiveIcon from "@/components/ResponsiveIcon.astro";
+import ArrowRight from "@/components/ArrowRight.astro";
 
 export const frontmatter: Frontmatter = {
   title: "pages",
@@ -52,14 +54,25 @@ const posts = posts2.filter((a) => process.env.NODE_ENV == "development" || !a.f
     <h1>pages</h1>
     <p>reference, blog posts, and all that jazz</p>
     <a class="fancy-link rss-link sans-serif" href="/feed.xml"
-      >RSS feed&nbsp;+</a
+      ><ResponsiveIcon
+        className="pixelated"
+        alt="info"
+        big={{
+          offset: -4,
+          src: "/static/icons/feed20.png",
+        }}
+        small={{
+          offset: -3,
+          src: "/static/icons/feed16.png",
+        }}
+      />RSS feed</a
     >
     {
       posts.map((a) => {
         return (
           <div class="entry">
             <a href={a.url}>
-              <div class="entry-title sans-serif subtle-link h2">{a.frontmatter.unlisted ? "✏️" : ""}{a.frontmatter.title}&nbsp;→</div>
+              <div class="entry-title sans-serif subtle-link h2">{a.frontmatter.unlisted ? "✏️" : ""}{a.frontmatter.title}&nbsp;<ArrowRight/></div>
               <p>
                 <small class="date">
                   <PageDate

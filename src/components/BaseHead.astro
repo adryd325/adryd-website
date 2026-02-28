@@ -19,22 +19,6 @@ const formattedTitle = frontmatter.title.startsWith("$")
 
 <meta charset="utf-8" />
 
-<!-- Font preloads -->
-<link
-  rel="preload"
-  href="/static/fonts/pretendard/PretendardStdVariable.woff2"
-  as="font"
-  type="font/woff"
-  crossorigin
-/>
-<link
-  rel="preload"
-  href="/static/fonts/source-serif-4-variable.woff2"
-  as="font"
-  type="font/woff"
-  crossorigin
-/>
-
 <!-- Global Metadata -->
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -66,8 +50,10 @@ const formattedTitle = frontmatter.title.startsWith("$")
 
 <!-- Seriously Apple??? -->
 <meta name="format-detection" content="telephone=no">
-
 <!--[if lt IE 7]>
+<script is:inline src="/static/compat/unitpngfix/unitpngfix.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
 <link rel="stylesheet" href="/static/compat/ie.css" />
 <![endif]-->
 <!--[if lt IE 9]>

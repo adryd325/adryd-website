@@ -1,0 +1,6 @@
+{
+  "/blog/[...slug]": "/pages/[...slug]",
+  "/things/[...slug]": "/pages/[...slug]",
+  "/pages/travel-bandplan": "/pages/aris-bandplan",
+  "/pages/ttc-radio-zones": "/pages/ttc-radio-data"
+}

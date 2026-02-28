@@ -62,7 +62,7 @@ for (let i = 0; i < 4; i++) {
   <div class="container">
     <div>
       <a class="logo" href="/">
-        <!--[if lt IE 9]> <img src="/static/compat/Logo.png" height="68px" width="62px"> <![endif]-->
+        <!--[if lt IE 9]> <img src="/static/compat/Logo.png" class="unitPng" height="68px" width="62px"> <![endif]-->
         <!--[if gt IE 8]><!-->
         <Logo />
         <!--<![endif]--></a
@@ -72,8 +72,7 @@ for (let i = 0; i < 4; i++) {
       >copyright &copy; {today.getFullYear()} Ariana "adryd" redacted. this website
       is dual licensed under the MIT license and <a
         href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a
-      > license. not all images, vector graphics, scripts and other assets fall under
-      this license. visit <a href="/licenses/">licenses</a> for detailed copyright
+      > license. some images, vector graphics, scripts and other assets are made by other artists. visit <a href="/licenses/">licenses</a> for detailed copyright
       information. this footer is mostly here because it looks cool.
       <b
         >appreciate my work? <a href="//github.com/sponsors/adryd325"
@@ -81,7 +80,7 @@ for (let i = 0; i < 4; i++) {
         ></b
       >
       <br />
-      <span>{ornaments.join(" ")}</span>
+      <span class="ie-display-none">{ornaments.join(" ")}</span>
     </span>
   </div>
 </div>

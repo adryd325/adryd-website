@@ -1,3 +1,7 @@
+---
+import ArrowRight from "./ArrowRight.astro";
+---
+
 <style lang="scss">
   @use "@/lib" as *;
   .nav {
@@ -6,6 +10,6 @@
 </style>
 
 <div class="nav" role="navigation">
-  <a class="fancy-link" href="/">home →</a>{" "}
-  <a class="fancy-link" href="/pages/">pages →</a>
+  <a class="fancy-link" href="/">home <ArrowRight/></a>{" "}
+  <a class="fancy-link" href="/pages/">pages <ArrowRight/></a>
 </div>

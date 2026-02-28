@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="info20.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="info.src.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="13.946346"
+     inkscape:cx="13.372678"
+     inkscape:cy="14.340673"
+     inkscape:window-width="1440"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.5"
+       spacingy="0.5"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="2"
+       enabled="true"
+       visible="true" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="24"
+       height="24"
+       id="page17"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="info16.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <inkscape:page
+       x="34"
+       y="0"
+       width="16"
+       height="16"
+       id="page18"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="info16.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient30"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#bae6fd;stop-opacity:1;"
+         offset="0"
+         id="stop28" />
+      <stop
+         style="stop-color:#0284c7;stop-opacity:1;"
+         offset="0.68058294"
+         id="stop29" />
+      <stop
+         style="stop-color:#bae6fd;stop-opacity:1;"
+         offset="1"
+         id="stop30" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient27"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#249ed3;stop-opacity:1;"
+         offset="0"
+         id="stop26" />
+      <stop
+         style="stop-color:#7dd3fc;stop-opacity:1;"
+         offset="1"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient30"
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       x1="12"
+       y1="3"
+       x2="12"
+       y2="21"
+       gradientTransform="matrix(0.66550707,0,0,0.66666667,34.024352,-0.99999905)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient27"
+       id="linearGradient19"
+       gradientUnits="userSpaceOnUse"
+       x1="12"
+       y1="4"
+       x2="12"
+       y2="20"
+       gradientTransform="matrix(0.62500002,0,0,0.62500001,34.500002,-0.49999901)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient27"
+       id="linearGradient35"
+       gradientUnits="userSpaceOnUse"
+       x1="12"
+       y1="4"
+       x2="12"
+       y2="20"
+       gradientTransform="matrix(0.93750011,0,0,0.93750011,0.75000057,0.24999875)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient30"
+       id="linearGradient36"
+       gradientUnits="userSpaceOnUse"
+       x1="12"
+       y1="3"
+       x2="12"
+       y2="21"
+       gradientTransform="matrix(0.94444435,0,0,0.94444435,0.66666914,0.16666865)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#000000;fill-opacity:0.18039216;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path38-8"
+       cx="12"
+       cy="12.499997"
+       rx="9.4858341"
+       ry="9.4999971" />
+    <circle
+       style="fill:url(#linearGradient36);fill-opacity:1;stroke:#0369a1;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle35"
+       cx="12"
+       cy="11.499998"
+       r="8.4999981"
+       inkscape:export-filename="/home/adryd/info20px.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:url(#linearGradient35);fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path12-8-7"
+       cx="12.000002"
+       cy="11.5"
+       rx="7.5"
+       ry="7.500001" />
+    <ellipse
+       style="fill:#000000;fill-opacity:0.18039216;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path38"
+       cx="42.010437"
+       cy="8.000001"
+       rx="6.989563"
+       ry="6.9999995" />
+    <path
+       style="fill:#0284c7;fill-opacity:0.737969;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 10.500002,11.500001 -1.0000001,-0.5 v -1.5 h 4.0000001 v 6 h 1 v 1.5 l -0.5,0.5 h -4 l -0.5000001,-0.5 v -1.5 h 1.0000001 z"
+       id="path37"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:#0284c7;fill-opacity:0.737969;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 13.000002,9.000001 h 0.5 v -2 l -0.5,-0.5 h -2 l -0.5,0.5 v 2 h 0.5 z"
+       id="path36"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 10.000002,10.000001 h 3 v 0.5 5 l 1,0.5 v 1 h -4 v -1 l 1,-0.5 v -4.5 h -1 z"
+       id="path8"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 11.000002,8.000001 v 1 h 2 v -1 -1 h -2 z"
+       id="path9"
+       sodipodi:nodetypes="ccccccc" />
+    <ellipse
+       style="fill:url(#linearGradient18);fill-opacity:1;stroke:#0369a1;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1-3"
+       cx="42.010437"
+       cy="7.000001"
+       inkscape:export-filename="/home/adryd/info16.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       rx="5.9895635"
+       ry="6" />
+    <circle
+       style="fill:url(#linearGradient19);fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path12-8"
+       cx="42"
+       cy="7.000001"
+       r="5" />
+    <g
+       id="path20"
+       style="opacity:1"
+       transform="translate(1.9073486e-6,-0.99999905)">
+      <path
+         style="fill:#0284c7;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 39.5,7 40,6.5 h 3 0.5 V 11 l 1,0.5 V 12 L 44,12.5 H 40 L 39.5,12 v 0 -0.5 l 1,-1 v -2 H 40 L 39.5,8 Z"
+         id="path35"
+         sodipodi:nodetypes="ccccccccccccccccc"
+         inkscape:export-filename="path35.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 40,7 h 3 v 4 l 0.999998,-10e-7 L 44,12 h -4 l -2e-6,-1.000001 h 1 L 41.5,9.5 41,8 h -1 z"
+         id="path22"
+         sodipodi:nodetypes="cccccccccccc" />
+    </g>
+    <g
+       id="path19"
+       style="opacity:1"
+       transform="translate(1.9073486e-6,-0.99999905)">
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0284c7;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="M 40.5,4 V 5 6 H 43 v 0 h 0.5 V 4 L 43,3.5 h -2 z"
+         id="path33"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 41,4 h 2 V 6 H 41 V 5 Z"
+         id="path34" />
+    </g>
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect38"
+       width="16"
+       height="16"
+       x="34"
+       y="-0.99999905"
+       ry="1.5" />
+  </g>
+</svg>

@@ -20,6 +20,10 @@ Most portions of this website are dual-licensed under the [MIT license](https://
  These images are &copy; All Rights Reserved. I think they also have implicit trademark rights? I'm not a lawyer, and I won't go after you if you use these marks appropriately to refer to me, my projects or this website.
  - **Fonts**  
  [Pretendard](https://github.com/orioncactus/pretendard), [IBM Plex Mono](https://github.com/IBM/plex) and [Source Serif](https://github.com/adobe-fonts/source-serif) typefaces are licensed under the SIL Open Font License, Version 1.1. The full license text can be found at their respective GitHub pages
+ - Windows XP Icons
+ Duh.
+ - Silk Icons
+ - Fat Cow Icons
  - **Some images**  
  For example, the quoted screenshot from Jasper Boerstra on [88x31 notes](/pages/88x31-notes/) do not belong to me. I'm using them with an ambiguous license in hopes that their use is transformative. Generally these images will be obvious as they will be attributed to someone else.
 ## Usage Guidelines

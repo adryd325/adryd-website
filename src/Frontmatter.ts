@@ -1,5 +1,31 @@
 import { z } from "zod";
 
+/* What do these mean
+
+ - ShortWriting: Short < 3 minute reads, low effort
+
+ - LongWriting: Long 3 < minute reads, high effort
+   for example; 3d printing medeco keys
+
+ - Art: art!
+   example: trains, design portfolio
+
+ - Functional: Something that includes an interactive tool for users to use
+   for example; the font playground, medeco key scad, ttc radio livestream
+
+ - Resource: Something containing non-blog post, and timeless information
+   example; daily carry, ttc radio zones, bookmarks
+
+*/
+
+enum PageTags {
+  ShortWriting,
+  LongWriting,
+  Art,
+  Functional, 
+  Resource
+}
+
 export const ZodFrontmatter = z.object({
   title: z.string().min(2).max(60),
   description: z.string().min(2).max(280),

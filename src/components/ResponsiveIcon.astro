@@ -1,0 +1,63 @@
+---
+import { imageConfig } from 'astro:assets';
+
+interface Icon {
+  width?: number;
+  height?: number;
+  src: string;
+  offset?: number;
+}
+
+interface Props {
+  small: Icon;
+  big: Icon;
+  alt: string;
+  className?: string;
+}
+
+function getOffsetStyle(icon: Icon) {
+    if (icon.offset) {
+        return `margin-bottom: ${icon.offset}px`
+    }
+    return ``
+}
+
+const { small, big, alt, className } = Astro.props;
+---
+<!-- TODO: rewrite to use spritesheets, background-image and background-position -->
+<style lang="scss">
+  @use "@/lib" as *;
+  .small {
+    display: inline;
+  }
+  .big {
+    display: none;
+  }
+  @include large() {
+    .small {
+      display: none;
+    }
+    .big {
+      display: inline;
+    }
+  }
+</style>
+
+<span class={className}>
+  <img
+    class="small unitPng"
+    src={small.src}
+    width={small.width}
+    height={small.height}
+    alt={alt}
+    style={getOffsetStyle(small)}
+  />
+  <img
+    class="big ie-display-none"
+    src={big.src}
+    width={big.width}
+    height={big.height}
+    alt={alt}
+    style={getOffsetStyle(big)}
+  />
+</span>

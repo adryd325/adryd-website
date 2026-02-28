@@ -1,3 +1,16 @@
+@font-face {
+  font-display: swap;
+  font-family: "Pretendard Arrows";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("/static/fonts/PretendardArrows-v1.eot?#iefix")
+      format("embedded-opentype"),
+    url("/static/fonts/PretendardArrows-v1.ttf")
+      format("truetype");
+  unicode-range: U+2190-2199, U+21A9-21AA;
+}
+
 a {
   background-color: transparent;
   color: #292524;
@@ -38,7 +51,7 @@ a.fancy-link:hover {
 
 .container {
   width: expression(
-    document.documentElement.clientWidth > 960 ? "960px" : "auto"
+    document.documentElement.clientWidth > 960 ? "960px": "auto"
   );
 }
 
@@ -161,4 +174,8 @@ figure {
 
 .ie-page-pages .entry a {
   text-decoration: none;
+}
+
+.ie-display-none {
+  display: none;
 }

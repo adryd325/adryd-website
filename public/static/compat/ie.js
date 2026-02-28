@@ -38,6 +38,11 @@ window.onload = function () {
   for (var i = 0; i < svgs.length; i++) {
     svgs[i].outerHTML='<div style="color: red;">There is an SVG image here but your browser can\'t display it.</div>';
   }
+
+  var svgs = document.getElementsByTagName("video");
+  for (var i = 0; i < svgs.length; i++) {
+    svgs[i].outerHTML='<div style="color: red;">There is a video here but your browser can\'t display it.</div>';
+  }
 };
 
 window.onresize = function () {
