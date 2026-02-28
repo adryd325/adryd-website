@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 import ErrorPageGround from "../components/ErrorPageGround.svg";
 import ErrorPageSky from "../components/ErrorPageSky.svg";
 import type { Frontmatter } from "@/Frontmatter";
+import ArrowRight from "@/components/ArrowRight.astro";
 const isDev = import.meta.env.DEV;
 
 const frontmatter: Frontmatter = {
@@ -56,9 +57,9 @@ const frontmatter: Frontmatter = {
         id="caddyErrorMessage"
       />
       <nav>
-        <a class="fancy-link" href="//adryd.com">home →</a>{" "}
-        <a class="fancy-link" href="//adryd.com/pages/">pages →</a>{" "}
-        <a class="fancy-link" href="/public/">files →</a>
+        <a class="fancy-link" href="//adryd.com">home <ArrowRight/></a>{" "}
+        <a class="fancy-link" href="//adryd.com/pages/">pages <ArrowRight/></a>{" "}
+        <a class="fancy-link" href="/public/">files <ArrowRight/></a>
       </nav>
     </center>
     <ErrorPageGround />
