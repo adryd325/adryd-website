@@ -3,7 +3,7 @@ layout: "@/layouts/PagesMarkdown.astro"
 title: This website works in Internet Explorer 6
 date: 2026-02-28
 description: "in which I make a custom font and discover it has JavaScript in CSS"
-draft: true
+unlisted: true
 ---
 import { Picture } from 'astro:assets';
 
@@ -55,8 +55,8 @@ gets the job done
   alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes."}
 />
 
-Next I wanted to clean up some of Internet Explorer's default styles and fix the
-max-width layout.
+Next I wanted to clean up some of Internet Explorer's default styles, and center
+the page content.
 
 Internet Explorer has this nice, but proprietary feature that lets you have HTML
 be parsed only on certain versions of it
@@ -66,7 +66,8 @@ be parsed only on certain versions of it
 <![endif]-->
 ```
 
-In trying to find a solution for css `max-width`, I stumbled across [this solution](//stackoverflow.com/questions/1733904/about-max-width-in-ie6) 
+I use `max-width` to center the page contents without making horizontal displays
+scroll horizontally. IE6 doesn't have `max-width`. I stumbled across [this solution](//stackoverflow.com/questions/1733904/about-max-width-in-ie6) 
 on StackOverflow.
 
 ```css
@@ -75,7 +76,7 @@ on StackOverflow.
 }
 ```
 
-*I'm sorry What??* That's so incredibly cursed, and so incredibly cool.
+*I'm sorry What??* Is that JavaScript in my CSS? That's so incredibly cursed.
 
 In when porting [oneko.js](//github.com/adryd325/oneko.js) to IE6 I also discovered this polyfill for `position: fixed;`
 ```css
