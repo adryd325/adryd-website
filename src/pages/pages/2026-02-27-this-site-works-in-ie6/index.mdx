@@ -2,44 +2,51 @@
 layout: "@/layouts/PagesMarkdown.astro"
 title: This website works in Internet Explorer 6
 date: 2026-02-28
-description: "in which I make a custom font and discover it has JavaScript in CSS"
-unlisted: true
+description: "in which I discover it has JavaScript in CSS, and make a custom font"
+unlisted: false
 ---
 import { Picture } from 'astro:assets';
+import ArrowRight from "@/components/ArrowRight.astro";
+import ArrowDown from "@/components/ArrowDown.astro";
 
-For some godforsaken reason I decided I wanted my website to work on Internet 
-Explorer 6. The things that motivate me never really seem to make sense.
+For some godforsaken reason I decided I really wanted my website to work on 
+Internet Explorer 6. 
+{/* The things that motivate me never really seem to make 
+sense. */}
+[*cue meme about how blog owners only post about making their blog.*](./blog_owners.png)
 
-I had already done a bit of work to get my website working fine on old browsers[^1], 
-mainly by only enforcing HTTPS redirects on modern User-Agents with 
-[a Caddy snippet I wrote](//adryd.co/public/smartssl-caddy.txt).
+I had already done a bit of work to get my website working fine on old 
+browsers[^1], mainly by only enforcing HTTPS redirects on modern User-Agents 
+with [a Caddy snippet I wrote](//adryd.co/public/smartssl-caddy.txt).
 
 [^1]: This was primarily so that I could transfer files easily to my Windows XP 
-VMs by hosting them on [adryd.co/public](//adryd.co/public). The reason I keep the HTTPS 
-redirect was because at the time I cared about arbitrary SEO scoring or
-something. The kind of scoring that [Lighthouse](//en.wikipedia.org/wiki/Lighthouse_%28software%29) 
+VMs by hosting them on [adryd.co/public](//adryd.co/public). The reason I keep 
+the HTTPS redirect was because at the time I cared about arbitrary SEO scoring 
+or something. The kind of scoring that [Lighthouse](//en.wikipedia.org/wiki/Lighthouse_%28software%29) 
 does.
 
-Plain HTML does a good job of conveying structure. I've been using HTML 
-rather semantically, so the page is recognizable but its lacking nearly all the 
-CSS work I've put in to make my site pretty on modern browsers
+Plain HTML does a good job of conveying structure. I've been using HTML rather 
+semantically, so the website is already recognizable but it's lacking nearly all
+the CSS work I've put in to make my site pretty on modern browsers.
 <Picture 
   src={import("./_ie6_before.png")} 
-  alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes."}
+  alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes. It looks almost like unstyled HTML with links being blue and list elements having deep padding and bullets."}
 />
 
-The first big thing was both CSS variables and REM units not being supported in 
-Internet Explorer. I solved this problem by rewriting my site to use [scss 
-variables](//github.com/adryd325/adryd-website/blob/main/src/styles/lib/variables.scss).
+The first big thing to taclke was both CSS variables and REM units not being 
+supported in Internet Explorer. I solved this problem by rewriting my site to 
+use [scss&nbsp;variables](//github.com/adryd325/adryd-website/blob/main/src/styles/lib/variables.scss).
 
-The developer experience of this sucks compared to modern CSS variables, but it 
-gets the job done
+The development experience of this sucks compared to modern CSS variables since 
+it stops me from redefining variables at runtime for dark themes and large 
+displays. I made myself a good set of mixins to aleviate some of that annoyance.
 
 ```scss
 @use "@/lib" as *;
 .footer {
   padding: rem(1.5) rem(0.5);
   background-color: $color-stone-100;
+  @include theme-color("text");
   // ...
   @include large() {
     font-size: $text-sm;
@@ -52,7 +59,7 @@ gets the job done
 
 <Picture 
   src={import("./_ie6_fixed_variables.png")} 
-  alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes."}
+  alt={"Screenshot of IE6 on my site. The signature fancy-links on my website look as they should as well as some font size changes"}
 />
 
 Next I wanted to clean up some of Internet Explorer's default styles, and center
@@ -67,7 +74,7 @@ be parsed only on certain versions of it
 ```
 
 I use `max-width` to center the page contents without making horizontal displays
-scroll horizontally. IE6 doesn't have `max-width`. I stumbled across [this solution](//stackoverflow.com/questions/1733904/about-max-width-in-ie6) 
+scroll horizontally. IE6 doesn't have `max-width`. I stumbled across [this&nbsp;solution](//stackoverflow.com/questions/1733904/about-max-width-in-ie6) 
 on StackOverflow.
 
 ```css
@@ -78,7 +85,7 @@ on StackOverflow.
 
 *I'm sorry What??* Is that JavaScript in my CSS? That's so incredibly cursed.
 
-In when porting [oneko.js](//github.com/adryd325/oneko.js) to IE6 I also discovered this polyfill for `position: fixed;`
+When I was porting [oneko.js](//github.com/adryd325/oneko.js) to IE6 I also discovered this polyfill for `position: fixed;`
 ```css
 .fixed {
   position: absolute;
@@ -87,83 +94,110 @@ In when porting [oneko.js](//github.com/adryd325/oneko.js) to IE6 I also discove
 ```
 
 Apparently the performance on this was terrible and support for CSS expressions
-were dropped in Internet Explorer 8. There were [more ways of using JS in CSS](https://stackoverflow.com/questions/476276/using-javascript-in-css/482088#482088) 
-but I dont think any were as widely used.
+was dropped in Internet Explorer 8. There were [more ways of using JS in CSS](https://stackoverflow.com/questions/476276/using-javascript-in-css/482088#482088) 
+but I dont think any were as widely used.[^4]
 
-**Anyway**, with the max-width polyfill aside, I now had something recognizable
+[^4]: I wonder what kinds of crazy things like https://lyra.horse/x86css/ would be possible if this was still a widespread feature. It'd probably ruin the fun the a challenge though
+
+**Anyway**, with the max-width polyfill aside, I now had something close to 
+perfect
 
 <Picture 
   src={import("./_ie6_custom_css.png")} 
-  alt={""}
+  alt={"Screenshot of my website on IE6. It looks almost how it does on a modern browser with the page contents centered and in a 800 ish pixel wide column. The bullets from the link list are gone, fonts are bigger, and the \"ari\" in \"hi, i'm ari!\" is colored blue"}
 />
 
 ## Custom Font
 
-The last thing I want to fix is the awful arrows 
+Close to perfect wasn't enough though, so I set off to fix these awful arrows 
 
 <Picture 
   src={import("./_bad_arrow.png")} 
-  alt={""}
+  alt={"A screenshot of internet explorer zoomed into one of the arrows. The arrow is rendered aliased and is just a line with a blob of 5 randomly placed pixels at the end. It looks like someone spilled coffee on the pixel grid and called it an arrow."}
 />
 
 I don't want to just make IE load an entire modern font. Window's XP's font 
 rendering really struggles without [Hinting](https://en.wikipedia.org/wiki/Font_hinting)
-or bitmap variants.
+or bitmap variants. Example below.
 
 <Picture 
   src={import("./_mypal_rendering.png")} 
-  alt={""}
+  alt={"Screenshot of my website on MyPal, The font in this screenshot look blury and has some weird artifacts at the top of round letters"}
 />
 
 [Pretendard](//cactus.tistory.com/306), the font I use on this website, doesn't 
 have hinting or pre-rendered bitmap fonts for Windows. 
 
 I imported Pretendard into [FontForge](//fontforge.org/) and removed all the 
-characters I don't plan on using.
+characters I don't plan on using; leaving behind only arrows.
 
 <Picture 
   src={import("./_ff_arrows.png")} 
-  alt={""}
+  alt={"A screenshot of FontForge showing 14 arrow symbols from Pretendard"}
 />
+
+This is the first time I've used FontForge. Its UI is intimidating, but I pretty
+quickly figured it out.
 
 I then added very basic hinting, and hand-made a set of bitmaps for 16px fonts.
 
 <Picture 
   src={import("./_hinting.png")} 
-  alt={""}
+  alt={"Screenshot of the right pointing arrow in the FontForge editor. A green box fills the space of the horizontal stem, and the chevron is filled with red rectangles. These are hints"}
   style="width:450px;"
 />
 <Picture 
   src={import("./_bitmap.png")} 
-  alt={""}
+  alt={"Screenshot of the right pointing arrow in the FontForge editor. A pixel grid appears behind the vector of the arrow. The grid is filled in with pixelated version of the arrow with clean lines"}
   style="width:450px;"
 />
 
-I then exported and converted the font to eot and added it to my main style sheet.
+I then exported and converted the font to EOT (Embedded OpenType)[^3] and added it 
+to my main style sheet.
+
+[^3]: The only font format that IE6 likes.
 
 <Picture 
   src={import("./_ie6_no_fallback.png")} 
-  alt={""}
+  alt={"A screenshot of internet explorer with my new font loaded, but all the text that isnt the arrow looks like a barcode..."}
 />
 
-Oh. That's not what thats supposed to look like.
+Oh dear, That's not what thats supposed to look like.
 
 It turns out Internet Explorer 6 doesn't like to fallback to alternate fonts.
 To solve that I made a common component `<ArrowRight/>` that applies the custom
-font and replaced all instances of using that arrow. 
+font and replaced all instances of using that arrow. [^2]
+
+[^2]: IE also panics if any of the fonts on the page fail to load. It manifests 
+in a weird way where if one of the WOFF fonts on the page manages to load before
+the EOT, it won't use the EOT, but if the EOT loads first its fine! The way I 
+fixed this was just by putting the @font-face declaration in the ie compat css 
+file
 
 <Picture 
   src={import("./_ie6_pretendard_arrows.png")} 
-  alt={""}
+  alt={"A screenshot of internet explorer, the fonts aren't broken anymore and the arrows look clean and sharp."}
+/>
+<Picture 
+  src={import("./_good_arrow_small.png")} 
+  alt={"A zoomed in shot of the pixelated arrow I edited in FontForge. This time rendered by Internet Explorer on my website"}
 />
 
-Now it looks how I want it to.
+**Finally. My site looks how I want it to.**
 
-# Some other cool things I found along the way
+There were countless other weird quirks I ran into while porting this site to IE6.
 
-- IETester: https://www.my-debugbar.com/wiki/IETester/HomePage
-- DebugBar: https://www.debugbar.com/download.php
-- IECollection: https://utilu.com/IECollection/
-- LegacyUpdate: https://legacyupdate.net/
-- ttf to eot: https://www.kirsle.net/wizards/ttf2eot.cgi
-- Cool blog post about IE behaviors: https://muffinman.io/blog/ie6-hacks-ten-years-after/
+Images with `width: 100%;` were not preserving aspect ratio that I fixed with [this&nbsp;JavaScript](/static/compat/ie.js) I wrote. 
+
+And PNGs don't have transparency either which can be fixed with [unitpngfix](https://web.archive.org/web/20101021190007/http://labs.unitinteractive.com/unitpngfix.php)
+
+# Some cool things I found on my adventures
+
+- [IETester - Test your site on all versions of IE <ArrowRight/>](//www.my-debugbar.com/wiki/IETester/HomePage)
+- [DebugBar - Inspect element for Internet Explorer <ArrowRight/>](//www.debugbar.com/download.php)
+- [IECollection - Install all the versions of IE simeltaneously <ArrowRight/>](//utilu.com/IECollection/) [Mirror&nbsp;<ArrowDown/>](//adryd.co/public/IECollection1721.exe)
+- [LegacyUpdate - Fix Windows Update on Windows XP <ArrowRight/>](//legacyupdate.net/)
+- [MyPal Browser - A fork of Firefox68 maintained for Windows XP <ArrowRight/>](//www.mypal-browser.org/) [Mirror&nbsp;<ArrowDown/>](//adryd.co/public/mypal-74.1.4.en-US.win32.zip)
+- [cute ttf to eot converter <ArrowRight/>](//www.kirsle.net/wizards/ttf2eot.cgi)
+- [unitpngfix - PNG transparency fix <ArrowRight/>](//web.archive.org/web/20101021190007/http://labs.unitinteractive.com/unitpngfix.php)
+- [Cool blog post about IE behaviors <ArrowRight/>](//muffinman.io/blog/ie6-hacks-ten-years-after/)
