@@ -93,7 +93,7 @@
   {
     "88x31": "matdoesdev.png",
     "alt": "matdoesdev",
-    "href": "//matdoes.dev/retro",
+    "href": "//matdoes.dev",
     "order": 50
   },
   {
@@ -189,8 +189,8 @@
     "order": 50
   },
   {
-    "88x31": "lun4.gif",
-    "alt": "lun-4",
+    "88x31": "luna.gif",
+    "alt": "luna",
     "href": "//l4.pm",
     "order": 50
   },
@@ -201,8 +201,8 @@
     "order": 50
   },
   {
-    "88x31": "jay.png",
-    "alt": "cat staring at the viewer",
+    "88x31": "cecilia.png",
+    "alt": "cecilia",
     "href": "//hl2.sh",
     "order": 50
   },
