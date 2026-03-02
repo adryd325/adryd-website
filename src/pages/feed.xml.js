@@ -18,6 +18,7 @@ export async function GET(context) {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: context.site,
+    stylesheet: "/static/pretty-feed-v3.xsl",
     items,
   });
 }
