@@ -1,9 +1,8 @@
 ---
 layout: "@/layouts/PagesMarkdown.astro"
-title: This website works in Internet Explorer 6
+title: This website works on Internet Explorer 6
 date: 2026-02-28
-description: "in which I discover it has JavaScript in CSS, and make a custom font"
-unlisted: false
+description: "in which I discover it has JavaScript in CSS and I make a custom font"
 ---
 import { Picture } from 'astro:assets';
 import ArrowRight from "@/components/ArrowRight.astro";
@@ -11,8 +10,7 @@ import ArrowDown from "@/components/ArrowDown.astro";
 
 For some godforsaken reason I decided I really wanted my website to work on 
 Internet Explorer 6. 
-{/* The things that motivate me never really seem to make 
-sense. */}
+
 [*cue meme about how blog owners only post about making their blog.*](./blog_owners.png)
 
 I had already done a bit of work to get my website working fine on old 
@@ -33,7 +31,7 @@ the CSS work I've put in to make my site pretty on modern browsers.
   alt={"Screenshot of Internet Explorer 6 navigated to my website. An aproximation of what my site looked like before making any compatibility oriented changes. It looks almost like unstyled HTML with links being blue and list elements having deep padding and bullets."}
 />
 
-The first big thing to taclke was both CSS variables and REM units not being 
+The first big thing to tackle was both CSS variables and REM units not being 
 supported in Internet Explorer. I solved this problem by rewriting my site to 
 use [scss&nbsp;variables](//github.com/adryd325/adryd-website/blob/main/src/styles/lib/variables.scss).
 
@@ -191,7 +189,7 @@ Images with `width: 100%;` were not preserving aspect ratio that I fixed with [t
 
 And PNGs don't have transparency either which can be fixed with [unitpngfix](https://web.archive.org/web/20101021190007/http://labs.unitinteractive.com/unitpngfix.php)
 
-# Some cool things I found on my adventures
+## Some cool things I found on my adventures
 
 - [IETester - Test your site on all versions of IE <ArrowRight/>](//www.my-debugbar.com/wiki/IETester/HomePage)
 - [DebugBar - Inspect element for Internet Explorer <ArrowRight/>](//www.debugbar.com/download.php)

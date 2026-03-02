@@ -37,4 +37,4 @@ The firebase database was still up at the time, so I got all the songs from the 
 
 Anyway [here's the archive](/pages/2025-12-29-opennbs-archive/opennbs.zip) from November 19th, 2022.
 
-Since then the OpenNBS team made a new website, [noteblock.world](https://noteblock.world/). I'm not sure whether it includes the original song database because it's not searchable; so I figured it's still worth publishing this archive. It also requires sign-in to download any of the songs which is irritating.
+Since then the OpenNBS team made a new website, [noteblock.world](https://noteblock.world/). I'm not sure whether it includes the original song database because it's not searchable; so I figured it's still worth publishing this archive. It also requires an account to download any of the songs which is irritating.
