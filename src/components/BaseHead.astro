@@ -48,8 +48,15 @@ const formattedTitle = frontmatter.title.startsWith("$")
   <meta property="twitter:image" content={new URL(image, Astro.url)} />
 )} -->
 
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="Your Site's Title"
+  href={new URL("feed.xml", Astro.site)}
+/>
+
 <!-- Seriously Apple??? -->
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="telephone=no" />
 <!--[if lt IE 7]>
 <script is:inline src="/static/compat/unitpngfix/unitpngfix.js"></script>
 <![endif]-->
