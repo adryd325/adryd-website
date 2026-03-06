@@ -1,0 +1,102 @@
+---
+import allFonts from "./_data.json";
+---
+
+<style lang="scss">
+  @use "@/lib" as *;
+
+  .typewolf {
+    color: #443235;
+    background: #e6ddde;
+    padding: 8px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .typewolf-font {
+    padding: 8px 16px;
+  }
+
+  .typewolf-inner {
+    border-bottom: 1px solid #443235;
+    display: block;
+  }
+
+  .typewolf-font img {
+    margin: 0.5rem 0 0.2rem 0;
+  }
+
+  .typewolf-example-count {
+    padding-left: 0.25rem;
+
+    font-size: $text-sm;
+    @include large() {
+      font-size: $text-lg;
+    }
+  }
+
+  .typewolf-free {
+    display: inline;
+    width: 0;
+    height: 0;
+    position: relative;
+  }
+
+  .typewolf-free span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0.5em;
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: $color-red-500;
+    color: $color-white;
+    transform: rotate(25deg);
+  }
+
+  .center {
+    text-align: center;
+  }
+</style>
+
+<div class="revert-fancy-link typewolf">
+  {
+    allFonts.map((font) => {
+      return (
+        <div class="typewolf-font">
+          <a
+            class="typewolf-inner"
+            href={"https://www.typewolf.com/" + font.id}
+          >
+            <div>
+              <b>{font.name}</b>
+
+              <span class="typewolf-example-count">
+                {font.exampleCount +
+                  (font.exampleCount > 1 ? " Pairings" : " Pairing")}
+              </span>
+              {font.linkType === "local-dl" && (
+                <span class="typewolf-free sans-serif">
+                  <span> FREE! </span>
+                </span>
+              )}
+            </div>
+            <div>
+              <img
+                src={
+                  "/pages/2026-03-06-all-of-typewolf/specimens/" +
+                  font.id +
+                  "-specimen.png"
+                }
+                loading="lazy"
+                width="200px"
+                height="39px"
+              />
+            </div>
+          </a>
+        </div>
+      );
+    })
+  }
+</div>

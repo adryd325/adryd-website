@@ -1,0 +1,7982 @@
+[
+  {
+    "id": "a2-typewriter",
+    "name": "A2 Typewriter",
+    "exampleCount": 2,
+    "fileName": "a2-typewriter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "aachen",
+    "name": "Aachen",
+    "exampleCount": 1,
+    "fileName": "aachen-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "aaux",
+    "name": "Aaux",
+    "exampleCount": 3,
+    "fileName": "aaux-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "abadi",
+    "name": "Abadi",
+    "exampleCount": 2,
+    "fileName": "abadi-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "abolition",
+    "name": "Abolition",
+    "exampleCount": 2,
+    "fileName": "abolition-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "abril",
+    "name": "Abril",
+    "exampleCount": 8,
+    "fileName": "abril-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "abril-fatface",
+    "name": "Abril Fatface",
+    "exampleCount": 4,
+    "fileName": "abril-fatface-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "academica",
+    "name": "Academica",
+    "exampleCount": 3,
+    "fileName": "academica-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "acrom",
+    "name": "Acrom",
+    "exampleCount": 1,
+    "fileName": "acrom-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "acta",
+    "name": "Acta",
+    "exampleCount": 1,
+    "fileName": "acta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "acta-display",
+    "name": "Acta Display",
+    "exampleCount": 5,
+    "fileName": "acta-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "acta-headline",
+    "name": "Acta Headline",
+    "exampleCount": 1,
+    "fileName": "acta-headline-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "acta-poster",
+    "name": "Acta Poster",
+    "exampleCount": 1,
+    "fileName": "acta-poster-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "acumin",
+    "name": "Acumin",
+    "exampleCount": 24,
+    "fileName": "acumin-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "adelle",
+    "name": "Adelle",
+    "exampleCount": 12,
+    "fileName": "adelle-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "adelle-sans",
+    "name": "Adelle Sans",
+    "exampleCount": 17,
+    "fileName": "adelle-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "adieu",
+    "name": "Adieu",
+    "exampleCount": 21,
+    "fileName": "adieu-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "adobe-ming",
+    "name": "Adobe Ming",
+    "exampleCount": 1,
+    "fileName": "adobe-ming-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "adobe-text",
+    "name": "Adobe Text",
+    "exampleCount": 5,
+    "fileName": "adobe-text-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "aeonik",
+    "name": "Aeonik",
+    "exampleCount": 6,
+    "fileName": "aeonik-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ag-book",
+    "name": "AG Book",
+    "exampleCount": 1,
+    "fileName": "ag-book-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "agentur",
+    "name": "Agentur",
+    "exampleCount": 3,
+    "fileName": "agentur-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "agipo",
+    "name": "Agipo",
+    "exampleCount": 7,
+    "fileName": "agipo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "agrandir",
+    "name": "Agrandir",
+    "exampleCount": 17,
+    "fileName": "agrandir-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "akkurat",
+    "name": "Akkurat",
+    "exampleCount": 28,
+    "fileName": "akkurat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "akkurat-mono",
+    "name": "Akkurat Mono",
+    "exampleCount": 8,
+    "fileName": "akkurat-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "aktiv-grotesk",
+    "name": "Aktiv Grotesk",
+    "exampleCount": 32,
+    "fileName": "aktiv-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "akzidenz-grotesk",
+    "name": "Akzidenz Grotesk",
+    "exampleCount": 31,
+    "fileName": "akzidenz-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "albertina",
+    "name": "Albertina",
+    "exampleCount": 1,
+    "fileName": "albertina-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "albertus",
+    "name": "Albertus",
+    "exampleCount": 8,
+    "fileName": "albertus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "albertus-nova",
+    "name": "Albertus Nova",
+    "exampleCount": 4,
+    "fileName": "albertus-nova-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "alegreya",
+    "name": "Alegreya",
+    "exampleCount": 4,
+    "fileName": "alegreya-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "alegreya-sans",
+    "name": "Alegreya Sans",
+    "exampleCount": 1,
+    "fileName": "alegreya-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "alix-fb",
+    "name": "Alix FB",
+    "exampleCount": 1,
+    "fileName": "alix-fb-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "alright-sans",
+    "name": "Alright Sans",
+    "exampleCount": 6,
+    "fileName": "alright-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "alternate-gothic",
+    "name": "Alternate Gothic",
+    "exampleCount": 8,
+    "fileName": "alternate-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "altissima",
+    "name": "Altissima",
+    "exampleCount": 1,
+    "fileName": "altissima-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "alverata",
+    "name": "Alverata",
+    "exampleCount": 2,
+    "fileName": "alverata-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "amasis",
+    "name": "Amasis",
+    "exampleCount": 2,
+    "fileName": "amasis-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "amatic-sc",
+    "name": "Amatic SC",
+    "exampleCount": 1,
+    "fileName": "amatic-sc-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ambroise",
+    "name": "Ambroise",
+    "exampleCount": 2,
+    "fileName": "ambroise-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "american-grotesk",
+    "name": "American Grotesk",
+    "exampleCount": 1,
+    "fileName": "american-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "americana",
+    "name": "Americana",
+    "exampleCount": 7,
+    "fileName": "americana-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "amerigo",
+    "name": "Amerigo",
+    "exampleCount": 4,
+    "fileName": "amerigo-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ames-roman",
+    "name": "Ames Roman",
+    "exampleCount": 1,
+    "fileName": "ames-roman-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "anarchy-grotesque",
+    "name": "Anarchy Grotesque",
+    "exampleCount": 1,
+    "fileName": "anarchy-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "andale-mono",
+    "name": "Andale Mono",
+    "exampleCount": 2,
+    "fileName": "andale-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "andes",
+    "name": "Andes",
+    "exampleCount": 1,
+    "fileName": "andes-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "anisette-petite",
+    "name": "Anisette Petite",
+    "exampleCount": 2,
+    "fileName": "anisette-petite-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ano",
+    "name": "Ano",
+    "exampleCount": 4,
+    "fileName": "ano-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "anonymous-pro",
+    "name": "Anonymous Pro",
+    "exampleCount": 8,
+    "fileName": "anonymous-pro-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "antenna",
+    "name": "Antenna",
+    "exampleCount": 2,
+    "fileName": "antenna-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "antiga",
+    "name": "Antiga",
+    "exampleCount": 4,
+    "fileName": "antiga-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "antique-olive",
+    "name": "Antique Olive",
+    "exampleCount": 10,
+    "fileName": "antique-olive-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "anton",
+    "name": "Anton",
+    "exampleCount": 1,
+    "fileName": "anton-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "antwerp",
+    "name": "Antwerp",
+    "exampleCount": 2,
+    "fileName": "antwerp-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "apercu",
+    "name": "Apercu",
+    "exampleCount": 101,
+    "fileName": "apercu-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "apercu-mono",
+    "name": "Apercu Mono",
+    "exampleCount": 24,
+    "fileName": "apercu-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "apex-serif",
+    "name": "Apex Serif",
+    "exampleCount": 1,
+    "fileName": "apex-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "apoc",
+    "name": "Apoc",
+    "exampleCount": 8,
+    "fileName": "apoc-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "apple-chancery",
+    "name": "Apple Chancery",
+    "exampleCount": 1,
+    "fileName": "apple-chancery-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "apple-garamond",
+    "name": "Apple Garamond",
+    "exampleCount": 4,
+    "fileName": "apple-garamond-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "arbutus-slab",
+    "name": "Arbutus Slab",
+    "exampleCount": 1,
+    "fileName": "arbutus-slab-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "archer",
+    "name": "Archer",
+    "exampleCount": 3,
+    "fileName": "archer-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "archive",
+    "name": "Archive",
+    "exampleCount": 3,
+    "fileName": "archive-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "archivo",
+    "name": "Archivo",
+    "exampleCount": 1,
+    "fileName": "archivo-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "archivo-narrow",
+    "name": "Archivo Narrow",
+    "exampleCount": 1,
+    "fileName": "archivo-narrow-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "arial",
+    "name": "Arial",
+    "exampleCount": 28,
+    "fileName": "arial-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "arizona-flare",
+    "name": "Arizona Flare",
+    "exampleCount": 4,
+    "fileName": "arizona-flare-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "armitage",
+    "name": "Armitage",
+    "exampleCount": 2,
+    "fileName": "armitage-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "arnhem",
+    "name": "Arnhem",
+    "exampleCount": 9,
+    "fileName": "arnhem-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "arquitecta",
+    "name": "Arquitecta",
+    "exampleCount": 1,
+    "fileName": "arquitecta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ars-maquette",
+    "name": "ARS Maquette",
+    "exampleCount": 2,
+    "fileName": "ars-maquette-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "arvo",
+    "name": "Arvo",
+    "exampleCount": 1,
+    "fileName": "arvo-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ascender-sans-mono",
+    "name": "Ascender Sans Mono",
+    "exampleCount": 1,
+    "fileName": "ascender-sans-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ashbury",
+    "name": "Ashbury",
+    "exampleCount": 1,
+    "fileName": "ashbury-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "atak",
+    "name": "Atak",
+    "exampleCount": 1,
+    "fileName": "atak-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "atc-harris",
+    "name": "ATC Harris",
+    "exampleCount": 2,
+    "fileName": "atc-harris-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "atc-ripley",
+    "name": "ATC Ripley",
+    "exampleCount": 1,
+    "fileName": "atc-ripley-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "atlas-grotesk",
+    "name": "Atlas Grotesk",
+    "exampleCount": 25,
+    "fileName": "atlas-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "atlas-typewriter",
+    "name": "Atlas Typewriter",
+    "exampleCount": 4,
+    "fileName": "atlas-typewriter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "attila-sans",
+    "name": "Attila Sans",
+    "exampleCount": 3,
+    "fileName": "attila-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "austin",
+    "name": "Austin",
+    "exampleCount": 11,
+    "fileName": "austin-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "authentic-sans",
+    "name": "Authentic Sans",
+    "exampleCount": 3,
+    "fileName": "authentic-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "avenir",
+    "name": "Avenir",
+    "exampleCount": 58,
+    "fileName": "avenir-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "averia-serif-libre",
+    "name": "Averia Serif Libre",
+    "exampleCount": 1,
+    "fileName": "averia-serif-libre-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "averta",
+    "name": "Averta",
+    "exampleCount": 6,
+    "fileName": "averta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "aw-conqueror-didot",
+    "name": "AW Conqueror Didot",
+    "exampleCount": 1,
+    "fileName": "aw-conqueror-didot-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ayer",
+    "name": "Ayer",
+    "exampleCount": 9,
+    "fileName": "ayer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "azeret-mono",
+    "name": "Azeret Mono",
+    "exampleCount": 1,
+    "fileName": "azeret-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "azo-sans",
+    "name": "Azo Sans",
+    "exampleCount": 1,
+    "fileName": "azo-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ballast",
+    "name": "Ballast",
+    "exampleCount": 1,
+    "fileName": "ballast-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "balto",
+    "name": "Balto",
+    "exampleCount": 6,
+    "fileName": "balto-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "banana-grotesk",
+    "name": "Banana Grotesk",
+    "exampleCount": 13,
+    "fileName": "banana-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "basetica",
+    "name": "Basetica",
+    "exampleCount": 3,
+    "fileName": "basetica-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "basic-commercial",
+    "name": "Basic Commercial",
+    "exampleCount": 4,
+    "fileName": "basic-commercial-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "basic-sans",
+    "name": "Basic Sans",
+    "exampleCount": 2,
+    "fileName": "basic-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "basier",
+    "name": "Basier",
+    "exampleCount": 2,
+    "fileName": "basier-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "basis-grotesque",
+    "name": "Basis Grotesque",
+    "exampleCount": 44,
+    "fileName": "basis-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "basis-grotesque-mono",
+    "name": "Basis Grotesque Mono",
+    "exampleCount": 6,
+    "fileName": "basis-grotesque-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "baskerville",
+    "name": "Baskerville",
+    "exampleCount": 18,
+    "fileName": "baskerville-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "baton",
+    "name": "Baton",
+    "exampleCount": 6,
+    "fileName": "baton-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "battersea-slab",
+    "name": "Battersea Slab",
+    "exampleCount": 1,
+    "fileName": "battersea-slab-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bc-falster-grotesk",
+    "name": "BC Falster Grotesk",
+    "exampleCount": 3,
+    "fileName": "bc-falster-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "beastly",
+    "name": "Beastly",
+    "exampleCount": 1,
+    "fileName": "beastly-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "beatrice",
+    "name": "Beatrice",
+    "exampleCount": 8,
+    "fileName": "beatrice-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "beatrice-display",
+    "name": "Beatrice Display",
+    "exampleCount": 9,
+    "fileName": "beatrice-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "beausite",
+    "name": "Beausite",
+    "exampleCount": 6,
+    "fileName": "beausite-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bebas-neue",
+    "name": "Bebas Neue",
+    "exampleCount": 4,
+    "fileName": "bebas-neue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "begum",
+    "name": "Begum",
+    "exampleCount": 2,
+    "fileName": "begum-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "beirut",
+    "name": "Beirut",
+    "exampleCount": 2,
+    "fileName": "beirut-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "exampleCount": 6,
+    "fileName": "bell-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "belwe-mono",
+    "name": "Belwe Mono",
+    "exampleCount": 1,
+    "fileName": "belwe-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bely",
+    "name": "Bely",
+    "exampleCount": 1,
+    "fileName": "bely-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "benton-modern",
+    "name": "Benton Modern",
+    "exampleCount": 2,
+    "fileName": "benton-modern-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "benton-sans",
+    "name": "Benton Sans",
+    "exampleCount": 19,
+    "fileName": "benton-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "berlingske-serif",
+    "name": "Berlingske Serif",
+    "exampleCount": 5,
+    "fileName": "berlingske-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bernini-sans",
+    "name": "Bernini Sans",
+    "exampleCount": 1,
+    "fileName": "bernini-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bianco-sans",
+    "name": "Bianco Sans",
+    "exampleCount": 5,
+    "fileName": "bianco-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bianco-serif",
+    "name": "Bianco Serif",
+    "exampleCount": 7,
+    "fileName": "bianco-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "big-caslon",
+    "name": "Big Caslon",
+    "exampleCount": 8,
+    "fileName": "big-caslon-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "big-daily",
+    "name": "Big Daily",
+    "exampleCount": 3,
+    "fileName": "big-daily-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "biorhyme",
+    "name": "BioRhyme",
+    "exampleCount": 1,
+    "fileName": "biorhyme-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "bitter",
+    "name": "Bitter",
+    "exampleCount": 1,
+    "fileName": "bitter-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "blanco",
+    "name": "Blanco",
+    "exampleCount": 3,
+    "fileName": "blanco-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "exampleCount": 1,
+    "fileName": "blender-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "block-berthold",
+    "name": "Block Berthold",
+    "exampleCount": 1,
+    "fileName": "block-berthold-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bluu",
+    "name": "Bluu",
+    "exampleCount": 2,
+    "fileName": "bluu-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bodoni",
+    "name": "Bodoni",
+    "exampleCount": 9,
+    "fileName": "bodoni-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bodoni-egyptian",
+    "name": "Bodoni Egyptian",
+    "exampleCount": 1,
+    "fileName": "bodoni-egyptian-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bodoni-poster",
+    "name": "Bodoni Poster",
+    "exampleCount": 1,
+    "fileName": "bodoni-poster-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "boita",
+    "name": "Boita",
+    "exampleCount": 1,
+    "fileName": "boita-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bon-vivant",
+    "name": "Bon Vivant",
+    "exampleCount": 4,
+    "fileName": "bon-vivant-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bonobo",
+    "name": "Bonobo",
+    "exampleCount": 1,
+    "fileName": "bonobo-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "boogy-brut",
+    "name": "Boogy Brut",
+    "exampleCount": 4,
+    "fileName": "boogy-brut-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bookman",
+    "name": "Bookman",
+    "exampleCount": 4,
+    "fileName": "bookman-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bookmania",
+    "name": "Bookmania",
+    "exampleCount": 9,
+    "fileName": "bookmania-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bosca",
+    "name": "Bosca",
+    "exampleCount": 1,
+    "fileName": "bosca-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bourrasque",
+    "name": "Bourrasque",
+    "exampleCount": 1,
+    "fileName": "bourrasque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "boutique",
+    "name": "Boutique",
+    "exampleCount": 5,
+    "fileName": "boutique-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "bradford",
+    "name": "Bradford",
+    "exampleCount": 12,
+    "fileName": "bradford-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bradford-mono",
+    "name": "Bradford Mono",
+    "exampleCount": 1,
+    "fileName": "bradford-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "brandon-grotesque",
+    "name": "Brandon Grotesque",
+    "exampleCount": 54,
+    "fileName": "brandon-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brandon-printed",
+    "name": "Brandon Printed",
+    "exampleCount": 1,
+    "fileName": "brandon-printed-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brauer-neue",
+    "name": "Brauer Neue",
+    "exampleCount": 2,
+    "fileName": "brauer-neue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "brevia",
+    "name": "Brevia",
+    "exampleCount": 1,
+    "fileName": "brevia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brezel-grotesk",
+    "name": "Brezel Grotesk",
+    "exampleCount": 2,
+    "fileName": "brezel-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "brice",
+    "name": "Brice",
+    "exampleCount": 2,
+    "fileName": "brice-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brick",
+    "name": "Brick",
+    "exampleCount": 6,
+    "fileName": "brick-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "brighton",
+    "name": "Brighton",
+    "exampleCount": 1,
+    "fileName": "brighton-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brix-sans",
+    "name": "Brix Sans",
+    "exampleCount": 1,
+    "fileName": "brix-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brothers",
+    "name": "Brothers",
+    "exampleCount": 2,
+    "fileName": "brothers-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "brown",
+    "name": "Brown",
+    "exampleCount": 31,
+    "fileName": "brown-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "brunel",
+    "name": "Brunel",
+    "exampleCount": 1,
+    "fileName": "brunel-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bryant",
+    "name": "Bryant",
+    "exampleCount": 2,
+    "fileName": "bryant-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "exampleCount": 2,
+    "fileName": "buenos-aires-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "buffon",
+    "name": "Buffon",
+    "exampleCount": 1,
+    "fileName": "buffon-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bureau-grotesque",
+    "name": "Bureau Grotesque",
+    "exampleCount": 6,
+    "fileName": "bureau-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "burgess",
+    "name": "Burgess",
+    "exampleCount": 6,
+    "fileName": "burgess-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "butler",
+    "name": "Butler",
+    "exampleCount": 2,
+    "fileName": "butler-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "bw-gradual",
+    "name": "Bw Gradual",
+    "exampleCount": 5,
+    "fileName": "bw-gradual-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cabin",
+    "name": "Cabin",
+    "exampleCount": 1,
+    "fileName": "cabin-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "calendas-plus",
+    "name": "Calendas Plus",
+    "exampleCount": 2,
+    "fileName": "calendas-plus-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "calibre",
+    "name": "Calibre",
+    "exampleCount": 41,
+    "fileName": "calibre-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "calibri",
+    "name": "Calibri",
+    "exampleCount": 2,
+    "fileName": "calibri-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "calluna",
+    "name": "Calluna",
+    "exampleCount": 22,
+    "fileName": "calluna-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "calluna-sans",
+    "name": "Calluna Sans",
+    "exampleCount": 5,
+    "fileName": "calluna-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "calvert",
+    "name": "Calvert",
+    "exampleCount": 1,
+    "fileName": "calvert-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cambon",
+    "name": "Cambon",
+    "exampleCount": 12,
+    "fileName": "cambon-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "campton",
+    "name": "Campton",
+    "exampleCount": 4,
+    "fileName": "campton-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "candy-darling",
+    "name": "Candy Darling",
+    "exampleCount": 1,
+    "fileName": "candy-darling-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "canela",
+    "name": "Canela",
+    "exampleCount": 77,
+    "fileName": "canela-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "canopee",
+    "name": "Canopée",
+    "exampleCount": 1,
+    "fileName": "canopee-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cantarell",
+    "name": "Cantarell",
+    "exampleCount": 1,
+    "fileName": "cantarell-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "caponi",
+    "name": "Caponi",
+    "exampleCount": 1,
+    "fileName": "caponi-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cardinal",
+    "name": "Cardinal",
+    "exampleCount": 12,
+    "fileName": "cardinal-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cardo",
+    "name": "Cardo",
+    "exampleCount": 4,
+    "fileName": "cardo-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "carlton",
+    "name": "Carlton",
+    "exampleCount": 2,
+    "fileName": "carlton-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "carrie",
+    "name": "Carrie",
+    "exampleCount": 1,
+    "fileName": "carrie-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "caslon",
+    "name": "Caslon",
+    "exampleCount": 41,
+    "fileName": "caslon-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "caslon-graphique",
+    "name": "Caslon Graphique",
+    "exampleCount": 9,
+    "fileName": "caslon-graphique-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "casta",
+    "name": "Casta",
+    "exampleCount": 2,
+    "fileName": "casta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "catalogue",
+    "name": "Catalogue",
+    "exampleCount": 1,
+    "fileName": "catalogue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "caxton",
+    "name": "Caxton",
+    "exampleCount": 3,
+    "fileName": "caxton-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "centaur",
+    "name": "Centaur",
+    "exampleCount": 1,
+    "fileName": "centaur-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "centima-mono",
+    "name": "Centima Mono",
+    "exampleCount": 1,
+    "fileName": "centima-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "centra-no2",
+    "name": "Centra No2",
+    "exampleCount": 4,
+    "fileName": "centra-no2-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "central-avenue",
+    "name": "Central Avenue",
+    "exampleCount": 2,
+    "fileName": "central-avenue-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "century-old-style",
+    "name": "Century Old Style",
+    "exampleCount": 5,
+    "fileName": "century-old-style-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "century-schoolbook",
+    "name": "Century Schoolbook",
+    "exampleCount": 17,
+    "fileName": "century-schoolbook-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "century-schoolbook-mono",
+    "name": "Century Schoolbook Mono",
+    "exampleCount": 4,
+    "fileName": "century-schoolbook-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cerebri-sans",
+    "name": "Cerebri Sans",
+    "exampleCount": 1,
+    "fileName": "cerebri-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chalet",
+    "name": "Chalet",
+    "exampleCount": 5,
+    "fileName": "chalet-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "champion-gothic",
+    "name": "Champion Gothic",
+    "exampleCount": 2,
+    "fileName": "champion-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chap",
+    "name": "Chap",
+    "exampleCount": 17,
+    "fileName": "chap-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "chaparral",
+    "name": "Chaparral",
+    "exampleCount": 5,
+    "fileName": "chaparral-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chapeau",
+    "name": "Chapeau",
+    "exampleCount": 3,
+    "fileName": "chapeau-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cheee",
+    "name": "Cheee",
+    "exampleCount": 9,
+    "fileName": "cheee-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cheltenham",
+    "name": "Cheltenham",
+    "exampleCount": 12,
+    "fileName": "cheltenham-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chesterfield",
+    "name": "Chesterfield",
+    "exampleCount": 1,
+    "fileName": "chesterfield-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chicago",
+    "name": "Chicago",
+    "exampleCount": 1,
+    "fileName": "chicago-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "chiswick-serif",
+    "name": "Chiswick Serif",
+    "exampleCount": 3,
+    "fileName": "chiswick-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "chivo",
+    "name": "Chivo",
+    "exampleCount": 2,
+    "fileName": "chivo-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "chobani-sans",
+    "name": "Chobani Sans",
+    "exampleCount": 1,
+    "fileName": "chobani-sans-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "chobani-serif",
+    "name": "Chobani Serif",
+    "exampleCount": 1,
+    "fileName": "chobani-serif-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "chronicle-display",
+    "name": "Chronicle Display",
+    "exampleCount": 15,
+    "fileName": "chronicle-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "chronicle-text",
+    "name": "Chronicle Text",
+    "exampleCount": 9,
+    "fileName": "chronicle-text-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cigars",
+    "name": "Cigars",
+    "exampleCount": 3,
+    "fileName": "cigars-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cimarron",
+    "name": "Cimarron",
+    "exampleCount": 1,
+    "fileName": "cimarron-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cindie-mono",
+    "name": "Cindie Mono",
+    "exampleCount": 2,
+    "fileName": "cindie-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "circe",
+    "name": "Circe",
+    "exampleCount": 3,
+    "fileName": "circe-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "circular",
+    "name": "Circular",
+    "exampleCount": 54,
+    "fileName": "circular-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cirka",
+    "name": "Cirka",
+    "exampleCount": 4,
+    "fileName": "cirka-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "clarendon",
+    "name": "Clarendon",
+    "exampleCount": 10,
+    "fileName": "clarendon-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "clarkson",
+    "name": "Clarkson",
+    "exampleCount": 4,
+    "fileName": "clarkson-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "clearface-gothic",
+    "name": "Clearface Gothic",
+    "exampleCount": 1,
+    "fileName": "clearface-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "clifton",
+    "name": "Clifton",
+    "exampleCount": 6,
+    "fileName": "clifton-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cochin",
+    "name": "Cochin",
+    "exampleCount": 1,
+    "fileName": "cochin-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "coign",
+    "name": "Coign",
+    "exampleCount": 3,
+    "fileName": "coign-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "colfax",
+    "name": "Colfax",
+    "exampleCount": 13,
+    "fileName": "colfax-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "columbia-sans",
+    "name": "Columbia Sans",
+    "exampleCount": 3,
+    "fileName": "columbia-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "comic-sans",
+    "name": "Comic Sans",
+    "exampleCount": 1,
+    "fileName": "comic-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "commuters-sans",
+    "name": "Commuters Sans",
+    "exampleCount": 5,
+    "fileName": "commuters-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "compacta",
+    "name": "Compacta",
+    "exampleCount": 4,
+    "fileName": "compacta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "concept",
+    "name": "Concept",
+    "exampleCount": 1,
+    "fileName": "concept-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "consolas",
+    "name": "Consolas",
+    "exampleCount": 1,
+    "fileName": "consolas-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "contax-sans",
+    "name": "Contax Sans",
+    "exampleCount": 1,
+    "fileName": "contax-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "continua",
+    "name": "Continua",
+    "exampleCount": 1,
+    "fileName": "continua-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cooper",
+    "name": "Cooper",
+    "exampleCount": 22,
+    "fileName": "cooper-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cooper-hewitt",
+    "name": "Cooper Hewitt",
+    "exampleCount": 1,
+    "fileName": "cooper-hewitt-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "cooper-nouveau",
+    "name": "Cooper Nouveau",
+    "exampleCount": 2,
+    "fileName": "cooper-nouveau-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "coordinates",
+    "name": "Coordinates",
+    "exampleCount": 1,
+    "fileName": "coordinates-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "coranto-2",
+    "name": "Coranto 2",
+    "exampleCount": 1,
+    "fileName": "coranto-2-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "corfe",
+    "name": "Corfe",
+    "exampleCount": 2,
+    "fileName": "corfe-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cormorant",
+    "name": "Cormorant",
+    "exampleCount": 9,
+    "fileName": "cormorant-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "cortado-script",
+    "name": "Cortado Script",
+    "exampleCount": 1,
+    "fileName": "cortado-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cosi-azure",
+    "name": "Cosi Azure",
+    "exampleCount": 2,
+    "fileName": "cosi-azure-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cosi-times",
+    "name": "Cosi Times",
+    "exampleCount": 4,
+    "fileName": "cosi-times-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cotoris",
+    "name": "Cotoris",
+    "exampleCount": 1,
+    "fileName": "cotoris-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "courier",
+    "name": "Courier",
+    "exampleCount": 33,
+    "fileName": "courier-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "courier-prime",
+    "name": "Courier Prime",
+    "exampleCount": 6,
+    "fileName": "courier-prime-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "courier-sans",
+    "name": "Courier Sans",
+    "exampleCount": 2,
+    "fileName": "courier-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cousine",
+    "name": "Cousine",
+    "exampleCount": 1,
+    "fileName": "cousine-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "crimson-text",
+    "name": "Crimson Text",
+    "exampleCount": 5,
+    "fileName": "crimson-text-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "cubano",
+    "name": "Cubano",
+    "exampleCount": 1,
+    "fileName": "cubano-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "cucina",
+    "name": "Cucina",
+    "exampleCount": 4,
+    "fileName": "cucina-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "cutive",
+    "name": "Cutive",
+    "exampleCount": 1,
+    "fileName": "cutive-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "cutive-mono",
+    "name": "Cutive Mono",
+    "exampleCount": 4,
+    "fileName": "cutive-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "dada-grotesk",
+    "name": "Dada Grotesk",
+    "exampleCount": 1,
+    "fileName": "dada-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "exampleCount": 2,
+    "fileName": "dahlia-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dala-floda",
+    "name": "Dala Floda",
+    "exampleCount": 11,
+    "fileName": "dala-floda-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dala-moa",
+    "name": "Dala Moa",
+    "exampleCount": 4,
+    "fileName": "dala-moa-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dala-prisma",
+    "name": "Dala Prisma",
+    "exampleCount": 1,
+    "fileName": "dala-prisma-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "damien",
+    "name": "Damien",
+    "exampleCount": 1,
+    "fileName": "damien-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "danzza",
+    "name": "Danzza",
+    "exampleCount": 1,
+    "fileName": "danzza-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "darby-sans",
+    "name": "Darby Sans",
+    "exampleCount": 3,
+    "fileName": "darby-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "david",
+    "name": "David",
+    "exampleCount": 2,
+    "fileName": "david-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "davinci",
+    "name": "DaVinci",
+    "exampleCount": 3,
+    "fileName": "davinci-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "davis-sans",
+    "name": "Davis Sans",
+    "exampleCount": 1,
+    "fileName": "davis-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "dazzed",
+    "name": "Dazzed",
+    "exampleCount": 3,
+    "fileName": "dazzed-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dear-sarah",
+    "name": "Dear Sarah",
+    "exampleCount": 1,
+    "fileName": "dear-sarah-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "decima",
+    "name": "Decima",
+    "exampleCount": 1,
+    "fileName": "decima-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "decima-mono",
+    "name": "Decima Mono",
+    "exampleCount": 2,
+    "fileName": "decima-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "decimal",
+    "name": "Decimal",
+    "exampleCount": 1,
+    "fileName": "decimal-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "degular",
+    "name": "Degular",
+    "exampleCount": 8,
+    "fileName": "degular-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "dejavu-serif",
+    "name": "DejaVu Serif",
+    "exampleCount": 1,
+    "fileName": "dejavu-serif-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "dia",
+    "name": "Dia",
+    "exampleCount": 14,
+    "fileName": "dia-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "diatype",
+    "name": "Diatype",
+    "exampleCount": 6,
+    "fileName": "diatype-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "diatype-mono",
+    "name": "Diatype Mono",
+    "exampleCount": 2,
+    "fileName": "diatype-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "dida",
+    "name": "Dida",
+    "exampleCount": 1,
+    "fileName": "dida-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "didot",
+    "name": "Didot",
+    "exampleCount": 8,
+    "fileName": "didot-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "digestive",
+    "name": "Digestive",
+    "exampleCount": 4,
+    "fileName": "digestive-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "din",
+    "name": "DIN",
+    "exampleCount": 24,
+    "fileName": "din-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "din-mono",
+    "name": "DIN Mono",
+    "exampleCount": 2,
+    "fileName": "din-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "din-round",
+    "name": "DIN Round",
+    "exampleCount": 3,
+    "fileName": "din-round-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "dinamit",
+    "name": "Dinamit",
+    "exampleCount": 2,
+    "fileName": "dinamit-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "displace",
+    "name": "Displace",
+    "exampleCount": 4,
+    "fileName": "displace-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "dm-mono",
+    "name": "DM Mono",
+    "exampleCount": 10,
+    "fileName": "dm-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "dm-sans",
+    "name": "DM Sans",
+    "exampleCount": 6,
+    "fileName": "dm-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "domaine-display",
+    "name": "Domaine Display",
+    "exampleCount": 32,
+    "fileName": "domaine-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "domaine-sans",
+    "name": "Domaine Sans",
+    "exampleCount": 7,
+    "fileName": "domaine-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "domaine-text",
+    "name": "Domaine Text",
+    "exampleCount": 15,
+    "fileName": "domaine-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "domine",
+    "name": "Domine",
+    "exampleCount": 1,
+    "fileName": "domine-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "doyle",
+    "name": "Doyle",
+    "exampleCount": 1,
+    "fileName": "doyle-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "droid-sans",
+    "name": "Droid Sans",
+    "exampleCount": 1,
+    "fileName": "droid-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "droid-sans-mono",
+    "name": "Droid Sans Mono",
+    "exampleCount": 2,
+    "fileName": "droid-sans-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "droid-serif",
+    "name": "Droid Serif",
+    "exampleCount": 1,
+    "fileName": "droid-serif-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "droulers",
+    "name": "Droulers",
+    "exampleCount": 3,
+    "fileName": "droulers-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "druk",
+    "name": "Druk",
+    "exampleCount": 38,
+    "fileName": "druk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "drury-lane",
+    "name": "Drury Lane",
+    "exampleCount": 2,
+    "fileName": "drury-lane-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "eames-century-modern",
+    "name": "Eames Century Modern",
+    "exampleCount": 2,
+    "fileName": "eames-century-modern-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "eames-century-modern-stencil",
+    "name": "Eames Century Modern Stencil",
+    "exampleCount": 1,
+    "fileName": "eames-century-modern-stencil-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "eb-garamond",
+    "name": "EB Garamond",
+    "exampleCount": 2,
+    "fileName": "eb-garamond-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "eckmannpsych",
+    "name": "Eckmannpsych",
+    "exampleCount": 3,
+    "fileName": "eckmannpsych-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "eczar",
+    "name": "Eczar",
+    "exampleCount": 1,
+    "fileName": "eczar-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "editor",
+    "name": "Editor",
+    "exampleCount": 3,
+    "fileName": "editor-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "editorial-new",
+    "name": "Editorial New",
+    "exampleCount": 41,
+    "fileName": "editorial-new-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "editorial-old",
+    "name": "Editorial Old",
+    "exampleCount": 5,
+    "fileName": "editorial-old-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "edmondsans",
+    "name": "Edmondsans",
+    "exampleCount": 1,
+    "fileName": "edmondsans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "edwardian",
+    "name": "Edwardian",
+    "exampleCount": 1,
+    "fileName": "edwardian-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "effra",
+    "name": "Effra",
+    "exampleCount": 6,
+    "fileName": "effra-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "egyptienne",
+    "name": "Egyptienne",
+    "exampleCount": 2,
+    "fileName": "egyptienne-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ehrhardt",
+    "name": "Ehrhardt",
+    "exampleCount": 1,
+    "fileName": "ehrhardt-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "eklektyk",
+    "name": "Eklektyk",
+    "exampleCount": 2,
+    "fileName": "eklektyk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "eksell-display",
+    "name": "Eksell Display",
+    "exampleCount": 12,
+    "fileName": "eksell-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "eldorado",
+    "name": "Eldorado",
+    "exampleCount": 1,
+    "fileName": "eldorado-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "electra",
+    "name": "Electra",
+    "exampleCount": 4,
+    "fileName": "electra-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "elementa",
+    "name": "Elementa",
+    "exampleCount": 2,
+    "fileName": "elementa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "elena",
+    "name": "Elena",
+    "exampleCount": 3,
+    "fileName": "elena-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "elephant",
+    "name": "Elephant",
+    "exampleCount": 2,
+    "fileName": "elephant-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "elmhurst",
+    "name": "Elmhurst",
+    "exampleCount": 1,
+    "fileName": "elmhurst-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "embassy",
+    "name": "Embassy",
+    "exampleCount": 1,
+    "fileName": "embassy-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "engravers",
+    "name": "Engravers",
+    "exampleCount": 3,
+    "fileName": "engravers-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "engravers-gothic",
+    "name": "Engravers Gothic",
+    "exampleCount": 7,
+    "fileName": "engravers-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "equip",
+    "name": "Equip",
+    "exampleCount": 1,
+    "fileName": "equip-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "equitan-sans",
+    "name": "Equitan Sans",
+    "exampleCount": 1,
+    "fileName": "equitan-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "erato",
+    "name": "Erato",
+    "exampleCount": 2,
+    "fileName": "erato-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "escrow",
+    "name": "Escrow",
+    "exampleCount": 1,
+    "fileName": "escrow-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "eskapade",
+    "name": "Eskapade",
+    "exampleCount": 2,
+    "fileName": "eskapade-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "etna",
+    "name": "Etna",
+    "exampleCount": 2,
+    "fileName": "etna-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "euclid-flex",
+    "name": "Euclid Flex",
+    "exampleCount": 3,
+    "fileName": "euclid-flex-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "europa",
+    "name": "Europa",
+    "exampleCount": 10,
+    "fileName": "europa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "eurostile",
+    "name": "Eurostile",
+    "exampleCount": 5,
+    "fileName": "eurostile-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "everett",
+    "name": "Everett",
+    "exampleCount": 12,
+    "fileName": "everett-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "exchange",
+    "name": "Exchange",
+    "exampleCount": 2,
+    "fileName": "exchange-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "executive",
+    "name": "Executive",
+    "exampleCount": 2,
+    "fileName": "executive-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "f-grotesk",
+    "name": "F Grotesk",
+    "exampleCount": 5,
+    "fileName": "f-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "f37-bella",
+    "name": "F37 Bella",
+    "exampleCount": 1,
+    "fileName": "f37-bella-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "f37-jan",
+    "name": "F37 Jan",
+    "exampleCount": 1,
+    "fileName": "f37-jan-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fabriga",
+    "name": "Fabriga",
+    "exampleCount": 2,
+    "fileName": "fabriga-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fabrik",
+    "name": "Fabrik",
+    "exampleCount": 2,
+    "fileName": "fabrik-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "face",
+    "name": "Face",
+    "exampleCount": 2,
+    "fileName": "face-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "facit",
+    "name": "Facit",
+    "exampleCount": 1,
+    "fileName": "facit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fakt",
+    "name": "Fakt",
+    "exampleCount": 18,
+    "fileName": "fakt-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "falafel-grotesque",
+    "name": "Falafel Grotesque",
+    "exampleCount": 1,
+    "fileName": "falafel-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "family",
+    "name": "Family",
+    "exampleCount": 1,
+    "fileName": "family-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fann-grotesque",
+    "name": "Fann Grotesque",
+    "exampleCount": 2,
+    "fileName": "fann-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "farnham",
+    "name": "Farnham",
+    "exampleCount": 6,
+    "fileName": "farnham-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fatfrank",
+    "name": "FatFrank",
+    "exampleCount": 1,
+    "fileName": "fatfrank-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "faunus",
+    "name": "Faunus",
+    "exampleCount": 1,
+    "fileName": "faunus-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "favorit",
+    "name": "Favorit",
+    "exampleCount": 46,
+    "fileName": "favorit-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "favorit-mono",
+    "name": "Favorit Mono",
+    "exampleCount": 9,
+    "fileName": "favorit-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "faxfont",
+    "name": "Faxfont",
+    "exampleCount": 1,
+    "fileName": "faxfont-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "feature",
+    "name": "Feature",
+    "exampleCount": 7,
+    "fileName": "feature-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fedra-mono",
+    "name": "Fedra Mono",
+    "exampleCount": 2,
+    "fileName": "fedra-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fedra-serif",
+    "name": "Fedra Serif",
+    "exampleCount": 1,
+    "fileName": "fedra-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "feijoa",
+    "name": "Feijoa",
+    "exampleCount": 5,
+    "fileName": "feijoa-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fenul",
+    "name": "Fenul",
+    "exampleCount": 1,
+    "fileName": "fenul-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ferry",
+    "name": "Ferry",
+    "exampleCount": 1,
+    "fileName": "ferry-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ff-atma-serif",
+    "name": "FF Atma Serif",
+    "exampleCount": 1,
+    "fileName": "ff-atma-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-bau",
+    "name": "FF Bau",
+    "exampleCount": 13,
+    "fileName": "ff-bau-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-clan",
+    "name": "FF Clan",
+    "exampleCount": 3,
+    "fileName": "ff-clan-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-dagny",
+    "name": "FF Dagny",
+    "exampleCount": 2,
+    "fileName": "ff-dagny-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-franziska",
+    "name": "FF Franziska",
+    "exampleCount": 1,
+    "fileName": "ff-franziska-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ff-good-headline",
+    "name": "FF Good Headline",
+    "exampleCount": 1,
+    "fileName": "ff-good-headline-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-kievit",
+    "name": "FF Kievit",
+    "exampleCount": 1,
+    "fileName": "ff-kievit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-kievit-slab",
+    "name": "FF Kievit Slab",
+    "exampleCount": 1,
+    "fileName": "ff-kievit-slab-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-mark",
+    "name": "FF Mark",
+    "exampleCount": 13,
+    "fileName": "ff-mark-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-meta",
+    "name": "FF Meta",
+    "exampleCount": 3,
+    "fileName": "ff-meta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-meta-serif",
+    "name": "FF Meta Serif",
+    "exampleCount": 8,
+    "fileName": "ff-meta-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-mister-k",
+    "name": "FF Mister K",
+    "exampleCount": 1,
+    "fileName": "ff-mister-k-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-more",
+    "name": "FF More",
+    "exampleCount": 2,
+    "fileName": "ff-more-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-nexus-typewriter",
+    "name": "FF Nexus Typewriter",
+    "exampleCount": 1,
+    "fileName": "ff-nexus-typewriter-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-olsen",
+    "name": "FF Olsen",
+    "exampleCount": 1,
+    "fileName": "ff-olsen-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-oxide",
+    "name": "FF Oxide",
+    "exampleCount": 1,
+    "fileName": "ff-oxide-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-scala",
+    "name": "FF Scala",
+    "exampleCount": 1,
+    "fileName": "ff-scala-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-scala-sans",
+    "name": "FF Scala Sans",
+    "exampleCount": 2,
+    "fileName": "ff-scala-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-super-grotesk",
+    "name": "FF Super Grotesk",
+    "exampleCount": 6,
+    "fileName": "ff-super-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-tisa",
+    "name": "FF Tisa",
+    "exampleCount": 16,
+    "fileName": "ff-tisa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-tisa-sans",
+    "name": "FF Tisa Sans",
+    "exampleCount": 1,
+    "fileName": "ff-tisa-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ff-unit-slab",
+    "name": "FF Unit Slab",
+    "exampleCount": 1,
+    "fileName": "ff-unit-slab-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "filosofia",
+    "name": "Filosofia",
+    "exampleCount": 1,
+    "fileName": "filosofia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "filson",
+    "name": "Filson",
+    "exampleCount": 1,
+    "fileName": "filson-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "financier-display",
+    "name": "Financier Display",
+    "exampleCount": 7,
+    "fileName": "financier-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "financier-text",
+    "name": "Financier Text",
+    "exampleCount": 2,
+    "fileName": "financier-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fira-sans",
+    "name": "Fira Sans",
+    "exampleCount": 2,
+    "fileName": "fira-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "fjalla-one",
+    "name": "Fjalla One",
+    "exampleCount": 1,
+    "fileName": "fjalla-one-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "fjord-one",
+    "name": "Fjord One",
+    "exampleCount": 1,
+    "fileName": "fjord-one-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "fk-grotesk",
+    "name": "FK Grotesk",
+    "exampleCount": 4,
+    "fileName": "fk-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fk-grotesk-mono",
+    "name": "FK Grotesk Mono",
+    "exampleCount": 2,
+    "fileName": "fk-grotesk-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fk-screamer",
+    "name": "FK Screamer",
+    "exampleCount": 7,
+    "fileName": "fk-screamer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "flama",
+    "name": "Flama",
+    "exampleCount": 3,
+    "fileName": "flama-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "flandria",
+    "name": "Flandria",
+    "exampleCount": 1,
+    "fileName": "flandria-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "flareserif-821",
+    "name": "Flareserif 821",
+    "exampleCount": 1,
+    "fileName": "flareserif-821-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "flecha",
+    "name": "Flecha",
+    "exampleCount": 6,
+    "fileName": "flecha-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "flyer",
+    "name": "Flyer",
+    "exampleCount": 1,
+    "fileName": "flyer-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "folio",
+    "name": "Folio",
+    "exampleCount": 6,
+    "fileName": "folio-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "forma",
+    "name": "Forma",
+    "exampleCount": 2,
+    "fileName": "forma-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "formula-condensed",
+    "name": "Formula Condensed",
+    "exampleCount": 2,
+    "fileName": "formula-condensed-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "foro",
+    "name": "Foro",
+    "exampleCount": 1,
+    "fileName": "foro-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fort",
+    "name": "Fort",
+    "exampleCount": 2,
+    "fileName": "fort-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fortescue",
+    "name": "Fortescue",
+    "exampleCount": 8,
+    "fileName": "fortescue-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "forza",
+    "name": "Forza",
+    "exampleCount": 2,
+    "fileName": "forza-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "founders-grotesk",
+    "name": "Founders Grotesk",
+    "exampleCount": 87,
+    "fileName": "founders-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "founders-grotesk-mono",
+    "name": "Founders Grotesk Mono",
+    "exampleCount": 11,
+    "fileName": "founders-grotesk-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fournier",
+    "name": "Fournier",
+    "exampleCount": 1,
+    "fileName": "fournier-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fraktur",
+    "name": "Fraktur",
+    "exampleCount": 1,
+    "fileName": "fraktur-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "franklin-gothic",
+    "name": "Franklin Gothic",
+    "exampleCount": 35,
+    "fileName": "franklin-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "frauen",
+    "name": "Frauen",
+    "exampleCount": 5,
+    "fileName": "frauen-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fraunces",
+    "name": "Fraunces",
+    "exampleCount": 1,
+    "fileName": "fraunces-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "freeland",
+    "name": "Freeland",
+    "exampleCount": 1,
+    "fileName": "freeland-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freight-big",
+    "name": "Freight Big",
+    "exampleCount": 24,
+    "fileName": "freight-big-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freight-display",
+    "name": "Freight Display",
+    "exampleCount": 33,
+    "fileName": "freight-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freight-neo",
+    "name": "Freight Neo",
+    "exampleCount": 2,
+    "fileName": "freight-neo-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freight-sans",
+    "name": "Freight Sans",
+    "exampleCount": 16,
+    "fileName": "freight-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freight-text",
+    "name": "Freight Text",
+    "exampleCount": 38,
+    "fileName": "freight-text-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "freizeit",
+    "name": "Freizeit",
+    "exampleCount": 1,
+    "fileName": "freizeit-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "friz-quadrata",
+    "name": "Friz Quadrata",
+    "exampleCount": 2,
+    "fileName": "friz-quadrata-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fs-emeric",
+    "name": "FS Emeric",
+    "exampleCount": 1,
+    "fileName": "fs-emeric-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "fs-siena",
+    "name": "FS Siena",
+    "exampleCount": 1,
+    "fileName": "fs-siena-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ft-regola-neue",
+    "name": "FT Regola Neue",
+    "exampleCount": 2,
+    "fileName": "ft-regola-neue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fugue",
+    "name": "Fugue",
+    "exampleCount": 6,
+    "fileName": "fugue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "fugue-mono",
+    "name": "Fugue Mono",
+    "exampleCount": 1,
+    "fileName": "fugue-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "funkis",
+    "name": "Funkis",
+    "exampleCount": 2,
+    "fileName": "funkis-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "futura",
+    "name": "Futura",
+    "exampleCount": 89,
+    "fileName": "futura-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gabriela-stencil",
+    "name": "Gabriela Stencil",
+    "exampleCount": 1,
+    "fileName": "gabriela-stencil-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "galano-classic",
+    "name": "Galano Classic",
+    "exampleCount": 1,
+    "fileName": "galano-classic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "galano-grotesque",
+    "name": "Galano Grotesque",
+    "exampleCount": 6,
+    "fileName": "galano-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "galaxie-copernicus",
+    "name": "Galaxie Copernicus",
+    "exampleCount": 20,
+    "fileName": "galaxie-copernicus-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "galaxie-polaris",
+    "name": "Galaxie Polaris",
+    "exampleCount": 1,
+    "fileName": "galaxie-polaris-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "galliard",
+    "name": "Galliard",
+    "exampleCount": 3,
+    "fileName": "galliard-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "garage-gothic",
+    "name": "Garage Gothic",
+    "exampleCount": 1,
+    "fileName": "garage-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "garamond",
+    "name": "Garamond",
+    "exampleCount": 38,
+    "fileName": "garamond-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "garnett",
+    "name": "Garnett",
+    "exampleCount": 9,
+    "fileName": "garnett-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gascogne",
+    "name": "Gascogne",
+    "exampleCount": 10,
+    "fileName": "gascogne-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gellix",
+    "name": "Gellix",
+    "exampleCount": 1,
+    "fileName": "gellix-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "genath",
+    "name": "Genath",
+    "exampleCount": 3,
+    "fileName": "genath-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gentona",
+    "name": "Gentona",
+    "exampleCount": 1,
+    "fileName": "gentona-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "geogrotesque",
+    "name": "Geogrotesque",
+    "exampleCount": 4,
+    "fileName": "geogrotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "exampleCount": 34,
+    "fileName": "georgia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gerbera",
+    "name": "Gerbera",
+    "exampleCount": 1,
+    "fileName": "gerbera-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gesta",
+    "name": "Gesta",
+    "exampleCount": 1,
+    "fileName": "gesta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gibson",
+    "name": "Gibson",
+    "exampleCount": 2,
+    "fileName": "gibson-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gill-facia",
+    "name": "Gill Facia",
+    "exampleCount": 4,
+    "fileName": "gill-facia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gill-sans",
+    "name": "Gill Sans",
+    "exampleCount": 14,
+    "fileName": "gill-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gin",
+    "name": "Gin",
+    "exampleCount": 1,
+    "fileName": "gin-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ginto",
+    "name": "Ginto",
+    "exampleCount": 11,
+    "fileName": "ginto-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "giorgio-sans",
+    "name": "Giorgio Sans",
+    "exampleCount": 2,
+    "fileName": "giorgio-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "glosa-display",
+    "name": "Glosa Display",
+    "exampleCount": 1,
+    "fileName": "glosa-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "glypha",
+    "name": "Glypha",
+    "exampleCount": 2,
+    "fileName": "glypha-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "goldenbook",
+    "name": "Goldenbook",
+    "exampleCount": 1,
+    "fileName": "goldenbook-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "good-sans",
+    "name": "Good Sans",
+    "exampleCount": 7,
+    "fileName": "good-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "google-sans",
+    "name": "Google Sans",
+    "exampleCount": 3,
+    "fileName": "google-sans-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "gooper",
+    "name": "Gooper",
+    "exampleCount": 5,
+    "fileName": "gooper-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gopher",
+    "name": "Gopher",
+    "exampleCount": 10,
+    "fileName": "gopher-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gordita",
+    "name": "Gordita",
+    "exampleCount": 7,
+    "fileName": "gordita-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gotham",
+    "name": "Gotham",
+    "exampleCount": 46,
+    "fileName": "gotham-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gotham-rounded",
+    "name": "Gotham Rounded",
+    "exampleCount": 3,
+    "fileName": "gotham-rounded-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gothic-13",
+    "name": "Gothic 13",
+    "exampleCount": 2,
+    "fileName": "gothic-13-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gothic-720",
+    "name": "Gothic 720",
+    "exampleCount": 1,
+    "fileName": "gothic-720-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gothic-821",
+    "name": "Gothic 821",
+    "exampleCount": 1,
+    "fileName": "gothic-821-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gothic-a1",
+    "name": "Gothic A1",
+    "exampleCount": 1,
+    "fileName": "gothic-a1-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "goudy-old-style",
+    "name": "Goudy Old Style",
+    "exampleCount": 4,
+    "fileName": "goudy-old-style-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "grad",
+    "name": "Grad",
+    "exampleCount": 5,
+    "fileName": "grad-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "graebenbach",
+    "name": "Graebenbach",
+    "exampleCount": 9,
+    "fileName": "graebenbach-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grand-slang",
+    "name": "Grand Slang",
+    "exampleCount": 10,
+    "fileName": "grand-slang-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "granite",
+    "name": "Granite",
+    "exampleCount": 1,
+    "fileName": "granite-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "granville",
+    "name": "Granville",
+    "exampleCount": 4,
+    "fileName": "granville-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "graphik",
+    "name": "Graphik",
+    "exampleCount": 68,
+    "fileName": "graphik-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "graphite",
+    "name": "Graphite",
+    "exampleCount": 1,
+    "fileName": "graphite-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "greed",
+    "name": "Greed",
+    "exampleCount": 3,
+    "fileName": "greed-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grenat",
+    "name": "Grenat",
+    "exampleCount": 1,
+    "fileName": "grenat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grenette",
+    "name": "Grenette",
+    "exampleCount": 3,
+    "fileName": "grenette-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "griffith-gothic",
+    "name": "Griffith Gothic",
+    "exampleCount": 1,
+    "fileName": "griffith-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "grifinito",
+    "name": "Grifinito",
+    "exampleCount": 3,
+    "fileName": "grifinito-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grifo",
+    "name": "Grifo",
+    "exampleCount": 4,
+    "fileName": "grifo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grosa",
+    "name": "Grosa",
+    "exampleCount": 2,
+    "fileName": "grosa-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "grumpy",
+    "name": "Grumpy",
+    "exampleCount": 3,
+    "fileName": "grumpy-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "gt-alpina",
+    "name": "GT Alpina",
+    "exampleCount": 41,
+    "fileName": "gt-alpina-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-alpina-typewriter",
+    "name": "GT Alpina Typewriter",
+    "exampleCount": 12,
+    "fileName": "gt-alpina-typewriter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-america",
+    "name": "GT America",
+    "exampleCount": 97,
+    "fileName": "gt-america-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-america-mono",
+    "name": "GT America Mono",
+    "exampleCount": 21,
+    "fileName": "gt-america-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-cinetype",
+    "name": "GT Cinetype",
+    "exampleCount": 2,
+    "fileName": "gt-cinetype-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-eesti",
+    "name": "GT Eesti",
+    "exampleCount": 12,
+    "fileName": "gt-eesti-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-flexa",
+    "name": "GT Flexa",
+    "exampleCount": 7,
+    "fileName": "gt-flexa-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-flexa-mono",
+    "name": "GT Flexa Mono",
+    "exampleCount": 5,
+    "fileName": "gt-flexa-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-haptik",
+    "name": "GT Haptik",
+    "exampleCount": 13,
+    "fileName": "gt-haptik-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-maru",
+    "name": "GT Maru",
+    "exampleCount": 2,
+    "fileName": "gt-maru-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-pressura",
+    "name": "GT Pressura",
+    "exampleCount": 15,
+    "fileName": "gt-pressura-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-pressura-mono",
+    "name": "GT Pressura Mono",
+    "exampleCount": 26,
+    "fileName": "gt-pressura-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-sectra",
+    "name": "GT Sectra",
+    "exampleCount": 33,
+    "fileName": "gt-sectra-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-super",
+    "name": "GT Super",
+    "exampleCount": 47,
+    "fileName": "gt-super-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-ultra",
+    "name": "GT Ultra",
+    "exampleCount": 5,
+    "fileName": "gt-ultra-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-walsheim",
+    "name": "GT Walsheim",
+    "exampleCount": 59,
+    "fileName": "gt-walsheim-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gt-zirkon",
+    "name": "GT Zirkon",
+    "exampleCount": 8,
+    "fileName": "gt-zirkon-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "exampleCount": 2,
+    "fileName": "guardian-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "gza",
+    "name": "Gza",
+    "exampleCount": 6,
+    "fileName": "gza-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "haffer",
+    "name": "Haffer",
+    "exampleCount": 1,
+    "fileName": "haffer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "halis-grotesque",
+    "name": "Halis Grotesque",
+    "exampleCount": 1,
+    "fileName": "halis-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "halis-rounded",
+    "name": "Halis Rounded",
+    "exampleCount": 2,
+    "fileName": "halis-rounded-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "halyard",
+    "name": "Halyard",
+    "exampleCount": 5,
+    "fileName": "halyard-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hammer",
+    "name": "Hammer",
+    "exampleCount": 1,
+    "fileName": "hammer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "handsome",
+    "name": "Handsome",
+    "exampleCount": 1,
+    "fileName": "handsome-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "harbour",
+    "name": "Harbour",
+    "exampleCount": 10,
+    "fileName": "harbour-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "harmonia-sans",
+    "name": "Harmonia Sans",
+    "exampleCount": 3,
+    "fileName": "harmonia-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "harriet",
+    "name": "Harriet",
+    "exampleCount": 16,
+    "fileName": "harriet-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hatton",
+    "name": "Hatton",
+    "exampleCount": 2,
+    "fileName": "hatton-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hawthorn",
+    "name": "Hawthorn",
+    "exampleCount": 5,
+    "fileName": "hawthorn-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "heimat-sans",
+    "name": "Heimat Sans",
+    "exampleCount": 1,
+    "fileName": "heimat-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "heimat-stencil",
+    "name": "Heimat Stencil",
+    "exampleCount": 1,
+    "fileName": "heimat-stencil-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "heldane-display",
+    "name": "Heldane Display",
+    "exampleCount": 3,
+    "fileName": "heldane-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "heldane-text",
+    "name": "Heldane Text",
+    "exampleCount": 2,
+    "fileName": "heldane-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hellenic-wide",
+    "name": "Hellenic Wide",
+    "exampleCount": 2,
+    "fileName": "hellenic-wide-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "helveesti",
+    "name": "Helveesti",
+    "exampleCount": 2,
+    "fileName": "helveesti-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "helvetica",
+    "name": "Helvetica",
+    "exampleCount": 30,
+    "fileName": "helvetica-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "helvetica-monospaced",
+    "name": "Helvetica Monospaced",
+    "exampleCount": 1,
+    "fileName": "helvetica-monospaced-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "helvetica-neue",
+    "name": "Helvetica Neue",
+    "exampleCount": 49,
+    "fileName": "helvetica-neue-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "helvetica-now",
+    "name": "Helvetica Now",
+    "exampleCount": 6,
+    "fileName": "helvetica-now-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "helvetica-rounded",
+    "name": "Helvetica Rounded",
+    "exampleCount": 1,
+    "fileName": "helvetica-rounded-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hera-big",
+    "name": "Hera Big",
+    "exampleCount": 1,
+    "fileName": "hera-big-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hercules",
+    "name": "Hercules",
+    "exampleCount": 1,
+    "fileName": "hercules-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "heroic-condensed",
+    "name": "Heroic Condensed",
+    "exampleCount": 1,
+    "fileName": "heroic-condensed-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "highway-gothic",
+    "name": "Highway Gothic",
+    "exampleCount": 2,
+    "fileName": "highway-gothic-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "hind",
+    "name": "Hind",
+    "exampleCount": 1,
+    "fileName": "hind-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "hk-gothic",
+    "name": "HK Gothic",
+    "exampleCount": 1,
+    "fileName": "hk-gothic-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hk-grotesk",
+    "name": "HK Grotesk",
+    "exampleCount": 3,
+    "fileName": "hk-grotesk-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "hobeaux",
+    "name": "Hobeaux",
+    "exampleCount": 1,
+    "fileName": "hobeaux-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hoboken-high",
+    "name": "Hoboken High",
+    "exampleCount": 1,
+    "fileName": "hoboken-high-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "hoefler-text",
+    "name": "Hoefler Text",
+    "exampleCount": 6,
+    "fileName": "hoefler-text-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hoefler-titling",
+    "name": "Hoefler Titling",
+    "exampleCount": 4,
+    "fileName": "hoefler-titling-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hoosier-daddy",
+    "name": "Hoosier Daddy",
+    "exampleCount": 1,
+    "fileName": "hoosier-daddy-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hope-sans",
+    "name": "Hope Sans",
+    "exampleCount": 1,
+    "fileName": "hope-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "hurme-geometric-sans",
+    "name": "Hurme Geometric Sans",
+    "exampleCount": 1,
+    "fileName": "hurme-geometric-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ibm-plex-mono",
+    "name": "IBM Plex Mono",
+    "exampleCount": 9,
+    "fileName": "ibm-plex-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ibm-plex-sans",
+    "name": "IBM Plex Sans",
+    "exampleCount": 3,
+    "fileName": "ibm-plex-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ideal-sans",
+    "name": "Ideal Sans",
+    "exampleCount": 7,
+    "fileName": "ideal-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ikanseeyouall",
+    "name": "IKANSEEYOUALL",
+    "exampleCount": 1,
+    "fileName": "ikanseeyouall-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "im-fell-french-canon",
+    "name": "IM Fell French Canon",
+    "exampleCount": 1,
+    "fileName": "im-fell-french-canon-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "impact",
+    "name": "Impact",
+    "exampleCount": 2,
+    "fileName": "impact-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "inconsolata",
+    "name": "Inconsolata",
+    "exampleCount": 20,
+    "fileName": "inconsolata-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "industry",
+    "name": "Industry",
+    "exampleCount": 1,
+    "fileName": "industry-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "infini",
+    "name": "Infini",
+    "exampleCount": 1,
+    "fileName": "infini-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "inknut-antiqua",
+    "name": "Inknut Antiqua",
+    "exampleCount": 2,
+    "fileName": "inknut-antiqua-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "input-mono",
+    "name": "Input Mono",
+    "exampleCount": 4,
+    "fileName": "input-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "integral-cf",
+    "name": "Integral CF",
+    "exampleCount": 3,
+    "fileName": "integral-cf-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "inter",
+    "name": "Inter",
+    "exampleCount": 34,
+    "fileName": "inter-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "interstate",
+    "name": "Interstate",
+    "exampleCount": 9,
+    "fileName": "interstate-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "intro",
+    "name": "Intro",
+    "exampleCount": 1,
+    "fileName": "intro-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "introspect",
+    "name": "Introspect",
+    "exampleCount": 1,
+    "fileName": "introspect-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "iosevka",
+    "name": "Iosevka",
+    "exampleCount": 1,
+    "fileName": "iosevka-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "italian-old-style",
+    "name": "Italian Old Style",
+    "exampleCount": 3,
+    "fileName": "italian-old-style-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-american-typewriter",
+    "name": "ITC American Typewriter",
+    "exampleCount": 1,
+    "fileName": "itc-american-typewriter-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-avant-garde-gothic",
+    "name": "ITC Avant Garde Gothic",
+    "exampleCount": 19,
+    "fileName": "itc-avant-garde-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-benguiat",
+    "name": "ITC Benguiat",
+    "exampleCount": 3,
+    "fileName": "itc-benguiat-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-clearface",
+    "name": "ITC Clearface",
+    "exampleCount": 31,
+    "fileName": "itc-clearface-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-conduit",
+    "name": "ITC Conduit",
+    "exampleCount": 1,
+    "fileName": "itc-conduit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-garamond",
+    "name": "ITC Garamond",
+    "exampleCount": 20,
+    "fileName": "itc-garamond-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-grouch",
+    "name": "ITC Grouch",
+    "exampleCount": 7,
+    "fileName": "itc-grouch-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-johnston",
+    "name": "ITC Johnston",
+    "exampleCount": 3,
+    "fileName": "itc-johnston-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-lubalin-graph",
+    "name": "ITC Lubalin Graph",
+    "exampleCount": 2,
+    "fileName": "itc-lubalin-graph-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-pioneer",
+    "name": "ITC Pioneer",
+    "exampleCount": 1,
+    "fileName": "itc-pioneer-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-ronda",
+    "name": "ITC Ronda",
+    "exampleCount": 1,
+    "fileName": "itc-ronda-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-serif-gothic",
+    "name": "ITC Serif Gothic",
+    "exampleCount": 4,
+    "fileName": "itc-serif-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-souvenir",
+    "name": "ITC Souvenir",
+    "exampleCount": 9,
+    "fileName": "itc-souvenir-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-stepp",
+    "name": "ITC Stepp",
+    "exampleCount": 2,
+    "fileName": "itc-stepp-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-tiffany",
+    "name": "ITC Tiffany",
+    "exampleCount": 1,
+    "fileName": "itc-tiffany-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "itc-usherwood",
+    "name": "ITC Usherwood",
+    "exampleCount": 1,
+    "fileName": "itc-usherwood-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ivar",
+    "name": "Ivar",
+    "exampleCount": 13,
+    "fileName": "ivar-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ivory",
+    "name": "Ivory",
+    "exampleCount": 2,
+    "fileName": "ivory-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ivymode",
+    "name": "IvyMode",
+    "exampleCount": 1,
+    "fileName": "ivymode-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ivypresto",
+    "name": "IvyPresto",
+    "exampleCount": 8,
+    "fileName": "ivypresto-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "jaf-domus-titling",
+    "name": "JAF Domus Titling",
+    "exampleCount": 1,
+    "fileName": "jaf-domus-titling-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "jasmine-display",
+    "name": "Jasmine Display",
+    "exampleCount": 1,
+    "fileName": "jasmine-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "jeanluc",
+    "name": "JeanLuc",
+    "exampleCount": 2,
+    "fileName": "jeanluc-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "jenna-sue",
+    "name": "Jenna Sue",
+    "exampleCount": 1,
+    "fileName": "jenna-sue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "jigsaw",
+    "name": "Jigsaw",
+    "exampleCount": 1,
+    "fileName": "jigsaw-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "josefin-slab",
+    "name": "Josefin Slab",
+    "exampleCount": 1,
+    "fileName": "josefin-slab-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "jubilat",
+    "name": "Jubilat",
+    "exampleCount": 3,
+    "fileName": "jubilat-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "jude",
+    "name": "Jude",
+    "exampleCount": 1,
+    "fileName": "jude-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "just-lovely",
+    "name": "Just Lovely",
+    "exampleCount": 1,
+    "fileName": "just-lovely-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kabel",
+    "name": "Kabel",
+    "exampleCount": 2,
+    "fileName": "kabel-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kaftan-serif",
+    "name": "Kaftan Serif",
+    "exampleCount": 1,
+    "fileName": "kaftan-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "kamerik",
+    "name": "Kamerik",
+    "exampleCount": 1,
+    "fileName": "kamerik-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "karelia",
+    "name": "Karelia",
+    "exampleCount": 1,
+    "fileName": "karelia-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "karla",
+    "name": "Karla",
+    "exampleCount": 28,
+    "fileName": "karla-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "karnak",
+    "name": "Karnak",
+    "exampleCount": 1,
+    "fileName": "karnak-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kepler",
+    "name": "Kepler",
+    "exampleCount": 15,
+    "fileName": "kepler-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kern",
+    "name": "Kern",
+    "exampleCount": 1,
+    "fileName": "kern-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "kicker",
+    "name": "Kicker",
+    "exampleCount": 1,
+    "fileName": "kicker-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "knockout",
+    "name": "Knockout",
+    "exampleCount": 17,
+    "fileName": "knockout-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kobe",
+    "name": "Kobe",
+    "exampleCount": 1,
+    "fileName": "kobe-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "kormelink",
+    "name": "Kormelink",
+    "exampleCount": 3,
+    "fileName": "kormelink-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "kostic-serif",
+    "name": "Kostic Serif",
+    "exampleCount": 1,
+    "fileName": "kostic-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "krana-fat",
+    "name": "Krana Fat",
+    "exampleCount": 3,
+    "fileName": "krana-fat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "kuenstler-script",
+    "name": "Kuenstler Script",
+    "exampleCount": 1,
+    "fileName": "kuenstler-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "kulturista",
+    "name": "Kulturista",
+    "exampleCount": 1,
+    "fileName": "kulturista-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "l10",
+    "name": "L10",
+    "exampleCount": 2,
+    "fileName": "l10-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "la-fabrique",
+    "name": "La Fabrique",
+    "exampleCount": 3,
+    "fileName": "la-fabrique-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "la-nord",
+    "name": "La Nord",
+    "exampleCount": 6,
+    "fileName": "la-nord-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lab-grotesque",
+    "name": "Lab Grotesque",
+    "exampleCount": 1,
+    "fileName": "lab-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lab-grotesque-mono",
+    "name": "Lab Grotesque Mono",
+    "exampleCount": 1,
+    "fileName": "lab-grotesque-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "labil-grotesk",
+    "name": "Labil Grotesk",
+    "exampleCount": 7,
+    "fileName": "labil-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lacrima",
+    "name": "Lacrima",
+    "exampleCount": 4,
+    "fileName": "lacrima-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "laica",
+    "name": "Laica",
+    "exampleCount": 4,
+    "fileName": "laica-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lamplighter-script",
+    "name": "Lamplighter Script",
+    "exampleCount": 1,
+    "fileName": "lamplighter-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "laplace-mono",
+    "name": "Laplace Mono",
+    "exampleCount": 1,
+    "fileName": "laplace-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lapture",
+    "name": "Lapture",
+    "exampleCount": 3,
+    "fileName": "lapture-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "larish-alte",
+    "name": "Larish Alte",
+    "exampleCount": 7,
+    "fileName": "larish-alte-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "larish-neue",
+    "name": "Larish Neue",
+    "exampleCount": 15,
+    "fileName": "larish-neue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lars",
+    "name": "Lars",
+    "exampleCount": 4,
+    "fileName": "lars-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lars-mono",
+    "name": "Lars Mono",
+    "exampleCount": 3,
+    "fileName": "lars-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "larsseit",
+    "name": "Larsseit",
+    "exampleCount": 16,
+    "fileName": "larsseit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lasiver",
+    "name": "Lasiver",
+    "exampleCount": 2,
+    "fileName": "lasiver-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lato",
+    "name": "Lato",
+    "exampleCount": 7,
+    "fileName": "lato-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "lausanne",
+    "name": "Lausanne",
+    "exampleCount": 26,
+    "fileName": "lausanne-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lava",
+    "name": "Lava",
+    "exampleCount": 1,
+    "fileName": "lava-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "le-jeune",
+    "name": "Le Jeune",
+    "exampleCount": 1,
+    "fileName": "le-jeune-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "le-monde-journal",
+    "name": "Le Monde Journal",
+    "exampleCount": 2,
+    "fileName": "le-monde-journal-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "league-gothic",
+    "name": "League Gothic",
+    "exampleCount": 1,
+    "fileName": "league-gothic-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "leighton",
+    "name": "Leighton",
+    "exampleCount": 1,
+    "fileName": "leighton-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "leitura",
+    "name": "Leitura",
+    "exampleCount": 1,
+    "fileName": "leitura-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "leitura-display",
+    "name": "Leitura Display",
+    "exampleCount": 4,
+    "fileName": "leitura-display-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "leitura-news",
+    "name": "Leitura News",
+    "exampleCount": 9,
+    "fileName": "leitura-news-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lemur",
+    "name": "Lemur",
+    "exampleCount": 2,
+    "fileName": "lemur-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "letter-gothic",
+    "name": "Letter Gothic",
+    "exampleCount": 6,
+    "fileName": "letter-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lettera",
+    "name": "Lettera",
+    "exampleCount": 2,
+    "fileName": "lettera-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lexia",
+    "name": "Lexia",
+    "exampleCount": 1,
+    "fileName": "lexia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "libre-baskerville",
+    "name": "Libre Baskerville",
+    "exampleCount": 7,
+    "fileName": "libre-baskerville-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "libre-franklin",
+    "name": "Libre Franklin",
+    "exampleCount": 4,
+    "fileName": "libre-franklin-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "life",
+    "name": "Life",
+    "exampleCount": 7,
+    "fileName": "life-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "linotype-brewery",
+    "name": "Linotype Brewery",
+    "exampleCount": 7,
+    "fileName": "linotype-brewery-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "livory",
+    "name": "Livory",
+    "exampleCount": 1,
+    "fileName": "livory-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lodgecode",
+    "name": "Lodgecode",
+    "exampleCount": 1,
+    "fileName": "lodgecode-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lora",
+    "name": "Lora",
+    "exampleCount": 4,
+    "fileName": "lora-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "louize",
+    "name": "Louize",
+    "exampleCount": 11,
+    "fileName": "louize-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "louize-display",
+    "name": "Louize Display",
+    "exampleCount": 19,
+    "fileName": "louize-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "love",
+    "name": "Love",
+    "exampleCount": 3,
+    "fileName": "love-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lovelo",
+    "name": "Lovelo",
+    "exampleCount": 2,
+    "fileName": "lovelo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lucida-grande",
+    "name": "Lucida Grande",
+    "exampleCount": 1,
+    "fileName": "lucida-grande-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lusitana",
+    "name": "Lusitana",
+    "exampleCount": 1,
+    "fileName": "lusitana-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "lust",
+    "name": "Lust",
+    "exampleCount": 7,
+    "fileName": "lust-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lutz-headline",
+    "name": "Lutz Headline",
+    "exampleCount": 1,
+    "fileName": "lutz-headline-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "exampleCount": 9,
+    "fileName": "lydia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lydian",
+    "name": "Lydian",
+    "exampleCount": 15,
+    "fileName": "lydian-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "lyon-display",
+    "name": "Lyon Display",
+    "exampleCount": 7,
+    "fileName": "lyon-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "lyon-text",
+    "name": "Lyon Text",
+    "exampleCount": 18,
+    "fileName": "lyon-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mabry",
+    "name": "Mabry",
+    "exampleCount": 35,
+    "fileName": "mabry-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mabry-mono",
+    "name": "Mabry Mono",
+    "exampleCount": 1,
+    "fileName": "mabry-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mad-serif",
+    "name": "MAD Serif",
+    "exampleCount": 1,
+    "fileName": "mad-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "madina-script",
+    "name": "Madina Script",
+    "exampleCount": 1,
+    "fileName": "madina-script-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "maelstrom-sans",
+    "name": "Maelstrom Sans",
+    "exampleCount": 2,
+    "fileName": "maelstrom-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "exampleCount": 1,
+    "fileName": "magnet-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "maiola",
+    "name": "Maiola",
+    "exampleCount": 3,
+    "fileName": "maiola-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "maison",
+    "name": "Maison",
+    "exampleCount": 5,
+    "fileName": "maison-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "maison-mono",
+    "name": "Maison Mono",
+    "exampleCount": 17,
+    "fileName": "maison-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "maison-neue",
+    "name": "Maison Neue",
+    "exampleCount": 57,
+    "fileName": "maison-neue-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "majesti-banner",
+    "name": "Majesti Banner",
+    "exampleCount": 2,
+    "fileName": "majesti-banner-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mallory",
+    "name": "Mallory",
+    "exampleCount": 3,
+    "fileName": "mallory-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "manege",
+    "name": "Manege",
+    "exampleCount": 3,
+    "fileName": "manege-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "manrope",
+    "name": "Manrope",
+    "exampleCount": 1,
+    "fileName": "manrope-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "manuka",
+    "name": "Manuka",
+    "exampleCount": 3,
+    "fileName": "manuka-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "exampleCount": 1,
+    "fileName": "manus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "maple",
+    "name": "Maple",
+    "exampleCount": 5,
+    "fileName": "maple-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "marche",
+    "name": "Marche",
+    "exampleCount": 1,
+    "fileName": "marche-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "margo",
+    "name": "Margo",
+    "exampleCount": 3,
+    "fileName": "margo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "maria",
+    "name": "Maria",
+    "exampleCount": 4,
+    "fileName": "maria-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "marian",
+    "name": "Marian",
+    "exampleCount": 1,
+    "fileName": "marian-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "marist",
+    "name": "Marist",
+    "exampleCount": 1,
+    "fileName": "marist-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "marr-sans",
+    "name": "Marr Sans",
+    "exampleCount": 11,
+    "fileName": "marr-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "exampleCount": 1,
+    "fileName": "martha-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "martina-plantijn",
+    "name": "Martina Plantijn",
+    "exampleCount": 4,
+    "fileName": "martina-plantijn-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mate",
+    "name": "Mate",
+    "exampleCount": 1,
+    "fileName": "mate-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix",
+    "exampleCount": 2,
+    "fileName": "matrix-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "matter",
+    "name": "Matter",
+    "exampleCount": 8,
+    "fileName": "matter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "media-sans",
+    "name": "Media Sans",
+    "exampleCount": 4,
+    "fileName": "media-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "exampleCount": 5,
+    "fileName": "medium-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "medula-one",
+    "name": "Medula One",
+    "exampleCount": 1,
+    "fileName": "medula-one-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "meek-display",
+    "name": "Meek Display",
+    "exampleCount": 3,
+    "fileName": "meek-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "melior",
+    "name": "Melior",
+    "exampleCount": 2,
+    "fileName": "melior-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "memphis",
+    "name": "Memphis",
+    "exampleCount": 1,
+    "fileName": "memphis-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mencken",
+    "name": "Mencken",
+    "exampleCount": 5,
+    "fileName": "mencken-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "menlo",
+    "name": "Menlo",
+    "exampleCount": 3,
+    "fileName": "menlo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "meno",
+    "name": "Meno",
+    "exampleCount": 4,
+    "fileName": "meno-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "exampleCount": 12,
+    "fileName": "mercury-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "merkury",
+    "name": "Merkury",
+    "exampleCount": 3,
+    "fileName": "merkury-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "merriweather",
+    "name": "Merriweather",
+    "exampleCount": 5,
+    "fileName": "merriweather-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "messina-sans",
+    "name": "Messina Sans",
+    "exampleCount": 15,
+    "fileName": "messina-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "messina-sans-mono",
+    "name": "Messina Sans Mono",
+    "exampleCount": 5,
+    "fileName": "messina-sans-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "messina-serif",
+    "name": "Messina Serif",
+    "exampleCount": 2,
+    "fileName": "messina-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "metier",
+    "name": "Metier",
+    "exampleCount": 1,
+    "fileName": "metier-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "metric",
+    "name": "Metric",
+    "exampleCount": 3,
+    "fileName": "metric-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mier",
+    "name": "Mier",
+    "exampleCount": 2,
+    "fileName": "mier-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "migra",
+    "name": "Migra",
+    "exampleCount": 13,
+    "fileName": "migra-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mikro",
+    "name": "Mikro",
+    "exampleCount": 1,
+    "fileName": "mikro-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "miller",
+    "name": "Miller",
+    "exampleCount": 23,
+    "fileName": "miller-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "millionaire",
+    "name": "Millionaire",
+    "exampleCount": 1,
+    "fileName": "millionaire-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "minerale",
+    "name": "Minérale",
+    "exampleCount": 1,
+    "fileName": "minerale-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "minion",
+    "name": "Minion",
+    "exampleCount": 20,
+    "fileName": "minion-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "minister",
+    "name": "Minister",
+    "exampleCount": 2,
+    "fileName": "minister-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "exampleCount": 3,
+    "fileName": "minotaur-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "minotaur-sans",
+    "name": "Minotaur Sans",
+    "exampleCount": 2,
+    "fileName": "minotaur-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "miso",
+    "name": "Miso",
+    "exampleCount": 1,
+    "fileName": "miso-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "exampleCount": 1,
+    "fileName": "mistral-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "moderat",
+    "name": "Moderat",
+    "exampleCount": 17,
+    "fileName": "moderat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "moderat-mono",
+    "name": "Moderat Mono",
+    "exampleCount": 2,
+    "fileName": "moderat-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "modern-216",
+    "name": "Modern 216",
+    "exampleCount": 2,
+    "fileName": "modern-216-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "modern-era",
+    "name": "Modern Era",
+    "exampleCount": 5,
+    "fileName": "modern-era-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "monaco",
+    "name": "Monaco",
+    "exampleCount": 4,
+    "fileName": "monaco-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "monarch-nova",
+    "name": "Monarch Nova",
+    "exampleCount": 3,
+    "fileName": "monarch-nova-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "monospace-821",
+    "name": "Monospace 821",
+    "exampleCount": 1,
+    "fileName": "monospace-821-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "monosten",
+    "name": "Monosten",
+    "exampleCount": 9,
+    "fileName": "monosten-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "monotype-grotesque",
+    "name": "Monotype Grotesque",
+    "exampleCount": 4,
+    "fileName": "monotype-grotesque-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "montserrat",
+    "name": "Montserrat",
+    "exampleCount": 20,
+    "fileName": "montserrat-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "monument-extended",
+    "name": "Monument Extended",
+    "exampleCount": 6,
+    "fileName": "monument-extended-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "monument-grotesk",
+    "name": "Monument Grotesk",
+    "exampleCount": 20,
+    "fileName": "monument-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "monument-grotesk-mono",
+    "name": "Monument Grotesk Mono",
+    "exampleCount": 7,
+    "fileName": "monument-grotesk-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "moret",
+    "name": "Moret",
+    "exampleCount": 9,
+    "fileName": "moret-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "morion",
+    "name": "Morion",
+    "exampleCount": 6,
+    "fileName": "morion-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "mpi-sardis",
+    "name": "MPI Sardis",
+    "exampleCount": 1,
+    "fileName": "mpi-sardis-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mr-eaves-modern",
+    "name": "Mr Eaves Modern",
+    "exampleCount": 1,
+    "fileName": "mr-eaves-modern-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mr-eaves-sans",
+    "name": "Mr Eaves Sans",
+    "exampleCount": 1,
+    "fileName": "mr-eaves-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mramor",
+    "name": "Mramor",
+    "exampleCount": 1,
+    "fileName": "mramor-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mrs-eaves",
+    "name": "Mrs Eaves",
+    "exampleCount": 5,
+    "fileName": "mrs-eaves-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mtt-milano",
+    "name": "MTT Milano",
+    "exampleCount": 3,
+    "fileName": "mtt-milano-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "muli",
+    "name": "Muli",
+    "exampleCount": 3,
+    "fileName": "muli-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "muoto",
+    "name": "Muoto",
+    "exampleCount": 1,
+    "fileName": "muoto-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "museo-sans",
+    "name": "Museo Sans",
+    "exampleCount": 4,
+    "fileName": "museo-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "museo-slab",
+    "name": "Museo Slab",
+    "exampleCount": 1,
+    "fileName": "museo-slab-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mvb-solano-gothic",
+    "name": "MVB Solano Gothic",
+    "exampleCount": 1,
+    "fileName": "mvb-solano-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "mvb-solitaire",
+    "name": "MVB Solitaire",
+    "exampleCount": 1,
+    "fileName": "mvb-solitaire-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "myriad",
+    "name": "Myriad",
+    "exampleCount": 1,
+    "fileName": "myriad-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nan-jaune",
+    "name": "NaN Jaune",
+    "exampleCount": 2,
+    "fileName": "nan-jaune-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nantes",
+    "name": "Nantes",
+    "exampleCount": 4,
+    "fileName": "nantes-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nashville",
+    "name": "Nashville",
+    "exampleCount": 1,
+    "fileName": "nashville-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "national",
+    "name": "National",
+    "exampleCount": 6,
+    "fileName": "national-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "national-2",
+    "name": "National 2",
+    "exampleCount": 4,
+    "fileName": "national-2-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nb-akademie",
+    "name": "NB Akademie",
+    "exampleCount": 4,
+    "fileName": "nb-akademie-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nb-akademie-mono",
+    "name": "NB Akademie Mono",
+    "exampleCount": 2,
+    "fileName": "nb-akademie-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nb-international",
+    "name": "NB International",
+    "exampleCount": 5,
+    "fileName": "nb-international-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nb-international-mono",
+    "name": "NB International Mono",
+    "exampleCount": 1,
+    "fileName": "nb-international-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nein",
+    "name": "Nein",
+    "exampleCount": 1,
+    "fileName": "nein-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neographik",
+    "name": "Neographik",
+    "exampleCount": 1,
+    "fileName": "neographik-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "neue-droschke",
+    "name": "Neue Droschke",
+    "exampleCount": 3,
+    "fileName": "neue-droschke-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neue-haas-grotesk",
+    "name": "Neue Haas Grotesk",
+    "exampleCount": 80,
+    "fileName": "neue-haas-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "neue-haas-unica",
+    "name": "Neue Haas Unica",
+    "exampleCount": 44,
+    "fileName": "neue-haas-unica-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "neue-machina",
+    "name": "Neue Machina",
+    "exampleCount": 6,
+    "fileName": "neue-machina-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neue-montreal",
+    "name": "Neue Montreal",
+    "exampleCount": 28,
+    "fileName": "neue-montreal-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neue-swift",
+    "name": "Neue Swift",
+    "exampleCount": 1,
+    "fileName": "neue-swift-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "neue-world",
+    "name": "Neue World",
+    "exampleCount": 9,
+    "fileName": "neue-world-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neusa",
+    "name": "Neusa",
+    "exampleCount": 2,
+    "fileName": "neusa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "neuton",
+    "name": "Neuton",
+    "exampleCount": 2,
+    "fileName": "neuton-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "neutraface",
+    "name": "Neutraface",
+    "exampleCount": 5,
+    "fileName": "neutraface-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neutral",
+    "name": "Neutral",
+    "exampleCount": 5,
+    "fileName": "neutral-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "neuzeit",
+    "name": "Neuzeit",
+    "exampleCount": 34,
+    "fileName": "neuzeit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nevis",
+    "name": "Nevis",
+    "exampleCount": 1,
+    "fileName": "nevis-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "new-caledonia",
+    "name": "New Caledonia",
+    "exampleCount": 2,
+    "fileName": "new-caledonia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "new-eddy",
+    "name": "New Eddy",
+    "exampleCount": 2,
+    "fileName": "new-eddy-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "new-reason",
+    "name": "New Reason",
+    "exampleCount": 1,
+    "fileName": "new-reason-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "new-rocker",
+    "name": "New Rocker",
+    "exampleCount": 1,
+    "fileName": "new-rocker-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "new-spirit",
+    "name": "New Spirit",
+    "exampleCount": 4,
+    "fileName": "new-spirit-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "news-cycle",
+    "name": "News Cycle",
+    "exampleCount": 4,
+    "fileName": "news-cycle-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "newzald",
+    "name": "Newzald",
+    "exampleCount": 2,
+    "fileName": "newzald-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nexa",
+    "name": "Nexa",
+    "exampleCount": 2,
+    "fileName": "nexa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nexa-rust",
+    "name": "Nexa Rust",
+    "exampleCount": 1,
+    "fileName": "nexa-rust-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nib",
+    "name": "Nib",
+    "exampleCount": 10,
+    "fileName": "nib-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nimbus",
+    "name": "Nimbus",
+    "exampleCount": 1,
+    "fileName": "nimbus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nimbus-roman",
+    "name": "Nimbus Roman",
+    "exampleCount": 2,
+    "fileName": "nimbus-roman-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nimbus-sans",
+    "name": "Nimbus Sans",
+    "exampleCount": 33,
+    "fileName": "nimbus-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nitti",
+    "name": "Nitti",
+    "exampleCount": 7,
+    "fileName": "nitti-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nitti-grotesk",
+    "name": "Nitti Grotesk",
+    "exampleCount": 7,
+    "fileName": "nitti-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "niveau-grotesk",
+    "name": "Niveau Grotesk",
+    "exampleCount": 1,
+    "fileName": "niveau-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nobel",
+    "name": "Nobel",
+    "exampleCount": 2,
+    "fileName": "nobel-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nocturno",
+    "name": "Nocturno",
+    "exampleCount": 10,
+    "fileName": "nocturno-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "noe-display",
+    "name": "Noe Display",
+    "exampleCount": 24,
+    "fileName": "noe-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "noe-text",
+    "name": "Noe Text",
+    "exampleCount": 5,
+    "fileName": "noe-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "noi-grotesk",
+    "name": "Noi Grotesk",
+    "exampleCount": 2,
+    "fileName": "noi-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "northwell",
+    "name": "Northwell",
+    "exampleCount": 1,
+    "fileName": "northwell-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "notable",
+    "name": "Notable",
+    "exampleCount": 1,
+    "fileName": "notable-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "notcouriersans",
+    "name": "NotCourierSans",
+    "exampleCount": 1,
+    "fileName": "notcouriersans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "noto-sans",
+    "name": "Noto Sans",
+    "exampleCount": 1,
+    "fileName": "noto-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "nouvelle-grotesk",
+    "name": "Nouvelle Grotesk",
+    "exampleCount": 3,
+    "fileName": "nouvelle-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "novecento-sans",
+    "name": "Novecento Sans",
+    "exampleCount": 2,
+    "fileName": "novecento-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nowie-vremena",
+    "name": "Nowie Vremena",
+    "exampleCount": 3,
+    "fileName": "nowie-vremena-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "nuckle",
+    "name": "Nuckle",
+    "exampleCount": 4,
+    "fileName": "nuckle-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "nudista",
+    "name": "Nudista",
+    "exampleCount": 1,
+    "fileName": "nudista-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ny-irvin",
+    "name": "NY Irvin",
+    "exampleCount": 2,
+    "fileName": "ny-irvin-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "object-sans",
+    "name": "Object Sans",
+    "exampleCount": 5,
+    "fileName": "object-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "exampleCount": 1,
+    "fileName": "obsidian-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "obviously",
+    "name": "Obviously",
+    "exampleCount": 5,
+    "fileName": "obviously-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ocr-b",
+    "name": "OCR B",
+    "exampleCount": 1,
+    "fileName": "ocr-b-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ode",
+    "name": "Ode",
+    "exampleCount": 1,
+    "fileName": "ode-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "office-code-pro",
+    "name": "Office Code Pro",
+    "exampleCount": 1,
+    "fileName": "office-code-pro-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "office-times",
+    "name": "Office Times",
+    "exampleCount": 5,
+    "fileName": "office-times-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "office-times-mono",
+    "name": "Office Times Mono",
+    "exampleCount": 2,
+    "fileName": "office-times-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ogg",
+    "name": "Ogg",
+    "exampleCount": 50,
+    "fileName": "ogg-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ohm",
+    "name": "Ohm",
+    "exampleCount": 1,
+    "fileName": "ohm-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ohno-blazeface",
+    "name": "Ohno Blazeface",
+    "exampleCount": 4,
+    "fileName": "ohno-blazeface-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "old-standard-tt",
+    "name": "Old Standard TT",
+    "exampleCount": 2,
+    "fileName": "old-standard-tt-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "omnes",
+    "name": "Omnes",
+    "exampleCount": 1,
+    "fileName": "omnes-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "exampleCount": 1,
+    "fileName": "onyx-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "open-sans",
+    "name": "Open Sans",
+    "exampleCount": 13,
+    "fileName": "open-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "open-sauce-sans",
+    "name": "Open Sauce Sans",
+    "exampleCount": 1,
+    "fileName": "open-sauce-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "operator",
+    "name": "Operator",
+    "exampleCount": 2,
+    "fileName": "operator-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "opposit",
+    "name": "Opposit",
+    "exampleCount": 5,
+    "fileName": "opposit-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "optima",
+    "name": "Optima",
+    "exampleCount": 16,
+    "fileName": "optima-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "exampleCount": 1,
+    "fileName": "oracle-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "orelo",
+    "name": "Orelo",
+    "exampleCount": 5,
+    "fileName": "orelo-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "organically",
+    "name": "Organically",
+    "exampleCount": 1,
+    "fileName": "organically-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "orientation",
+    "name": "Orientation",
+    "exampleCount": 1,
+    "fileName": "orientation-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "original-sans",
+    "name": "Original Sans",
+    "exampleCount": 1,
+    "fileName": "original-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "orleans",
+    "name": "Orleans",
+    "exampleCount": 1,
+    "fileName": "orleans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "oroban",
+    "name": "Oroban",
+    "exampleCount": 1,
+    "fileName": "oroban-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "orpheus",
+    "name": "Orpheus",
+    "exampleCount": 14,
+    "fileName": "orpheus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ortica",
+    "name": "Ortica",
+    "exampleCount": 5,
+    "fileName": "ortica-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ostia-antica",
+    "name": "Ostia Antica",
+    "exampleCount": 4,
+    "fileName": "ostia-antica-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "oswald",
+    "name": "Oswald",
+    "exampleCount": 3,
+    "fileName": "oswald-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "outage",
+    "name": "Outage",
+    "exampleCount": 1,
+    "fileName": "outage-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "outfit",
+    "name": "Outfit",
+    "exampleCount": 1,
+    "fileName": "outfit-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "overpass-mono",
+    "name": "Overpass Mono",
+    "exampleCount": 1,
+    "fileName": "overpass-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "ozik",
+    "name": "Ozik",
+    "exampleCount": 1,
+    "fileName": "ozik-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "p22-mackinac",
+    "name": "P22 Mackinac",
+    "exampleCount": 3,
+    "fileName": "p22-mackinac-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "p22-underground",
+    "name": "P22 Underground",
+    "exampleCount": 13,
+    "fileName": "p22-underground-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pakenham",
+    "name": "Pakenham",
+    "exampleCount": 1,
+    "fileName": "pakenham-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "palatino",
+    "name": "Palatino",
+    "exampleCount": 3,
+    "fileName": "palatino-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "panama",
+    "name": "Panama",
+    "exampleCount": 16,
+    "fileName": "panama-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pangram-sans",
+    "name": "Pangram Sans",
+    "exampleCount": 2,
+    "fileName": "pangram-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pano",
+    "name": "Pano",
+    "exampleCount": 2,
+    "fileName": "pano-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "parafina",
+    "name": "Parafina",
+    "exampleCount": 1,
+    "fileName": "parafina-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "parnaso",
+    "name": "Parnaso",
+    "exampleCount": 2,
+    "fileName": "parnaso-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "patron",
+    "name": "Patron",
+    "exampleCount": 8,
+    "fileName": "patron-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pearl",
+    "name": "Pearl",
+    "exampleCount": 1,
+    "fileName": "pearl-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pegasus",
+    "name": "Pegasus",
+    "exampleCount": 5,
+    "fileName": "pegasus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "peggs",
+    "name": "Peggs",
+    "exampleCount": 1,
+    "fileName": "peggs-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "peignot",
+    "name": "Peignot",
+    "exampleCount": 1,
+    "fileName": "peignot-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "peristyle",
+    "name": "Peristyle",
+    "exampleCount": 1,
+    "fileName": "peristyle-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "perpetua",
+    "name": "Perpetua",
+    "exampleCount": 4,
+    "fileName": "perpetua-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pica-10-pitch",
+    "name": "Pica 10 Pitch",
+    "exampleCount": 4,
+    "fileName": "pica-10-pitch-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "piek",
+    "name": "Piek",
+    "exampleCount": 1,
+    "fileName": "piek-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pinyon-script",
+    "name": "Pinyon Script",
+    "exampleCount": 2,
+    "fileName": "pinyon-script-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "pirata-one",
+    "name": "Pirata One",
+    "exampleCount": 1,
+    "fileName": "pirata-one-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "pitch",
+    "name": "Pitch",
+    "exampleCount": 15,
+    "fileName": "pitch-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pitch-sans",
+    "name": "Pitch Sans",
+    "exampleCount": 17,
+    "fileName": "pitch-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plaid",
+    "name": "Plaid",
+    "exampleCount": 3,
+    "fileName": "plaid-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plaid-mono",
+    "name": "Plaid Mono",
+    "exampleCount": 1,
+    "fileName": "plaid-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plain",
+    "name": "Plain",
+    "exampleCount": 11,
+    "fileName": "plain-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plak",
+    "name": "Plak",
+    "exampleCount": 1,
+    "fileName": "plak-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "plan-grotesque",
+    "name": "Plan Grotesque",
+    "exampleCount": 1,
+    "fileName": "plan-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plan-grotesque-stencil",
+    "name": "Plan Grotesque Stencil",
+    "exampleCount": 1,
+    "fileName": "plan-grotesque-stencil-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "plantin",
+    "name": "Plantin",
+    "exampleCount": 30,
+    "fileName": "plantin-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "platform",
+    "name": "Platform",
+    "exampleCount": 18,
+    "fileName": "platform-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "playfair-display",
+    "name": "Playfair Display",
+    "exampleCount": 12,
+    "fileName": "playfair-display-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "pluto-sans",
+    "name": "Pluto Sans",
+    "exampleCount": 1,
+    "fileName": "pluto-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pm-grotesk",
+    "name": "PM Grotesk",
+    "exampleCount": 1,
+    "fileName": "pm-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pmn-caecilia",
+    "name": "PMN Caecilia",
+    "exampleCount": 1,
+    "fileName": "pmn-caecilia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "polysans",
+    "name": "PolySans",
+    "exampleCount": 7,
+    "fileName": "polysans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pona",
+    "name": "Pona",
+    "exampleCount": 2,
+    "fileName": "pona-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "poppins",
+    "name": "Poppins",
+    "exampleCount": 10,
+    "fileName": "poppins-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "populaire",
+    "name": "Populaire",
+    "exampleCount": 1,
+    "fileName": "populaire-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "portrait",
+    "name": "Portrait",
+    "exampleCount": 21,
+    "fileName": "portrait-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "post-grotesk",
+    "name": "Post Grotesk",
+    "exampleCount": 11,
+    "fileName": "post-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "poynings",
+    "name": "Poynings",
+    "exampleCount": 1,
+    "fileName": "poynings-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "poynter-oldstyle",
+    "name": "Poynter Oldstyle",
+    "exampleCount": 1,
+    "fileName": "poynter-oldstyle-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "poynter-serif",
+    "name": "Poynter Serif",
+    "exampleCount": 2,
+    "fileName": "poynter-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "pragmatica",
+    "name": "Pragmatica",
+    "exampleCount": 1,
+    "fileName": "pragmatica-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "pragmatica-slab",
+    "name": "Pragmatica Slab",
+    "exampleCount": 1,
+    "fileName": "pragmatica-slab-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "prata",
+    "name": "Prata",
+    "exampleCount": 1,
+    "fileName": "prata-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "prensa",
+    "name": "Prensa",
+    "exampleCount": 2,
+    "fileName": "prensa-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "prenton",
+    "name": "Prenton",
+    "exampleCount": 2,
+    "fileName": "prenton-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "presicav",
+    "name": "Presicav",
+    "exampleCount": 1,
+    "fileName": "presicav-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "programm",
+    "name": "Programm",
+    "exampleCount": 8,
+    "fileName": "programm-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "programme",
+    "name": "Programme",
+    "exampleCount": 3,
+    "fileName": "programme-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "prophet",
+    "name": "Prophet",
+    "exampleCount": 3,
+    "fileName": "prophet-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "proto-grotesk",
+    "name": "Proto Grotesk",
+    "exampleCount": 7,
+    "fileName": "proto-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "proxima-nova",
+    "name": "Proxima Nova",
+    "exampleCount": 65,
+    "fileName": "proxima-nova-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "proxima-nova-soft",
+    "name": "Proxima Nova Soft",
+    "exampleCount": 2,
+    "fileName": "proxima-nova-soft-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "proza-libre",
+    "name": "Proza Libre",
+    "exampleCount": 2,
+    "fileName": "proza-libre-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "pt-sans",
+    "name": "PT Sans",
+    "exampleCount": 2,
+    "fileName": "pt-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "pt-serif",
+    "name": "PT Serif",
+    "exampleCount": 8,
+    "fileName": "pt-serif-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "public-sans",
+    "name": "Public Sans",
+    "exampleCount": 2,
+    "fileName": "public-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "publico",
+    "name": "Publico",
+    "exampleCount": 17,
+    "fileName": "publico-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "px-grotesk",
+    "name": "Px Grotesk",
+    "exampleCount": 14,
+    "fileName": "px-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "quadraat",
+    "name": "Quadraat",
+    "exampleCount": 1,
+    "fileName": "quadraat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "quadrant-text",
+    "name": "Quadrant Text",
+    "exampleCount": 3,
+    "fileName": "quadrant-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "quarion",
+    "name": "Quarion",
+    "exampleCount": 1,
+    "fileName": "quarion-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "quarto",
+    "name": "Quarto",
+    "exampleCount": 11,
+    "fileName": "quarto-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "quarz",
+    "name": "Quarz",
+    "exampleCount": 1,
+    "fileName": "quarz-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "queens",
+    "name": "Queens",
+    "exampleCount": 4,
+    "fileName": "queens-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "questa",
+    "name": "Questa",
+    "exampleCount": 1,
+    "fileName": "questa-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "questa-sans",
+    "name": "Questa Sans",
+    "exampleCount": 1,
+    "fileName": "questa-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "questrial",
+    "name": "Questrial",
+    "exampleCount": 1,
+    "fileName": "questrial-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "quick",
+    "name": "Quick",
+    "exampleCount": 2,
+    "fileName": "quick-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "quicksand",
+    "name": "Quicksand",
+    "exampleCount": 1,
+    "fileName": "quicksand-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "radial",
+    "name": "Radial",
+    "exampleCount": 1,
+    "fileName": "radial-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "radikal",
+    "name": "Radikal",
+    "exampleCount": 4,
+    "fileName": "radikal-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "radio-grotesk",
+    "name": "Radio Grotesk",
+    "exampleCount": 1,
+    "fileName": "radio-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "raisonne",
+    "name": "Raisonne",
+    "exampleCount": 9,
+    "fileName": "raisonne-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rajdhani",
+    "name": "Rajdhani",
+    "exampleCount": 1,
+    "fileName": "rajdhani-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "raleway",
+    "name": "Raleway",
+    "exampleCount": 6,
+    "fileName": "raleway-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "rando",
+    "name": "Rando",
+    "exampleCount": 1,
+    "fileName": "rando-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ratio",
+    "name": "Ratio",
+    "exampleCount": 1,
+    "fileName": "ratio-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rauschen",
+    "name": "Rauschen",
+    "exampleCount": 2,
+    "fileName": "rauschen-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "reader",
+    "name": "Reader",
+    "exampleCount": 6,
+    "fileName": "reader-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "realist",
+    "name": "Realist",
+    "exampleCount": 1,
+    "fileName": "realist-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "realtime-rounded",
+    "name": "Realtime Rounded",
+    "exampleCount": 1,
+    "fileName": "realtime-rounded-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rebond-grotesque",
+    "name": "Rebond Grotesque",
+    "exampleCount": 4,
+    "fileName": "rebond-grotesque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "recife",
+    "name": "Recife",
+    "exampleCount": 11,
+    "fileName": "recife-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "reckless",
+    "name": "Reckless",
+    "exampleCount": 29,
+    "fileName": "reckless-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "recoleta",
+    "name": "Recoleta",
+    "exampleCount": 12,
+    "fileName": "recoleta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "recta",
+    "name": "Recta",
+    "exampleCount": 3,
+    "fileName": "recta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "redaction",
+    "name": "Redaction",
+    "exampleCount": 3,
+    "fileName": "redaction-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "refrigerator-deluxe",
+    "name": "Refrigerator Deluxe",
+    "exampleCount": 6,
+    "fileName": "refrigerator-deluxe-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "regular",
+    "name": "Regular",
+    "exampleCount": 5,
+    "fileName": "regular-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "relative",
+    "name": "Relative",
+    "exampleCount": 14,
+    "fileName": "relative-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "relative-faux",
+    "name": "Relative Faux",
+    "exampleCount": 9,
+    "fileName": "relative-faux-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "relative-mono",
+    "name": "Relative Mono",
+    "exampleCount": 3,
+    "fileName": "relative-mono-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "remi",
+    "name": "Remi",
+    "exampleCount": 1,
+    "fileName": "remi-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "replica",
+    "name": "Replica",
+    "exampleCount": 4,
+    "fileName": "replica-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "replica-mono",
+    "name": "Replica Mono",
+    "exampleCount": 1,
+    "fileName": "replica-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "repro",
+    "name": "Repro",
+    "exampleCount": 1,
+    "fileName": "repro-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "respira-black",
+    "name": "Respira Black",
+    "exampleCount": 2,
+    "fileName": "respira-black-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "revisal",
+    "name": "Revisal",
+    "exampleCount": 2,
+    "fileName": "revisal-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "riccione",
+    "name": "Riccione",
+    "exampleCount": 1,
+    "fileName": "riccione-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rift",
+    "name": "Rift",
+    "exampleCount": 1,
+    "fileName": "rift-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "right-grotesk",
+    "name": "Right Grotesk",
+    "exampleCount": 9,
+    "fileName": "right-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "ringside",
+    "name": "Ringside",
+    "exampleCount": 6,
+    "fileName": "ringside-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rinko",
+    "name": "Rinko",
+    "exampleCount": 1,
+    "fileName": "rinko-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "riviera",
+    "name": "Riviera",
+    "exampleCount": 1,
+    "fileName": "riviera-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "rl-unno",
+    "name": "RL Unno",
+    "exampleCount": 4,
+    "fileName": "rl-unno-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "robinson",
+    "name": "Robinson",
+    "exampleCount": 1,
+    "fileName": "robinson-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "roboto",
+    "name": "Roboto",
+    "exampleCount": 23,
+    "fileName": "roboto-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "roboto-condensed",
+    "name": "Roboto Condensed",
+    "exampleCount": 1,
+    "fileName": "roboto-condensed-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "roboto-mono",
+    "name": "Roboto Mono",
+    "exampleCount": 18,
+    "fileName": "roboto-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "roboto-slab",
+    "name": "Roboto Slab",
+    "exampleCount": 2,
+    "fileName": "roboto-slab-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "roc-grotesk",
+    "name": "Roc Grotesk",
+    "exampleCount": 11,
+    "fileName": "roc-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rockwell",
+    "name": "Rockwell",
+    "exampleCount": 1,
+    "fileName": "rockwell-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rom",
+    "name": "Rom",
+    "exampleCount": 2,
+    "fileName": "rom-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "romain",
+    "name": "Romain",
+    "exampleCount": 3,
+    "fileName": "romain-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "romana",
+    "name": "Romana",
+    "exampleCount": 28,
+    "fileName": "romana-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "romie",
+    "name": "Romie",
+    "exampleCount": 12,
+    "fileName": "romie-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "roobert",
+    "name": "Roobert",
+    "exampleCount": 19,
+    "fileName": "roobert-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "rooney",
+    "name": "Rooney",
+    "exampleCount": 3,
+    "fileName": "rooney-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rooney-sans",
+    "name": "Rooney Sans",
+    "exampleCount": 1,
+    "fileName": "rooney-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "roslindale",
+    "name": "Roslindale",
+    "exampleCount": 18,
+    "fileName": "roslindale-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "rothenburg",
+    "name": "Rothenburg",
+    "exampleCount": 1,
+    "fileName": "rothenburg-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "rubik",
+    "name": "Rubik",
+    "exampleCount": 4,
+    "fileName": "rubik-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "rylan-serif",
+    "name": "Rylan Serif",
+    "exampleCount": 2,
+    "fileName": "rylan-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "rza",
+    "name": "Rza",
+    "exampleCount": 2,
+    "fileName": "rza-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "saans",
+    "name": "Saans",
+    "exampleCount": 3,
+    "fileName": "saans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sabon",
+    "name": "Sabon",
+    "exampleCount": 15,
+    "fileName": "sabon-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sackers-gothic",
+    "name": "Sackers Gothic",
+    "exampleCount": 4,
+    "fileName": "sackers-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sailec",
+    "name": "Sailec",
+    "exampleCount": 8,
+    "fileName": "sailec-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sainte-colombe",
+    "name": "Sainte Colombe",
+    "exampleCount": 6,
+    "fileName": "sainte-colombe-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "exampleCount": 15,
+    "fileName": "san-francisco-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sanchez",
+    "name": "Sanchez",
+    "exampleCount": 1,
+    "fileName": "sanchez-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sangbleu-empire",
+    "name": "SangBleu Empire",
+    "exampleCount": 4,
+    "fileName": "sangbleu-empire-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sangbleu-king",
+    "name": "SangBleu King",
+    "exampleCount": 1,
+    "fileName": "sangbleu-king-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sangbleu-kingdom",
+    "name": "SangBleu Kingdom",
+    "exampleCount": 3,
+    "fileName": "sangbleu-kingdom-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sangbleu-sans",
+    "name": "SangBleu Sans",
+    "exampleCount": 2,
+    "fileName": "sangbleu-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "saol-display",
+    "name": "Saol Display",
+    "exampleCount": 17,
+    "fileName": "saol-display-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "saol-text",
+    "name": "Saol Text",
+    "exampleCount": 8,
+    "fileName": "saol-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "satyr",
+    "name": "Satyr",
+    "exampleCount": 1,
+    "fileName": "satyr-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "savate",
+    "name": "Savate",
+    "exampleCount": 4,
+    "fileName": "savate-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "schear-grotesk",
+    "name": "Schear Grotesk",
+    "exampleCount": 1,
+    "fileName": "schear-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "schneidler",
+    "name": "Schneidler",
+    "exampleCount": 1,
+    "fileName": "schneidler-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "schnyder",
+    "name": "Schnyder",
+    "exampleCount": 16,
+    "fileName": "schnyder-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "scotch-modern",
+    "name": "Scotch Modern",
+    "exampleCount": 2,
+    "fileName": "scotch-modern-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "scout",
+    "name": "Scout",
+    "exampleCount": 1,
+    "fileName": "scout-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "scto-grotesk",
+    "name": "Scto Grotesk",
+    "exampleCount": 11,
+    "fileName": "scto-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "selador",
+    "name": "Selador",
+    "exampleCount": 1,
+    "fileName": "selador-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "self-modern",
+    "name": "Self Modern",
+    "exampleCount": 41,
+    "fileName": "self-modern-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "selfie",
+    "name": "Selfie",
+    "exampleCount": 1,
+    "fileName": "selfie-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "selva-script",
+    "name": "Selva Script",
+    "exampleCount": 2,
+    "fileName": "selva-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "exampleCount": 27,
+    "fileName": "sentinel-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "separat",
+    "name": "Separat",
+    "exampleCount": 2,
+    "fileName": "separat-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "seravek",
+    "name": "Seravek",
+    "exampleCount": 1,
+    "fileName": "seravek-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "serial-a",
+    "name": "Serial A",
+    "exampleCount": 1,
+    "fileName": "serial-a-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "serrano",
+    "name": "Serrano",
+    "exampleCount": 1,
+    "fileName": "serrano-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "shadows-into-light",
+    "name": "Shadows Into Light",
+    "exampleCount": 1,
+    "fileName": "shadows-into-light-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "sharp-grotesk",
+    "name": "Sharp Grotesk",
+    "exampleCount": 21,
+    "fileName": "sharp-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sharp-sans",
+    "name": "Sharp Sans",
+    "exampleCount": 5,
+    "fileName": "sharp-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "shift",
+    "name": "Shift",
+    "exampleCount": 5,
+    "fileName": "shift-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sign-painter",
+    "name": "Sign Painter",
+    "exampleCount": 4,
+    "fileName": "sign-painter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "signalist",
+    "name": "Signalist",
+    "exampleCount": 1,
+    "fileName": "signalist-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "signifier",
+    "name": "Signifier",
+    "exampleCount": 28,
+    "fileName": "signifier-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "silk-serif",
+    "name": "Silk Serif",
+    "exampleCount": 1,
+    "fileName": "silk-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "simple",
+    "name": "Simple",
+    "exampleCount": 1,
+    "fileName": "simple-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "simplon",
+    "name": "Simplon",
+    "exampleCount": 3,
+    "fileName": "simplon-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "simplon-mono",
+    "name": "Simplon Mono",
+    "exampleCount": 5,
+    "fileName": "simplon-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "simula",
+    "name": "Simula",
+    "exampleCount": 6,
+    "fileName": "simula-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sina-nova",
+    "name": "Sina Nova",
+    "exampleCount": 3,
+    "fileName": "sina-nova-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "siri",
+    "name": "Siri",
+    "exampleCount": 1,
+    "fileName": "siri-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "skolar",
+    "name": "Skolar",
+    "exampleCount": 1,
+    "fileName": "skolar-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sloop-script",
+    "name": "Sloop Script",
+    "exampleCount": 1,
+    "fileName": "sloop-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sm-maxeville",
+    "name": "SM Maxeville",
+    "exampleCount": 1,
+    "fileName": "sm-maxeville-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sneak",
+    "name": "Sneak",
+    "exampleCount": 10,
+    "fileName": "sneak-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "snell-roundhand",
+    "name": "Snell Roundhand",
+    "exampleCount": 1,
+    "fileName": "snell-roundhand-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia",
+    "exampleCount": 31,
+    "fileName": "sofia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sohne",
+    "name": "Söhne",
+    "exampleCount": 35,
+    "fileName": "sohne-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sohne-mono",
+    "name": "Söhne Mono",
+    "exampleCount": 6,
+    "fileName": "sohne-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "soleil",
+    "name": "Soleil",
+    "exampleCount": 5,
+    "fileName": "soleil-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "solow",
+    "name": "SoLow",
+    "exampleCount": 1,
+    "fileName": "solow-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sometimes-times",
+    "name": "Sometimes Times",
+    "exampleCount": 8,
+    "fileName": "sometimes-times-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sorts-mill-goudy",
+    "name": "Sorts Mill Goudy",
+    "exampleCount": 5,
+    "fileName": "sorts-mill-goudy-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "source-code-pro",
+    "name": "Source Code Pro",
+    "exampleCount": 5,
+    "fileName": "source-code-pro-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "source-sans-pro",
+    "name": "Source Sans Pro",
+    "exampleCount": 9,
+    "fileName": "source-sans-pro-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "source-serif-pro",
+    "name": "Source Serif Pro",
+    "exampleCount": 2,
+    "fileName": "source-serif-pro-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "space-grotesk",
+    "name": "Space Grotesk",
+    "exampleCount": 8,
+    "fileName": "space-grotesk-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "space-mono",
+    "name": "Space Mono",
+    "exampleCount": 31,
+    "fileName": "space-mono-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "span",
+    "name": "Span",
+    "exampleCount": 2,
+    "fileName": "span-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sparkle-script",
+    "name": "Sparkle Script",
+    "exampleCount": 1,
+    "fileName": "sparkle-script-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "specter",
+    "name": "Specter",
+    "exampleCount": 1,
+    "fileName": "specter-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "spectral",
+    "name": "Spectral",
+    "exampleCount": 2,
+    "fileName": "spectral-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "spinnaker",
+    "name": "Spinnaker",
+    "exampleCount": 1,
+    "fileName": "spinnaker-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "sporting-grotesque",
+    "name": "Sporting Grotesque",
+    "exampleCount": 12,
+    "fileName": "sporting-grotesque-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "staff",
+    "name": "Staff",
+    "exampleCount": 1,
+    "fileName": "staff-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "stag",
+    "name": "Stag",
+    "exampleCount": 2,
+    "fileName": "stag-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "standard",
+    "name": "Standard",
+    "exampleCount": 2,
+    "fileName": "standard-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "standard-ct",
+    "name": "Standard CT",
+    "exampleCount": 2,
+    "fileName": "standard-ct-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "stanley",
+    "name": "Stanley",
+    "exampleCount": 23,
+    "fileName": "stanley-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "stardos-stencil",
+    "name": "Stardos Stencil",
+    "exampleCount": 1,
+    "fileName": "stardos-stencil-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "steinbeck",
+    "name": "Steinbeck",
+    "exampleCount": 11,
+    "fileName": "steinbeck-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "strangelove",
+    "name": "Strangelove",
+    "exampleCount": 1,
+    "fileName": "strangelove-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "stratos",
+    "name": "Stratos",
+    "exampleCount": 3,
+    "fileName": "stratos-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "stratum-2",
+    "name": "Stratum 2",
+    "exampleCount": 1,
+    "fileName": "stratum-2-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "studio-pro",
+    "name": "Studio Pro",
+    "exampleCount": 6,
+    "fileName": "studio-pro-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "styrene",
+    "name": "Styrene",
+    "exampleCount": 14,
+    "fileName": "styrene-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sud",
+    "name": "Sud",
+    "exampleCount": 1,
+    "fileName": "sud-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "suisse-international",
+    "name": "Suisse Int’l",
+    "exampleCount": 41,
+    "fileName": "suisse-international-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "suisse-international-mono",
+    "name": "Suisse Int’l Mono",
+    "exampleCount": 11,
+    "fileName": "suisse-international-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "suisse-neue",
+    "name": "Suisse Neue",
+    "exampleCount": 2,
+    "fileName": "suisse-neue-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "suisse-works",
+    "name": "Suisse Works",
+    "exampleCount": 16,
+    "fileName": "suisse-works-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sunday-clarendon",
+    "name": "Sunday Clarendon",
+    "exampleCount": 1,
+    "fileName": "sunday-clarendon-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "sunset-gothic",
+    "name": "Sunset Gothic",
+    "exampleCount": 5,
+    "fileName": "sunset-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "superior-title",
+    "name": "Superior Title",
+    "exampleCount": 7,
+    "fileName": "superior-title-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "superstudio",
+    "name": "Superstudio",
+    "exampleCount": 1,
+    "fileName": "superstudio-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "supria-sans",
+    "name": "Supria Sans",
+    "exampleCount": 1,
+    "fileName": "supria-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "surt",
+    "name": "Surt",
+    "exampleCount": 12,
+    "fileName": "surt-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "surveyor",
+    "name": "Surveyor",
+    "exampleCount": 4,
+    "fileName": "surveyor-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "suti",
+    "name": "Suti",
+    "exampleCount": 1,
+    "fileName": "suti-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "swear",
+    "name": "Swear",
+    "exampleCount": 4,
+    "fileName": "swear-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sweet-gothic",
+    "name": "Sweet Gothic",
+    "exampleCount": 1,
+    "fileName": "sweet-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "sweet-sans",
+    "name": "Sweet Sans",
+    "exampleCount": 13,
+    "fileName": "sweet-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "swiss-721",
+    "name": "Swiss 721",
+    "exampleCount": 8,
+    "fileName": "swiss-721-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "switzer",
+    "name": "Switzer",
+    "exampleCount": 1,
+    "fileName": "switzer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "syne",
+    "name": "Syne",
+    "exampleCount": 6,
+    "fileName": "syne-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "tablet-gothic",
+    "name": "Tablet Gothic",
+    "exampleCount": 7,
+    "fileName": "tablet-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tacite",
+    "name": "Tacite",
+    "exampleCount": 3,
+    "fileName": "tacite-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tangier",
+    "name": "Tangier",
+    "exampleCount": 1,
+    "fileName": "tangier-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tango",
+    "name": "Tango",
+    "exampleCount": 2,
+    "fileName": "tango-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "telegraf",
+    "name": "Telegraf",
+    "exampleCount": 5,
+    "fileName": "telegraf-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "teodor",
+    "name": "Teodor",
+    "exampleCount": 3,
+    "fileName": "teodor-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "termina",
+    "name": "Termina",
+    "exampleCount": 11,
+    "fileName": "termina-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "terminal-grotesque",
+    "name": "Terminal Grotesque",
+    "exampleCount": 1,
+    "fileName": "terminal-grotesque-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "text",
+    "name": "Text",
+    "exampleCount": 1,
+    "fileName": "text-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "texta",
+    "name": "Texta",
+    "exampleCount": 1,
+    "fileName": "texta-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "the-stroke-sans",
+    "name": "The Stroke Sans",
+    "exampleCount": 1,
+    "fileName": "the-stroke-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "theinhardt",
+    "name": "Theinhardt",
+    "exampleCount": 13,
+    "fileName": "theinhardt-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "thirsty-script-rough",
+    "name": "Thirsty Script Rough",
+    "exampleCount": 1,
+    "fileName": "thirsty-script-rough-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "throhand",
+    "name": "Throhand",
+    "exampleCount": 1,
+    "fileName": "throhand-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tiempos-fine",
+    "name": "Tiempos Fine",
+    "exampleCount": 7,
+    "fileName": "tiempos-fine-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tiempos-headline",
+    "name": "Tiempos Headline",
+    "exampleCount": 37,
+    "fileName": "tiempos-headline-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tiempos-text",
+    "name": "Tiempos Text",
+    "exampleCount": 37,
+    "fileName": "tiempos-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tilda",
+    "name": "Tilda",
+    "exampleCount": 4,
+    "fileName": "tilda-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tilde",
+    "name": "Tilde",
+    "exampleCount": 1,
+    "fileName": "tilde-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "times-dot",
+    "name": "Times Dot",
+    "exampleCount": 5,
+    "fileName": "times-dot-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "times-new-roman",
+    "name": "Times New Roman",
+    "exampleCount": 44,
+    "fileName": "times-new-roman-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "times-now",
+    "name": "Times Now",
+    "exampleCount": 16,
+    "fileName": "times-now-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "timmons-ny",
+    "name": "Timmons NY",
+    "exampleCount": 1,
+    "fileName": "timmons-ny-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "titling-gothic",
+    "name": "Titling Gothic",
+    "exampleCount": 21,
+    "fileName": "titling-gothic-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "tobias",
+    "name": "Tobias",
+    "exampleCount": 4,
+    "fileName": "tobias-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "today-sans",
+    "name": "Today Sans",
+    "exampleCount": 1,
+    "fileName": "today-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "topol",
+    "name": "Topol",
+    "exampleCount": 2,
+    "fileName": "topol-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "torque",
+    "name": "Torque",
+    "exampleCount": 1,
+    "fileName": "torque-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "trade-gothic",
+    "name": "Trade Gothic",
+    "exampleCount": 16,
+    "fileName": "trade-gothic-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tramuntana",
+    "name": "Tramuntana",
+    "exampleCount": 1,
+    "fileName": "tramuntana-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "transport",
+    "name": "Transport",
+    "exampleCount": 1,
+    "fileName": "transport-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "traulha",
+    "name": "Traulha",
+    "exampleCount": 7,
+    "fileName": "traulha-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "triade",
+    "name": "Triade",
+    "exampleCount": 1,
+    "fileName": "triade-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "trim-poster",
+    "name": "Trim Poster",
+    "exampleCount": 2,
+    "fileName": "trim-poster-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "trio-grotesk",
+    "name": "Trio Grotesk",
+    "exampleCount": 5,
+    "fileName": "trio-grotesk-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "trivia-serif",
+    "name": "Trivia Serif",
+    "exampleCount": 1,
+    "fileName": "trivia-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "trump-soft",
+    "name": "Trump Soft",
+    "exampleCount": 1,
+    "fileName": "trump-soft-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tt-commons",
+    "name": "TT Commons",
+    "exampleCount": 4,
+    "fileName": "tt-commons-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tungsten",
+    "name": "Tungsten",
+    "exampleCount": 8,
+    "fileName": "tungsten-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tungsten-rounded",
+    "name": "Tungsten Rounded",
+    "exampleCount": 1,
+    "fileName": "tungsten-rounded-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "tusar",
+    "name": "Tusar",
+    "exampleCount": 1,
+    "fileName": "tusar-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "twentieth-century",
+    "name": "Twentieth Century",
+    "exampleCount": 4,
+    "fileName": "twentieth-century-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "typ1451",
+    "name": "Typ1451",
+    "exampleCount": 1,
+    "fileName": "typ1451-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "typonine-stencil",
+    "name": "Typonine Stencil",
+    "exampleCount": 2,
+    "fileName": "typonine-stencil-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "u8",
+    "name": "U8",
+    "exampleCount": 1,
+    "fileName": "u8-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "uber-move",
+    "name": "Uber Move",
+    "exampleCount": 1,
+    "fileName": "uber-move-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "unica77",
+    "name": "Unica77",
+    "exampleCount": 13,
+    "fileName": "unica77-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "unica77-mono",
+    "name": "Unica77 Mono",
+    "exampleCount": 1,
+    "fileName": "unica77-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "union",
+    "name": "Union",
+    "exampleCount": 4,
+    "fileName": "union-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "univers",
+    "name": "Univers",
+    "exampleCount": 39,
+    "fileName": "univers-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "universal-sans",
+    "name": "Universal Sans",
+    "exampleCount": 1,
+    "fileName": "universal-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "untitled-sans",
+    "name": "Untitled Sans",
+    "exampleCount": 42,
+    "fileName": "untitled-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "untitled-serif",
+    "name": "Untitled Serif",
+    "exampleCount": 8,
+    "fileName": "untitled-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "urw-antiqua",
+    "name": "URW Antiqua",
+    "exampleCount": 1,
+    "fileName": "urw-antiqua-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "urw-classico",
+    "name": "URW Classico",
+    "exampleCount": 1,
+    "fileName": "urw-classico-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "urw-grotesk",
+    "name": "URW Grotesk",
+    "exampleCount": 2,
+    "fileName": "urw-grotesk-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "utopia",
+    "name": "Utopia",
+    "exampleCount": 9,
+    "fileName": "utopia-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "valter",
+    "name": "Valter",
+    "exampleCount": 1,
+    "fileName": "valter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "value-sans",
+    "name": "Value Sans",
+    "exampleCount": 4,
+    "fileName": "value-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "value-serif",
+    "name": "Value Serif",
+    "exampleCount": 17,
+    "fileName": "value-serif-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vanitas",
+    "name": "Vanitas",
+    "exampleCount": 2,
+    "fileName": "vanitas-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "varela-round",
+    "name": "Varela Round",
+    "exampleCount": 1,
+    "fileName": "varela-round-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "vaud",
+    "name": "Vaud",
+    "exampleCount": 4,
+    "fileName": "vaud-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "veneer",
+    "name": "Veneer",
+    "exampleCount": 2,
+    "fileName": "veneer-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "venetian-301",
+    "name": "Venetian 301",
+    "exampleCount": 1,
+    "fileName": "venetian-301-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "exampleCount": 12,
+    "fileName": "venus-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "verdana",
+    "name": "Verdana",
+    "exampleCount": 1,
+    "fileName": "verdana-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "verlag",
+    "name": "Verlag",
+    "exampleCount": 6,
+    "fileName": "verlag-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "verona",
+    "name": "Verona",
+    "exampleCount": 3,
+    "fileName": "verona-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vesterbro",
+    "name": "Vesterbro",
+    "exampleCount": 2,
+    "fileName": "vesterbro-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "victor-serif",
+    "name": "Victor Serif",
+    "exampleCount": 8,
+    "fileName": "victor-serif-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "vinila",
+    "name": "Vinila",
+    "exampleCount": 1,
+    "fileName": "vinila-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vinter",
+    "name": "Vinter",
+    "exampleCount": 4,
+    "fileName": "vinter-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "visby-cf",
+    "name": "Visby CF",
+    "exampleCount": 1,
+    "fileName": "visby-cf-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vista-sans",
+    "name": "Vista Sans",
+    "exampleCount": 1,
+    "fileName": "vista-sans-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "visuelt",
+    "name": "Visuelt",
+    "exampleCount": 3,
+    "fileName": "visuelt-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vitesse",
+    "name": "Vitesse",
+    "exampleCount": 2,
+    "fileName": "vitesse-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vivaldi",
+    "name": "Vivaldi",
+    "exampleCount": 1,
+    "fileName": "vivaldi-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "vollkorn",
+    "name": "Vollkorn",
+    "exampleCount": 1,
+    "fileName": "vollkorn-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "voyage",
+    "name": "Voyage",
+    "exampleCount": 12,
+    "fileName": "voyage-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "voyager",
+    "name": "Voyager",
+    "exampleCount": 1,
+    "fileName": "voyager-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "vuca",
+    "name": "VUCA",
+    "exampleCount": 1,
+    "fileName": "vuca-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "vulf-mono",
+    "name": "Vulf Mono",
+    "exampleCount": 4,
+    "fileName": "vulf-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "vulf-sans",
+    "name": "Vulf Sans",
+    "exampleCount": 1,
+    "fileName": "vulf-sans-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "vwk-mono",
+    "name": "Vwk Mono",
+    "exampleCount": 1,
+    "fileName": "vwk-mono-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "walfork",
+    "name": "Walfork",
+    "exampleCount": 5,
+    "fileName": "walfork-specimen.png",
+    "linkType": "no-link"
+  },
+  {
+    "id": "warnock",
+    "name": "Warnock",
+    "exampleCount": 4,
+    "fileName": "warnock-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "weiss",
+    "name": "Weiss",
+    "exampleCount": 2,
+    "fileName": "weiss-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "whitney",
+    "name": "Whitney",
+    "exampleCount": 14,
+    "fileName": "whitney-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "whyte",
+    "name": "Whyte",
+    "exampleCount": 13,
+    "fileName": "whyte-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "wigrum",
+    "name": "Wigrum",
+    "exampleCount": 6,
+    "fileName": "wigrum-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "wilhelm-klingspor-gotisch",
+    "name": "Wilhelm Klingspor Gotisch",
+    "exampleCount": 1,
+    "fileName": "wilhelm-klingspor-gotisch-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "williams-caslon-text",
+    "name": "Williams Caslon Text",
+    "exampleCount": 1,
+    "fileName": "williams-caslon-text-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "windsor",
+    "name": "Windsor",
+    "exampleCount": 26,
+    "fileName": "windsor-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "woodkit",
+    "name": "Woodkit",
+    "exampleCount": 2,
+    "fileName": "woodkit-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "work-sans",
+    "name": "Work Sans",
+    "exampleCount": 21,
+    "fileName": "work-sans-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "wremena",
+    "name": "Wremena",
+    "exampleCount": 3,
+    "fileName": "wremena-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "yorick",
+    "name": "Yorick",
+    "exampleCount": 3,
+    "fileName": "yorick-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "yorker",
+    "name": "Yorker",
+    "exampleCount": 1,
+    "fileName": "yorker-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "young-serif",
+    "name": "Young Serif",
+    "exampleCount": 3,
+    "fileName": "young-serif-specimen.png",
+    "linkType": "local-dl"
+  },
+  {
+    "id": "zangezi",
+    "name": "Zangezi",
+    "exampleCount": 9,
+    "fileName": "zangezi-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "zenon",
+    "name": "Zenon",
+    "exampleCount": 1,
+    "fileName": "zenon-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "ziggurat",
+    "name": "Ziggurat",
+    "exampleCount": 1,
+    "fileName": "ziggurat-specimen.png",
+    "linkType": "referral"
+  },
+  {
+    "id": "zimmer",
+    "name": "Zimmer",
+    "exampleCount": 2,
+    "fileName": "zimmer-specimen.png",
+    "linkType": "bespoke-foundary"
+  },
+  {
+    "id": "zipper",
+    "name": "Zipper",
+    "exampleCount": 2,
+    "fileName": "zipper-specimen.png",
+    "linkType": "referral"
+  }
+]
