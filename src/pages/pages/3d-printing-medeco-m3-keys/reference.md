@@ -34,7 +34,7 @@ When you have a physical key in hand, it makes sense to use a [physical decoder 
 
 Since I didn't have a physical copy of the key I wanted to copy, I needed a photo decoder. And since I haven't found any photo decoders online, so I made my own.
 
-![](_image.png)
+<!-- ![](_image.png) -->
 
 // TODO: Download link.
 
@@ -64,11 +64,11 @@ Warding is machining that ensures only keys of a certian kind can fit in a certa
 
 I happen to have a sacrificial key with the same warding. I sanded it down flat so that I could get a scan of it on a high resolution flatbed scanner.
 
-![alt text](_image-4.png)
+<!-- ![alt text]() -->
 
 I then traced the keyway in inkscape, with some tolerance.
 
-![alt text](_image-6.png)
+<!-- ![alt text](_image-6.png) -->
 
 ## Putting it together
 
@@ -78,7 +78,7 @@ Adding my keyway was simple, I used [SVG2SCAD](https://github.com/Spiritdude/SVG
 
 I also hastily added support for the M3 sidebar
 
-![alt text](_image-2.png)
-![alt text](_image-3.png)
+<!-- ![alt text](_image-2.png)
+![alt text](_image-3.png) -->
 
 ## Result

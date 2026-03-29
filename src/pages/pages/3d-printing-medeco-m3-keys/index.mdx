@@ -1,46 +1,167 @@
 ---
 layout: ../../../layouts/PagesMarkdown.astro
-title: "3D Printing Medeco M3 Keys"
-description: '3d printing "high security" medeco m3 keys'
+title: "WIP: How to clone high-security Medeco keys from a photo"
+description: '3d printing "high security" medeco m3 keys in metal'
 coverImage: "./_keyway.png"
 unlisted: true
-date: "2025-12-01"
+date: "2026-03-28"
 ---
 import { Picture } from 'astro:assets';
+import Angles from './_angles.svg';
+import ForeAft from './_fore_aft.svg';
+import ForeAftPins from './_fore_aft_pins.svg';
 
-INSERT ~~INTRODUCTION~~ DUBSTEP FILL HERE
+{/* narative
+- friend couldnt get key copied
+- landlords suck
+- key control is an attempt to stop key copying (it doesnt work)
+- working from a photo
+- what measurements do we need:
+- depths
+- angles
+- positions
+- side bitting
+- how do we measure these
+- the decoder
+- keyway scan
+- 3d model
+- send to 3d print for 8 dollars
+- pics and conclusion */}
 
-## Medeco
+{/* 
+- my friend reached out to me about their appartment key
+- landlord wouldnt respond to emails about a spare
+- couldnt get it coppied because medeco
+- landlords being landlords amirite (please laugh) 
 
-Key control is an attempt by a manufacturer to prevent "unauthorized" replication of a key. It's usually meant to prevent someone from making copies of their work keys before they get fired.
+how do i write this more interestingly
+*/}
 
-Medeco's primary selling point is key control. Medeco M3 implements a few measures to prevent against key copying:
- 1. They restrict who can buy blank keys to authorized locksmiths and those locksmiths may only cut keys to the terms of their contract.
- 2. They use angle cuts on their keys that require a more advanced key cutting machine to produce.
- 3. They use a sidebar which is pre-cut from the factory and unique to a locksmith within a given region to prevent one locksmith from cutting keys issued by another locksmith.
- 4. They hold a patent on parts of the key design making it difficult for a legitimate manufacturer such as [Ilco](https://www.ilco.us/products/residential-and-commercial-key-blanks) to make. The patent for Medeco M3 expired in 2022.
+This all starts when I get a text one evening from a friend of mine asking for 
+help copying their house key. They recently moved into a new place and their 
+landlord only gave them a single key. 
 
-## Glossary
+The landlord wouldn't respond to emails about getting a spare key, and they 
+couldn't get it copied at a locksmith becase its a Medeco key.
 
-- **bow** -- _the top of the key. the part that you hold and turn_
-- **shoulder** -- _the alignment mechanism for a key. when you insert a key fully into a lock, this is the part that stops it from going in further_
-- **blade** -- _the part of the key that's inserted into the lock_
-- **bitting** -- _the depth and position of the cuts into the key's blade_
-- **depths** -- _the depth of the cuts into the key's blade_
-- **sidebar** -- _an element on the side of the key blade, often to add complexity to lockpicking or key cloning_
-- **warding** -- _the shape of the key hole. prevents you from putting the type of keys into a lock_
-- **keyway** -- _the shape the key blade has to be to fit through the warding_
-- **key control** -- _an attempt by a manufacturer to make it so that only "authorized individuals" can copy a key_
-- **m3** -- _a generation of medeco key control technology. this is one we're working with today_
-- **meow** -- _the sound a cat makes_
+**Medeco's whole selling point is having hard to copy keys.** A quick google search 
+on "how to copy medeco key" leads to 
+[reddit](https://old.reddit.com/r/Locksmith/comments/1lv3kjl/where_could_i_get_a_copy_of_this_key_no_other/) 
+[threads](https://old.reddit.com/r/AskALocksmith/comments/y8fr16/medeco_keys/)
+of people writing paragraphs about how its hard to get Medeco keys copied.
 
-## Constraints
+I figured I'd take on the challenge. I had recently been experimenting with
+metal 3D printing services and the tolerances were good enough that I could 
+probably pull this off.
 
-## Depths and Postions
+\<insert some joke about being nerdsniped successfully>
 
-## Sidebar
+An additional challenge is that my friend lives a few hundred kilometers from me
+so taking a quick stop over to measure their key wasn't practical. I'd have to
+decode this from photos.
 
-## Angles
+## What the fuck is a ~~kilometer~~ Key Control
+
+Key control is an attempt by a manufacturer to prevent "unauthorized" 
+replication of a key. 
+
+It's basically meant to stop you from going to the hardware store and getting a
+copy of the key to bank vault before you get fired or something.
+
+<center>
+<video class="ie-fallback=/pages/3d-printing-medeco-m3-keys/medeco_babysitter_ad.mp4" width="640" height="360" controls>
+  <source src="/pages/3d-printing-medeco-m3-keys/medeco_babysitter_ad.mp4" type="video/mp4" />
+</video>
+</center>
+<figure>A TV commercial from a locksmith in Knoxville, Tennessee fearmongering about unauthorized key copying.[^5] </figure>
+
+Medeco M3 implements a few measures to prevent against key copying:
+ 1. They restrict who can buy blank keys to authorized locksmiths and those 
+ locksmiths may only cut keys to the terms of their contract. [^1]
+ 2. They use special angle cuts on their keys that require a more ~~advanced~~ 
+ expensive key cutting machine to produce.
+ 3. They add a side bitting component to the key which is pre-cut from the 
+ factory and unique to a locksmith within a given region to prevent one 
+ locksmith from cutting keys issued by another locksmith.
+ 4. They hold a patent on parts of the key design making it difficult for a 
+ legitimate manufacturer such as 
+ [Ilco](https://www.ilco.us/products/residential-and-commercial-key-blanks) 
+ to make. [^2]
+ 
+None of these are measures strong enough to protect against autistic women
+{/* a woman with autism */} as you will soon see.
+
+<center>
+<Picture 
+  src={import("./_an_autistic_woman.jpg")} 
+  alt={"An autistic woman is talking. Listen and learn."}
+  style="width:400px;"
+  />
+</center>
+
+## Components of a Medeco key 
+
+There are 4 components we'll need to decode to copy a key
+
+1. Angles
+2. Spacing
+3. Side Bitting
+4. Depths
+
+### Angles
+
+Angle cuts are Medeco's "special sauce". In a normal lock, pins will 
+have a conular shape towards the center of a cut position. Medeco locks have 
+Chisel shaped pins that rotate to fit into the angular cuts on the key.
+
+// possible meme showcasing the pin shapes  
+// virgin conular pins  
+- boring and round
+- smooth, just like my brain
+- fits clumsily into any shape of cut
+- bare brass surface 
+
+// chad chisel pins  
+- sharp like a knife
+- false gates? i heard lock picking lawyer talk about those
+- cleverly falls into angle cuts
+- purely cosmetic shiny nickel plating
+
+<Angles class="ie-fallback=/pages/3d-printing-medeco-m3-keys/angles.png" />
+
+Bitting Notation Table
+
+| Angle                    | Bitting Notation | 
+| ------------------------ | ---------------- | 
+| Ascending Left to Right  | L                | 
+| No Angle                 | C                | 
+| Descending Left to Right | R                | 
+
+### Spacing
+
+Medeco Biaxial, The 2nd generation of Medeco locks, introduced cut spacing 
+variation. Cuts are offset from the centerline, and the chisel point of the pins
+are offset from the center to fit in the holes.
+
+**Fore** (notated here as F) cuts are those closer to the shoulder and **aft** 
+(notated A) cuts are those further away from the shoulder. 
+
+<div class="flex-wrap-when-small"style="display: flex; gap: 8px;">
+  <div style="flex-grow: 1; flex-basis:50%; min-width:400px">
+    <ForeAft class="ie-fallback=/pages/3d-printing-medeco-m3-keys/fore_aft.png" width="100%"/>
+    <figure>This diagram should give you an idea of what these spacings look 
+    like. For demonstration purposes position 1 shows both a fore and aft cut in
+    the same position.</figure>
+  </div>
+  <div style="flex-grow: 1; flex-basis:50%; min-width:400px">
+    <ForeAftPins class="ie-fallback=/pages/3d-printing-medeco-m3-keys/fore_aft_pins.png" width="100%"/>
+    <figure>In position 1 either a Fore or Aft pin will be able to fit in this
+    position[^3]. The pin in position 5 demonstrates that a key pin with a 
+    mismatched spacing value will prevent the lock from rotating</figure>
+  </div>
+</div>
+
+Bitting Notation Table
 
 | Angle                        | Fore | Aft |
 | ---------------------------- | ---- | --- |
@@ -48,51 +169,214 @@ Medeco's primary selling point is key control. Medeco M3 implements a few measur
 | No Angle (C)                 | B    | D   |
 | Descending Left to Right (R) | Q    | S   |
 
-## Warding
+### Side Bitting
 
-Using a sacrificial key of the same bitting, I ground the key flat on a bench grinder and then placed it on a flatbed scanner. I took a scan at 1200 DPI, then cropped that image and imported it into inkscape where I traced the shape of the keyway. 
+Medeco M3 is biaxial but with a new side bitting component. You may think that 
+this side bitting component Adds The Security. If so you have been Fooled by the
+security through obscurity demons! // unfunny
 
-I was careful to include a little bit of tolerance as I can't be sure if there were any distortions while scanning, and I want to make sure there's room for error in the 3D printing process.
+It's basically a little button in the lock gets pressed to a certain depth by 
+the side cut on the key. 
 
-<Picture src={import("./_image-4.png")} alt={"A photo of a key, with the blade ground off, held down onto a flatbed scanner with an adjustable wrench"} />
-<figure>A photo of a key, with the blade ground off, held down onto a flatbed scanner with an adjustable wrench</figure>
+(insert some kind of meme about shitty security being easily defeated)
 
-<Picture src={import("./_image-6.png")} alt={"A screenshot of inkscape. There is red shape in the shape of the warding traced uppon a scan of the key"}/>
-<figure>A screenshot of inkscape. There is red shape in the shape of the warding traced uppon a scan of the key</figure>
+My hypothesis is the side bitting was introduced as just another feature for 
+Medeco to patent and as such have key blank exclusivity for another 20 years.
 
-## Table of Contents
+There are 6 possible depths for the side bitting, and two levels it can be cut
+in, a Master and Change level. 
 
-- introduction : How
+The side bitting is milled from the factory.
 
-- introduce key control
+<Picture 
+  src={import("./_m3_side_cuts_steps.png")} 
+  alt={"Photo of a Medeco M3 key showing the key blade. Arrows point to milling on the side of the key labeling the Master step and Change step."}
+  />
+<figure><a href="https://www.lockwiki.com/index.php/File:Medeco_M3_key.jpg"
+>Unannotated image from LockWiki</a></figure>
 
-  - only authorized individuals can cut a key
-  - landlords use this, sometimes to be shitty
+### Depths
 
-- medeco does key control in 3 ways
+Depths are the cuts you see on your normal key. Just like in a normal lock the
+depths align pins to a sheer-line. Medeco keys have 6 possible depths[^4] and up
+to 6 cuts on a key.
 
-  1. Controling the blanks
-  2. Angle cuts requiring a special machine to cut
-  3. Pre-cut sidebar groove on the key
+## Decoder
 
-- okay, let's get around this
-- introduce the parameters: i'm making this for a friend and don't have physical access to the key
-- bitting and positions
-  - photo decoder
-  - didnt exist before, so i made one
-  - horizontal lines are depth
-  - vertical lines are position
-  - did i mention fore and aft cuts
-- sidebar
-  - this one's easy just look at the decoder i made :\)
-- angles
-  - can't be too hard right
-- warding
-  - grind the key down on a bench grinder
-  - scan it on a flatbed scanner
-  - inkscape!
-- putting it together
-  - someone already made a great tool for 3d modeling keys
-  - just need to add the keyway
-  - and the m3 sidebars
-- pictures of the result
+Normally, to decode the bitting of a lock locksmith would have a decoder card 
+that looks like so:
+<Picture
+  src={import("./_decoder_card.jpg")}
+  height={500}
+  alt={"Photo of a Medeco M4 decoder card. The card includes a punched out section in a stairshep shape. Each step on the stairshep represents a possible depth that a key could be at. Additionally there are measurement tools for the M3 sidebar depth on the left side and on the right side measurements for fore and aft position. There are additional diagrams for determining the cut angle notation and side-bitting pins diagrams for M4."}/>
+<figure><a href="https://www.locksmithledger.com/locks/cylinders-high-security/article/21247704/inside-the-medeco-4">Original photo from locksmithledger.com</a></figure>
+
+I am neither a locksmith, nor do I have a decoder card; and regardless, 
+my friend lives a whole plane ticket away. 
+
+With a detailed enough photo I could decode the key using a photo decoder.
+So ya know how they say dont post pictures of your key on the internet? this is 
+why.
+
+To my knowledge, nobody has made a photo decoder for Medeco yet, so I went ahead
+and made my own in inkscape using measurements found in the various service 
+manuals I found on the internet.
+
+I love it when documents I'm not supposed to have are Just On Google.
+You can find copies of Medeco's service manuals on DuckDuckGo with the 
+following search terms:
+
+- <a href="https://duckduckgo.com/?q=Medeco+3+Technical+Service+Manual+filetype%3Apdf">`Medeco 3 Technical Service Manual filetype:pdf`</a>
+- <a href="https://duckduckgo.com/?q=Medeco+%22Biaxial%22+Technical+Service+Manual+filetype%3Apdf">`Medeco "Biaxial" Technical Service Manual filetype:pdf`</a>
+
+<Picture 
+  src={import("./_example_with_photo_decoder.png")} 
+  alt={""}
+  />
+<figure>Figure</figure>
+
+# Teach the reader how to use the decoder!!!
+
+You can Download the photo decoder I made in either 
+[SVG](/pages/3d-printing-medeco-m3-keys/photo-decoder.svg) or 
+[PNG](/pages/3d-printing-medeco-m3-keys/photo-decoder.png) formats.
+
+## Keyway
+
+The last thing we'll need to make our own key is the profile of the key hole 
+(the keyway).
+
+Medeco has multiple keyways for their different locksmith, distributor and 
+end-user contracts, and even multiple keyways for different clients under the 
+same contract. This is to prevent one locksmith from going rogue and cutting 
+keys on a keyway belonging to a different locksmith.[^1]
+
+I got lucky and happen to have an old key with the same keyway as my friend.
+
+I ground the key flat on a bench grinder and then placed it cut side down on a 
+flatbed scanner. I took a scan at 1200 DPI, then cropped that image and imported
+it into inkscape where I traced the shape of the keyway. 
+
+<Picture 
+  src={import("./_flatbed_scanner.png")} 
+  alt={"A photo of a key, with the blade ground off, held down onto a flatbed scanner with an adjustable wrench"}
+  />
+<figure>A photo of a key, with the blade ground off, held down onto a flatbed 
+scanner with an adjustable wrench</figure>
+
+I was careful to include a little bit of tolerance when tracing the outline as 
+there could be distortions in scanning, and I want to make sure there's room for 
+error in the 3D printing process.
+
+<Picture 
+  src={import("./_keyway_traced.png")} 
+  alt={"A screenshot of inkscape. There is red shape in the shape of the keyway traced uppon a scan of the key"}
+  />
+<figure>A screenshot of inkscape. There is red shape in the shape of the keyway 
+traced uppon a scan of the key</figure>
+
+## 3D Modeling
+
+Somebody has already made an OpenSCAD project for generating a variety of key 3D
+models. https://github.com/ervanalb/keygen. It also includes a tool (SVG2SCAD) 
+to convert an SVG path to OpenSCAD points
+
+The majority of the hard work here was done by 
+[Eric Van Albert](https://github.com/ervanalb/)! I will not be an infosec person
+who takes credit of other peoples work!!!!
+
+The OpenSCAD model lacked support for the stupid M3 button thing, so I got to 
+write my first terrible scad code that simulates the side milling.
+
+```scad
+if (m3_service_depth != 0 || m3_master_depth != 0) {
+    m3_master_depth_mm=m3_depth_table[m3_master_depth];
+    m3_service_depth_mm=m3_depth_table[m3_service_depth];
+
+    translate([-0.25,(0-m3_service_depth_mm)-0.65,1.8]) 
+        rotate([0,-90,0]) 
+            cylinder(h=2, r=0.65, $fn=15);
+    translate([-0.25-2,(0-m3_service_depth_mm)-100,0])
+        cube([2,100,1.8]);
+    translate([-0.95-2,(0-m3_master_depth_mm)-100,0])
+        cube([2,100,1.8]);
+}
+```
+
+<Picture src={import("./_example_3d_modeled_angles.png")} alt={""} />
+
+<Picture src={import("./_example_3d_modeled_depths.png")} alt={""} />
+
+## 3D Printing
+
+I 3D printed the Medeco keys at an unnamed chinese PCB and 3D printing shop. 
+
+(photo of finished key)
+
+## Glossary
+
+I should've explained all this already
+
+- **bow** -- _the top or handle of the key. the part that you hold and turn._
+- **shoulder** -- _the alignment mechanism for a key. When you insert a key 
+fully into a lock, this is the part that stops it from going in further._
+- **blade** -- _the part of the key that's inserted into the lock._
+- **bitting** -- _the depth and position of the cuts into the key's blade._
+- **depths** -- _the depth of the cuts into the key's blade. Usually measured 
+from the bottom of the key to the point of the cut._
+{/* - **side bitting** -- _an element on the side of the key blade, often to add  */}
+{/* complexity to lockpicking or key cloning._ */}
+- **keyway** -- _the shape of the key hole._
+- **key control** -- _an attempt by a manufacturer to make it so that only 
+"authorized individuals" can copy a key._
+- **Medeco Classic** -- _the first generation of medeco's key/lock systems. 
+This employs rotations of pins to make keys hard to copy and locks harder to 
+pick._
+- **Medeco Biaxial** -- _the second generation of medeco's key/lock systems. 
+Has rotational cuts like Medeco classic, but introduces different horizontal 
+positions that key cuts could be in._
+- **Medeco M3** -- _the third generation of medeco's key/lock systems. 
+The key is cut in the same way as with Medeco Biaxial, but with side bittings to 
+give them something to patent again._
+- **meow** -- _the sound a cat makes; in case you forgot._
+
+## Further Reading
+
+Ah, so you're a nerd and think this stuff is cool.
+If this sort of thing captivates your interest, you can read more about Medeco 
+keys on LockWiki //playfully insult the reader for being a nerd
+
+- https://www.lockwiki.com/index.php/Medeco_M3
+- https://www.lockwiki.com/index.php/Medeco_Biaxial
+
+
+My emotional support laywer told me to put this here:
+
+<small>This website is not associated with Assa Abloy or Medeco. All product and 
+company names are trademarks or registered trademarks of their respective 
+holders. Use of these names does not imply any affiliation or endorsement by 
+them.</small>
+
+[^1]: Medeco sells optional regional exclusivity contracts with locksmiths 
+with their locksmith service center program and dealer based keyway program. 
+Basically, Medeco will sell one of their keyways exclusively to one locksmith in
+an area. If you bought a lock from one of those locksmiths, you must go back to 
+that locksmith to key a key cut. 
+
+[^2]: The patent for M3 expired in 2022. [US6477875](https://patents.google.com/patent/US6477875B2/en)
+
+[^3]: This is actually valid bitting! It's used on occasion in very complex 
+mastering systems. Both fore and aft pins can be accepted with these cuts. (add footnote on macs and why you cant just cut both fore and aft cuts)
+
+[^4]: On Medeco Classic there can be up to 11 depths for complex Master keying 
+systems and "Omega" keyways. Omega was a program in which the Medeco factory 
+would only ever cut a fixed quantity of keys for a customer and would never cut 
+any more after the initial order. See page 12 of the Biaxial service manual.
+
+[^5]: There are a few of these Ads: [Baby Sitter](https://www.youtube.com/watch?v=gCP3eqgtQHE), [Employee](https://www.youtube.com/watch?v=ozTFBEbdU1Y), [Mechanic](https://www.youtube.com/watch?v=hH7yXzdJj2Q).
+
+[^6]: I'm going to use this time that I have your attention to debunk some of 
+the comments on this thread! 
+
+nt on Fake letter on letterhead
+
