@@ -71,9 +71,9 @@
     "order": 50
   },
   {
-    "88x31": "kibty-town.gif",
-    "alt": "kibty.town",
-    "href": "//kibty.town",
+    "88x31": "eva.png",
+    "alt": "eva.ac",
+    "href": "//eva.ac",
     "neko": true,
     "order": 50
   },
@@ -314,6 +314,11 @@
     "88x31": "patsore.png",
     "alt": "patsore",
     "href": "//patsore.org",
+    "order": 50
+  },
+  {
+    "href": "//nsood.in",
+    "name": "naman",
     "order": 50
   }
 ]
