@@ -58,6 +58,12 @@ export const frontmatter = {
   .ari {
     color: $color-seagull-400;
   }
+
+  .banner {
+    background-color: $color-yellow-500;
+    color: $color-gray-900;
+    padding: rem(1);
+  }
 </style>
 
 <Default frontmatter={frontmatter}>
@@ -71,7 +77,14 @@ export const frontmatter = {
       like computers, trains, radios, making bad designs and wearing a witch hat
       for fun.
     </p>
-    <h2><a class="subtle-link" href="/pages/">pages <ArrowRight/></a></h2>
+    <div class="banner">
+      📢 I will be attending <a href="https://emfcamp.org">EMF camp</a> this year.
+      <b>Come say hi if you see me.</b> I'll be at the <a
+        href="https://glastonledburyshire-on-severn-gov.uk/"
+        >G&shy;la&shy;sto&shy;nl&shy;edb&shy;urys&shy;hir&shy;e-o&shy;n-S&shy;eve&shy;rn
+      </a> village
+    </div>
+    <h2><a class="subtle-link" href="/pages/">pages <ArrowRight /></a></h2>
     <p>reference, blog posts, and all that jazz</p>
     <ul class="fancy-link">
       <!-- <li>
@@ -80,15 +93,19 @@ export const frontmatter = {
         >
       </li> -->
       <li>
-        <a href="/pages/ttc-radio-zones">ttc radio underground zones <ArrowRight/></a>
+        <a href="/pages/ttc-radio-zones"
+          >ttc radio underground zones <ArrowRight /></a
+        >
       </li>
-      <li><a href="/pages/trains">trains!!! <ArrowRight/></a></li>
-      <li><a href="/pages/bookmarks">bookmarks <ArrowRight/></a></li>
-      <li><a href="/pages/daily-carry">daily carry <ArrowRight/></a></li>
-      <li><a href="https://github.com/adryd325/oneko.js">my cat <ArrowRight/></a></li>
+      <li><a href="/pages/trains">trains!!! <ArrowRight /></a></li>
+      <li><a href="/pages/bookmarks">bookmarks <ArrowRight /></a></li>
+      <li><a href="/pages/daily-carry">daily carry <ArrowRight /></a></li>
+      <li>
+        <a href="https://github.com/adryd325/oneko.js">my cat <ArrowRight /></a>
+      </li>
       <li>
         <a href="https://github.com/moonlight-mod/webpackTools" id="wpTools"
-          >webpack patching thing <ArrowRight/></a
+          >webpack patching thing <ArrowRight /></a
         >
       </li>
     </ul>
@@ -98,7 +115,7 @@ export const frontmatter = {
     <h2>contact me</h2>
     <p>ask me a question, or show me something cool you've made!</p>
     <p class="fancy-link">
-      <EmailLink>email <ArrowRight/></EmailLink>
+      <EmailLink>email <ArrowRight /></EmailLink>
     </p>
     <small
       ><ResponsiveIcon
@@ -113,17 +130,16 @@ export const frontmatter = {
           src: "/static/icons/info16.png",
         }}
       />
-        include your signal username in your email and i might reply on there.</ResponsiveIcon
-      >
-    </small>
-    <Footer />
-    <NekoJS />
-    <script is:inline>
-        (window.webpackChunkwpToolsDetect = []).push = function push() {
-          console.log("webpackTools user detected c:")
-          var wpToolsEl = document.getElementById("wpTools")
-          wpToolsEl.innerText="webpackTools user detected c: →"
-        };
-    </script>
+      if you include your signal username in your email i might reply on there.</small
+    >
   </div>
+  <Footer />
+  <NekoJS />
+  <script is:inline>
+    (window.webpackChunkwpToolsDetect = []).push = function push() {
+      console.log("webpackTools user detected c:");
+      var wpToolsEl = document.getElementById("wpTools");
+      wpToolsEl.innerText = "webpackTools user detected c: →";
+    };
+  </script>
 </Default>
