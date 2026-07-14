@@ -18,14 +18,6 @@ import { z } from "zod";
 
 */
 
-enum PageTags {
-  ShortWriting,
-  LongWriting,
-  Art,
-  Functional, 
-  Resource
-}
-
 export const ZodFrontmatter = z.object({
   title: z.string().min(2).max(60),
   description: z.string().min(2).max(280),
@@ -36,13 +28,21 @@ export const ZodFrontmatter = z.object({
 });
 
 export type Frontmatter = {
-  title: string,
-  description: string,
-  date?: Date,
-  updatedDate?: Date,
-  coverImage?: ImageMetadata | string,
-  coverImageAlt?: string,
+  title: string;
+  description: string;
+  date?: Date;
+  updatedDate?: Date;
+  coverImage?: ImageMetadata | string;
+  coverImageAlt?: string;
 };
+
+enum PageTags {
+  Short,
+  HighEffort,
+  // Art,
+  // Functional,
+  // Resource,
+}
 
 export const ZodPagesFrontmatter = z.object({
   title: z.string().min(2).max(60),
@@ -53,26 +53,28 @@ export const ZodPagesFrontmatter = z.object({
   unlistedRss: z.boolean().default(false).optional(),
   coverImage: z.string().optional(),
   coverImageAlt: z.string().optional(),
-  theme: z.object({
-    font: z.string(),
-    links: z.string()
-  }).optional()
+  theme: z
+    .object({
+      font: z.string(),
+      links: z.string(),
+    })
+    .optional(),
 });
 
 export type PagesFrontmatter = {
-  title: string,
-  description: string,
-  date: Date,
-  updatedDate?: Date,
-  unlisted?: boolean,
-  unlistedRss?: boolean,
-  coverImage?: ImageMetadata | string,
-  coverImageAlt?: string,
+  title: string;
+  description: string;
+  date: Date;
+  updatedDate?: Date;
+  unlisted?: boolean;
+  unlistedRss?: boolean;
+  coverImage?: ImageMetadata | string;
+  coverImageAlt?: string;
   theme?: {
-    font?: "serif" | "sans-serif",
-    links?: "fancy" | "normal"
-  }
-}
+    font?: "serif" | "sans-serif";
+    links?: "fancy" | "normal";
+  };
+};
 
 const slugRegexp = /^\.\/pages\/pages\/(.+)\/_?index\.(astro|md|mdx|json)$/;
 function slugFromPath(path: string): string | undefined {
@@ -122,6 +124,6 @@ export function getPages() {
     metadata.push({ slug, frontmatter, url: "/pages/" + slug + "/" });
   }
   return metadata.sort(
-    (a, b) => b.frontmatter.date.getTime() - a.frontmatter.date.getTime()
+    (a, b) => b.frontmatter.date.getTime() - a.frontmatter.date.getTime(),
   );
 }

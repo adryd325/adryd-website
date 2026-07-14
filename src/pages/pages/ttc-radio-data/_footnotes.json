@@ -1,0 +1,23 @@
+[
+  ["1", "Registered in SMS as an underground site."],
+  ["2", "I could recieve this as far away as Coxwell Station."],
+  [
+    "3",
+    "Discovered with neighbor cell discovery but I haven't seen any evidence of any of these transmitting. I suspect that these are backup underground sites as there are exactly 13 of them and have the same frequency order as LA 1 to 13. "
+  ],
+  [
+    "4",
+    "I suspect that the Arrow Road Garage site is being migrated to the FWMSF site. They are less than 1 km appart and they're registered to the same set of frequencies. When I last visited Arrow Road Garage is only transmitting on 412.0375 MHz and Finch West MSF is transmitting on 423.3125 MHz and 423.7375 MHz."
+  ],
+  [
+    "5",
+    "This site is advertised in neighbor cell discovery, but no frequency registration exists in the spectrum management system for 423.2000 MHz."
+  ],
+  [
+    "6",
+    "At a doors open event I was able to confirm with a TTC radio tech that the Ellesmere site was decomissioned."
+  ],
+  ["7", "---"],
+  ["8", "---"],
+  ["9", "Indoor site."]
+]

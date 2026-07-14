@@ -1,0 +1,51 @@
+---
+import Default from "@/layouts/Default.astro";
+import TTCTable from "./_TTCTable.astro";
+import Nav from "@/components/Nav.astro";
+import Footer from "@/components/Footer.astro";
+import PageDate from "@/components/pages/PageDate.astro";
+import UndergroundMap from "./_underground_map.astro";
+
+export const frontmatter = {
+  title: "Draft: TTC Data",
+  description:
+    "collecting a ton of information about the TTC's TETRA radio system",
+  date: new Date("2025-12-18"),
+  unlisted: true,
+};
+---
+
+<style lang="scss">
+  @use "@/lib" as *;
+
+  .ttc-table {
+    padding: 0 rem(1);
+  }
+</style>
+
+<Default frontmatter={frontmatter}>
+  <div class="container">
+    <Nav />
+  </div>
+  <article class="theme-serif fancy-link">
+    <div class="container">
+      <h1>{frontmatter.title}</h1>
+      <PageDate date={frontmatter.date} updatedDate={frontmatter.updatedDate} />
+      <p>
+        For the past 5 years or so, I've been playing with decoding decoding the
+        TTC's TETRA radio system. The TTC's radio system is transmitted
+        underground through a series of radiating cables. I mapped this out
+        myself by visiting most of the TTC subway stations, decoding TETRA
+        neighbor cell discovery data, and combing through Canada's <a
+          href="https://ised-isde.canada.ca/site/spectrum-management-system/en/download-sms-data"
+          >Spectrum&nbsp;Mangement&nbsp;System</a
+        > data.
+      </p>
+      <p>Who am I kidding, you just want the data don't you</p>
+      <h2>Spreadsheet</h2>
+    </div>
+    <TTCTable />
+    <div class="container">meowmeow</div>
+  </article>
+</Default>
+<Footer />

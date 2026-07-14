@@ -5,9 +5,13 @@ unlisted: true
 description: "temp"
 ---
 
+TL;DR: The Framework 13 suffers from build quality, durability and reliability 
+issues and I would not recommend it unless you have the financial stability
+to repair these issues as they arise.   
+
 The great:
 
-- Battery life
+- Battery life (compared to my old laptop)
 - Display
   - Resolution
   - Refresh rate
@@ -18,16 +22,18 @@ The great:
 The good
 
 - Performance
-- Speakers (Better than the YouTubers say they are)
+- Speakers (Better than the YouTubers say they are, but not macbook level)
 
 The bad:
 
-- Trackpad is shit
-- Microphone is ass
+- Trackpad has good tracking but actuation isnt nice
+- Microphone isnt great, at random switches to 100% volume noise
+  - also the default gain on linux blows out my ears
 - Bezel cracking
+- Frame cracking
 - Hinges too weak
-- Marks on the display from falling down the stairs
-- Fan failure
+- Marks on the display from falling down the stairs with the laptop in my backpack
+- Fan failure (twice)
 - Keyboard failure
 
 The terrible

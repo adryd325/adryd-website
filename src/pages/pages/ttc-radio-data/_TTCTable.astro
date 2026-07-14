@@ -1,0 +1,142 @@
+---
+import { Code } from "astro:components";
+import { undefined } from "astro:schema";
+import { parse as parseCsv } from "csv-parse/sync";
+import fs from "fs";
+import path from "path";
+
+// const tableDataCsv = fs.readFileSync(
+//   path.join(import.meta.dirname, "./_data.csv"),
+// );
+// const footnotesCsv = fs.readFileSync(
+//   path.join(import.meta.dirname, "./_footnotes.csv"),
+// );
+
+// const tableData = parseCsv(tableDataCsv);
+// const footnotesData = parseCsv(footnotesCsv).slice(1);
+
+import tableData from "./_data.json"
+import footnotesData from "./_footnotes.json"
+
+const headings = tableData[0];
+
+const footnotesIndex = headings.findIndex((value) => value == "Footnotes");
+const coordinatesIndex = headings.findIndex((value) => value == "Coordinates");
+const locationIndex = headings.findIndex((value) => value == "Location");
+const renderHead = headings.filter((value, index) => index != footnotesIndex);
+
+const body = tableData.slice(1);
+
+const footnotes = body.map((row) => {
+  let footnotesStr = row[footnotesIndex];
+  if (footnotesStr == "") return [];
+  return footnotesStr.split(" ").map((a) => parseInt(a));
+});
+
+const renderBody = body.map((row) =>
+  row.filter((value, index) => index != footnotesIndex),
+);
+---
+
+<style lang="scss">
+  @use "@/lib" as *;
+
+  .table-contianer {
+    overflow-x: scroll;
+    margin: 0 auto;
+    max-width: max-content;
+    padding: 0 rem(1);
+  }
+
+  table {
+    width: 1302px;
+    width: max-content;
+    margin: 0;
+    font-family: $font-sans;
+  }
+
+  th,
+  td {
+    @include theme-color("blockquote");
+    padding: rem(0.2) rem(0.6);
+  }
+
+  td,
+  th {
+    border: 1px solid;
+    @include theme-any("border-color", "blockquote-before");
+  }
+</style>
+
+<div class="table-contianer">
+  <table>
+    <thead>
+      <tr>
+        {
+          renderHead.map((heading) => {
+            return <th>{heading}</th>;
+          })
+        }
+      </tr>
+    </thead>
+    <tbody>
+      {
+        renderBody.map((row, rowIndex) => {
+          return (
+            <tr>
+              {row.map((cell, columnIndex) => {
+                if (columnIndex == coordinatesIndex && cell != "") {
+                  const coordinates = cell.split(", ");
+                  const urlFragment = `${coordinates[0]}%2C${coordinates[1]}`;
+                  return (
+                    <td>
+                      <a
+                        class="revert-fancy-link"
+                        href={
+                          `https://www.google.com/maps/search/?api=1&query=` +
+                          urlFragment
+                        }
+                      >
+                        {cell}
+                      </a>
+                    </td>
+                  );
+                }
+                if (columnIndex == locationIndex) {
+                  return (
+                    <td>
+                      {cell == "" ? "Unknown" : cell}{" "}
+                      {footnotes[rowIndex].map((number, index) => {
+                        return (
+                          <sup>
+                            <a
+                              href={"#user-content-fn-" + number}
+                              aria-describedby="footnote-label"
+                            >{/* Fuck HTML whitespace
+                              */}{number}{/* Or actually, Fuck the ASTRO formatter for not considering
+                             HTML whitespace */}</a>
+                          </sup>
+                        );
+                      })}
+                    </td>
+                  );
+                }
+                return <td>{cell}</td>;
+              })}
+            </tr>
+          );
+        })
+      }
+    </tbody>
+  </table>
+</div>
+<div class="container">
+  <h2>Footnotes</h2>
+  <ol>
+    {
+      footnotesData.map((value) => {
+        return <li id={"user-content-fn-" + value[0]}>{value[1]}</li>;
+      })
+    }
+  </ol>
+</div>
