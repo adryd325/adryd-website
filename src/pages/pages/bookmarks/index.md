@@ -24,7 +24,7 @@ theme:
 | <https://pastevents.org/>                        | "A structured, searchable archive of Wikipedia's "Current Events" portal" |
 | <http://makea.fish/>                             | Make a fish at 11:11                                                      |
 | <https://optifine.alternatives.lambdaurora.dev/> | Optifine alternatives                                                     |
-| <https://cyberchef.org/>                         | Data transformation utility                                               |
+| <https://gchq.github.io/cyberchef>                         | Data transformation utility                                               |
 | <https://regex101.com/>                          | Interactive regex builder and tester                                      |
 | <https://17track.net/>                           | Centralized package tracking                                              |
 | <https://hamstudy.org/>                          | Study for your radio license                                              |
